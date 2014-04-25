@@ -7,13 +7,30 @@
 //
 
 #import "HCSAppDelegate.h"
+#import "HCSDashboardViewController.h"
+#import "HCSArenaViewController.h"
+#import "HCSConstructedViewController.h"
+#import "HCSSettingsViewController.h"
 
 @implementation HCSAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    HCSDashboardViewController *firstVC = [[HCSDashboardViewController alloc] init];
+    UINavigationController *firstNav = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    HCSArenaViewController *secondVC = [[HCSArenaViewController alloc] init];
+    UINavigationController *secondNav = [[UINavigationController alloc] initWithRootViewController:secondVC];
+    HCSConstructedViewController *thirdVC = [[HCSConstructedViewController alloc] init];
+    UINavigationController *thirdNav = [[UINavigationController alloc] initWithRootViewController:thirdVC];
+    HCSSettingsViewController *fourthVC = [[HCSSettingsViewController alloc] init];
+    UINavigationController *fourthNav = [[UINavigationController alloc] initWithRootViewController:fourthVC];
+    
+    UITabBarController *tabBar = [[UITabBarController alloc] init];
+    [tabBar setViewControllers:@[firstNav, secondNav, thirdNav, fourthNav]];
+    [self.window setRootViewController:tabBar];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
