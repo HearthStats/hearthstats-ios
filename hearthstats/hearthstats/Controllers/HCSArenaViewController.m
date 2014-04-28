@@ -18,7 +18,8 @@
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        [self.tabBarItem setTitle:NSLocalizedString(@"Arena", nil)];
+        [self.tabBarItem setImage:[UIImage imageNamed:@"ArenaIcon"]];
     }
     return self;
 }

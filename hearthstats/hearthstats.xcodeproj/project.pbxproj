@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		438BFEF5190EC99500EAEF2D /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438BFEF4190EC99500EAEF2D /* Crashlytics.framework */; };
+		438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* HCSConstants.m */; };
 		43BD3484190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3485190B06F900057F89 /* CoreGraphics.framework */; };
 		43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		438BFEF4190EC99500EAEF2D /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		438BFEF6190F0C3900EAEF2D /* HCSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSConstants.h; sourceTree = "<group>"; };
+		438BFEF7190F0C3900EAEF2D /* HCSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstants.m; sourceTree = "<group>"; };
 		43BD3480190B06F900057F89 /* hearthstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD3483190B06F900057F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43BD3485190B06F900057F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +138,8 @@
 				43BD34C1190B109C00057F89 /* Utilities */,
 				43BD3492190B06F900057F89 /* HCSAppDelegate.h */,
 				43BD3493190B06F900057F89 /* HCSAppDelegate.m */,
+				438BFEF6190F0C3900EAEF2D /* HCSConstants.h */,
+				438BFEF7190F0C3900EAEF2D /* HCSConstants.m */,
 				43BD3495190B06F900057F89 /* Images.xcassets */,
 				43BD348A190B06F900057F89 /* Supporting Files */,
 			);
@@ -354,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */,
 				43BD3490190B06F900057F89 /* main.m in Sources */,
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
