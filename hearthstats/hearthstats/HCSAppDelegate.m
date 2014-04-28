@@ -18,6 +18,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    [Crashlytics startWithAPIKey:@"33a7a0d865f1f5ad096f48493e2916bd878e2ec6"];
+    
     HCSDashboardViewController *firstVC = [[HCSDashboardViewController alloc] init];
     UINavigationController *firstNav = [[UINavigationController alloc] initWithRootViewController:firstVC];
     HCSArenaViewController *secondVC = [[HCSArenaViewController alloc] init];
