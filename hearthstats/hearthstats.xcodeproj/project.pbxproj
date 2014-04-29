@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
+		436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D00191032B800463075 /* UIImage+ImageWithColor.m */; };
+		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
+		436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5D06191036CE00463075 /* HCSDashboardCell.xib */; };
 		438BFEF5190EC99500EAEF2D /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438BFEF4190EC99500EAEF2D /* Crashlytics.framework */; };
 		438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* HCSConstants.m */; };
+		438BFEFA190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 438BFEF9190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib */; };
 		43BD3484190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3485190B06F900057F89 /* CoreGraphics.framework */; };
 		43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
@@ -39,9 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSSettingsView~iphone.xib"; sourceTree = "<group>"; };
+		436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		436C5D00191032B800463075 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		436C5D03191036A800463075 /* HCSDashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSDashboardTableViewCell.h; sourceTree = "<group>"; };
+		436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSDashboardTableViewCell.m; sourceTree = "<group>"; };
+		436C5D06191036CE00463075 /* HCSDashboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCSDashboardCell.xib; sourceTree = "<group>"; };
 		438BFEF4190EC99500EAEF2D /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		438BFEF6190F0C3900EAEF2D /* HCSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSConstants.h; sourceTree = "<group>"; };
 		438BFEF7190F0C3900EAEF2D /* HCSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstants.m; sourceTree = "<group>"; };
+		438BFEF9190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSDashboardView~iphone.xib"; sourceTree = "<group>"; };
 		43BD3480190B06F900057F89 /* hearthstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD3483190B06F900057F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43BD3485190B06F900057F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +108,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		436C5CFE1910329100463075 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */,
+				436C5D00191032B800463075 /* UIImage+ImageWithColor.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		436C5D021910368F00463075 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				438BFEF9190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib */,
+				436C5D03191036A800463075 /* HCSDashboardTableViewCell.h */,
+				436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */,
+				436C5D06191036CE00463075 /* HCSDashboardCell.xib */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		436C5D0819105C5700463075 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		43BD3477190B06F900057F89 = {
 			isa = PBXGroup;
 			children = (
@@ -132,10 +171,12 @@
 		43BD3489190B06F900057F89 /* hearthstats */ = {
 			isa = PBXGroup;
 			children = (
+				436C5D0819105C5700463075 /* Assets */,
 				43BD34B4190B0B4800057F89 /* Views */,
 				43BD34B3190B0B3D00057F89 /* Models */,
 				43BD34B2190B0B1D00057F89 /* Controllers */,
 				43BD34C1190B109C00057F89 /* Utilities */,
+				436C5CFE1910329100463075 /* Extensions */,
 				43BD3492190B06F900057F89 /* HCSAppDelegate.h */,
 				43BD3493190B06F900057F89 /* HCSAppDelegate.m */,
 				438BFEF6190F0C3900EAEF2D /* HCSConstants.h */,
@@ -200,6 +241,8 @@
 		43BD34B4190B0B4800057F89 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				436C5D021910368F00463075 /* Dashboard */,
+				436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,7 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BD348E190B06F900057F89 /* InfoPlist.strings in Resources */,
+				438BFEFA190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib in Resources */,
+				436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */,
 				43BD3496190B06F900057F89 /* Images.xcassets in Resources */,
+				436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +409,9 @@
 				43BD3490190B06F900057F89 /* main.m in Sources */,
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
+				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
 				43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */,
+				436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */,
 				43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */,
 				43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */,
 			);
