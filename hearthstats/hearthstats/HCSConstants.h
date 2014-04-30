@@ -10,6 +10,7 @@
 
 @interface HCSConstants : NSObject
 
+extern NSString *kBaseURL;
 extern NSString *const kDefaultFont;
 
 @end

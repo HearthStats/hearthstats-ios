@@ -21,14 +21,26 @@
                             <constraint firstAttribute="width" constant="62" id="rB5-cb-u7O"/>
                         </constraints>
                     </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqX-cI-VXf">
+                        <rect key="frame" x="20" y="24" width="62" height="42"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="gqX-cI-VXf" firstAttribute="width" secondItem="nit-zG-gnG" secondAttribute="width" id="09X-1d-EW2"/>
+                    <constraint firstItem="gqX-cI-VXf" firstAttribute="leading" secondItem="nit-zG-gnG" secondAttribute="leading" id="FdP-UM-wKz"/>
                     <constraint firstItem="nit-zG-gnG" firstAttribute="leading" secondItem="EsM-N5-DY8" secondAttribute="leading" constant="20" id="NFE-TU-qI9"/>
                     <constraint firstItem="nit-zG-gnG" firstAttribute="top" secondItem="EsM-N5-DY8" secondAttribute="top" constant="24" id="hjV-pQ-bMO"/>
+                    <constraint firstItem="gqX-cI-VXf" firstAttribute="top" secondItem="nit-zG-gnG" secondAttribute="top" id="nWi-cO-4DO"/>
+                    <constraint firstItem="gqX-cI-VXf" firstAttribute="height" secondItem="nit-zG-gnG" secondAttribute="height" id="qBU-kM-Abc"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="icon" destination="nit-zG-gnG" id="mkJ-bO-F12"/>
+                <outlet property="iconLabel" destination="gqX-cI-VXf" id="8fy-bK-6Mj"/>
             </connections>
         </tableViewCell>
     </objects>

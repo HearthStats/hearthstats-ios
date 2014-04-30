@@ -19,6 +19,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setTintColor:[UIColor colorWithRed:0.231f green:0.357f blue:0.667f alpha:1.000]];
     
+    kBaseURL = @"http://beta.hearthstats.net";
+    
     [Crashlytics startWithAPIKey:@"33a7a0d865f1f5ad096f48493e2916bd878e2ec6"];
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:kDefaultFont size:10]}

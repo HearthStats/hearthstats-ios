@@ -11,5 +11,6 @@
 @interface HCSDashboardTableViewCell : UITableViewCell
 
 @property (nonatomic, weak) IBOutlet UIImageView *icon;
+@property (nonatomic, weak) IBOutlet UILabel *iconLabel;
 
 @end

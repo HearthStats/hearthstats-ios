@@ -8,6 +8,7 @@
 
 #import "HCSDashboardViewController.h"
 #import "HCSDashboardTableViewCell.h"
+#import "NSString+FontAwesome.h"
 
 @interface HCSDashboardViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -94,6 +95,7 @@
     
     UIColor *bgColor;
     UIImage *icon;
+    NSString *iconLabel;
     switch (indexPath.row) {
         case 0:
             bgColor = [UIColor colorWithRed:0.192f green:0.667f blue:0.882f alpha:1.000];
@@ -105,9 +107,11 @@
             break;
         case 2:
             bgColor = [UIColor colorWithRed:0.518f green:0.192f blue:0.592f alpha:1.000];
+            iconLabel = [NSString fontAwesomeIconStringForEnum:FAGlobe];
             break;
         case 3:
             bgColor = [UIColor colorWithRed:0.427f green:0.800f blue:0.933f alpha:1.000];
+            iconLabel = [NSString fontAwesomeIconStringForEnum:FABarChartO];
             break;
         default:
             bgColor = [UIColor whiteColor];
@@ -115,6 +119,11 @@
     }
     cell.backgroundColor = bgColor;
     cell.icon.image = icon;
+    
+    cell.iconLabel.font = [UIFont fontWithName:kFontAwesomeFamilyName size:48];
+    cell.iconLabel.textColor = [UIColor whiteColor];
+    cell.iconLabel.textAlignment = NSTextAlignmentCenter;
+    cell.iconLabel.text = iconLabel;
     
     return cell;
 }

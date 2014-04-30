@@ -30,6 +30,10 @@
 		43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34B9190B0C0F00057F89 /* HCSArenaViewController.m */; };
 		43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */; };
 		43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */; };
+		43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A11911551B0080488F /* HCSSessionManager.m */; };
+		43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* HCSLogInViewController.m */; };
+		43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */; };
+		43E8C6AC191173AE0080488F /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43E8C6AB191173AE0080488F /* fontawesome-webfont.ttf */; };
 		4971E4BD6C9448CEB314DAC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28A58F2058443C8AF23AAA5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +82,13 @@
 		43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstructedViewController.m; sourceTree = "<group>"; };
 		43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSSettingsViewController.h; sourceTree = "<group>"; };
 		43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSettingsViewController.m; sourceTree = "<group>"; };
+		43E8C6A01911551B0080488F /* HCSSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSSessionManager.h; sourceTree = "<group>"; };
+		43E8C6A11911551B0080488F /* HCSSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSessionManager.m; sourceTree = "<group>"; };
+		43E8C6A3191167F70080488F /* HCSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSLogInViewController.h; sourceTree = "<group>"; };
+		43E8C6A4191167F70080488F /* HCSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSLogInViewController.m; sourceTree = "<group>"; };
+		43E8C6A819116D5E0080488F /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		43E8C6AB191173AE0080488F /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "../../../../../../../Downloads/font-awesome-4.0.3/fonts/fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		A28A58F2058443C8AF23AAA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F241589DA9E1405AA1EF433F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +122,8 @@
 		436C5CFE1910329100463075 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				43E8C6A819116D5E0080488F /* NSString+FontAwesome.h */,
+				43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */,
 				436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */,
 				436C5D00191032B800463075 /* UIImage+ImageWithColor.m */,
 			);
@@ -131,6 +144,7 @@
 		436C5D0819105C5700463075 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				43E8C6AB191173AE0080488F /* fontawesome-webfont.ttf */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -227,6 +241,8 @@
 				43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */,
 				43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */,
 				43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */,
+				43E8C6A3191167F70080488F /* HCSLogInViewController.h */,
+				43E8C6A4191167F70080488F /* HCSLogInViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,6 +266,8 @@
 		43BD34C1190B109C00057F89 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				43E8C6A01911551B0080488F /* HCSSessionManager.h */,
+				43E8C6A11911551B0080488F /* HCSSessionManager.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -339,6 +357,7 @@
 				43BD348E190B06F900057F89 /* InfoPlist.strings in Resources */,
 				438BFEFA190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib in Resources */,
 				436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */,
+				43E8C6AC191173AE0080488F /* fontawesome-webfont.ttf in Resources */,
 				43BD3496190B06F900057F89 /* Images.xcassets in Resources */,
 				436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */,
 			);
@@ -406,14 +425,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */,
+				43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */,
 				43BD3490190B06F900057F89 /* main.m in Sources */,
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
 				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
 				43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */,
 				436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */,
+				43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */,
 				43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */,
 				43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */,
+				43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 
 @implementation HCSConstants
 
+NSString *kBaseURL;
 NSString *const kDefaultFont = @"Avenir";
 
 @end
