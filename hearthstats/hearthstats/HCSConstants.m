@@ -13,4 +13,7 @@
 NSString *kBaseURL;
 NSString *const kDefaultFont = @"Avenir";
 
+NSString *const kLoggedInNotification = @"LoggedInNotification";
+NSString *const kLoggedInFailedNotification = @"kLoggedInFailedNotification";
+
 @end

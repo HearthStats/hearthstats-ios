@@ -11,6 +11,7 @@
 #import "HCSArenaViewController.h"
 #import "HCSConstructedViewController.h"
 #import "HCSSettingsViewController.h"
+#import "SVProgressHUD.h"
 
 @implementation HCSAppDelegate
 
@@ -39,6 +40,9 @@
     UINavigationController *thirdNav = [[UINavigationController alloc] initWithRootViewController:thirdVC];
     HCSSettingsViewController *fourthVC = [[HCSSettingsViewController alloc] init];
     UINavigationController *fourthNav = [[UINavigationController alloc] initWithRootViewController:fourthVC];
+    
+    [SVProgressHUD setBackgroundColor:[UIColor colorWithWhite:0.200f alpha:1.000]];
+    [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
     
     UITabBarController *tabBar = [[UITabBarController alloc] init];
     [tabBar setViewControllers:@[firstNav, secondNav, thirdNav, fourthNav]];

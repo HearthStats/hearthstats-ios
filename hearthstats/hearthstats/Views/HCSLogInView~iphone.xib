@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HCSLogInViewController">
+            <connections>
+                <outlet property="bgImageView" destination="8Zs-Sc-4yx" id="XER-VJ-XD8"/>
+                <outlet property="emailField" destination="JME-PF-XFL" id="4bu-Ly-9lZ"/>
+                <outlet property="logInButton" destination="Y3v-zT-AcP" id="Qf3-TC-8Aw"/>
+                <outlet property="passwordField" destination="iwO-4p-Uyv" id="EwL-YK-nad"/>
+                <outlet property="view" destination="iN0-l3-epB" id="N7o-xh-S8B"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Zs-Sc-4yx">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="JME-PF-XFL">
+                    <rect key="frame" x="60" y="122" width="200" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="f3J-op-4b8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwO-4p-Uyv">
+                    <rect key="frame" x="60" y="160" width="200" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="qZF-gg-ZLV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="go" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3v-zT-AcP">
+                    <rect key="frame" x="139" y="198" width="43" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Log In">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b0p-jJ-ehZ">
+                    <rect key="frame" x="58" y="60" width="204" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HearthStats" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cD4-np-SrR">
+                            <rect key="frame" x="68" y="10" width="116" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HearthStatsIcon" translatesAutoresizingMaskIntoConstraints="NO" id="LKN-gf-Lka">
+                            <rect key="frame" x="20" y="5" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="cD4-np-SrR" firstAttribute="leading" secondItem="LKN-gf-Lka" secondAttribute="trailing" constant="8" id="80H-5n-9kY"/>
+                        <constraint firstAttribute="height" constant="50" id="KcP-0S-hhW"/>
+                        <constraint firstAttribute="centerY" secondItem="cD4-np-SrR" secondAttribute="centerY" id="Lfl-rU-eNY"/>
+                        <constraint firstItem="LKN-gf-Lka" firstAttribute="leading" secondItem="b0p-jJ-ehZ" secondAttribute="leading" constant="20" id="Pqv-Ok-9dA"/>
+                        <constraint firstAttribute="width" constant="204" id="SR4-Q3-GXZ"/>
+                        <constraint firstAttribute="centerY" secondItem="LKN-gf-Lka" secondAttribute="centerY" id="YqC-es-C7g"/>
+                        <constraint firstAttribute="trailing" secondItem="cD4-np-SrR" secondAttribute="trailing" constant="20" id="phj-V6-XiC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8Zs-Sc-4yx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8l4-oh-kw2"/>
+                <constraint firstItem="JME-PF-XFL" firstAttribute="centerX" secondItem="iwO-4p-Uyv" secondAttribute="centerX" id="A1B-q5-pyH"/>
+                <constraint firstItem="b0p-jJ-ehZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="Dvh-f8-ys5"/>
+                <constraint firstItem="iwO-4p-Uyv" firstAttribute="centerX" secondItem="Y3v-zT-AcP" secondAttribute="centerX" id="NkX-bG-GvR"/>
+                <constraint firstAttribute="trailing" secondItem="8Zs-Sc-4yx" secondAttribute="trailing" id="R3X-GN-IDV"/>
+                <constraint firstItem="8Zs-Sc-4yx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SVs-Kb-zvL"/>
+                <constraint firstAttribute="bottom" secondItem="8Zs-Sc-4yx" secondAttribute="bottom" id="bmV-BU-DFi"/>
+                <constraint firstItem="iwO-4p-Uyv" firstAttribute="top" secondItem="JME-PF-XFL" secondAttribute="bottom" constant="8" id="cUP-Q2-a6Y"/>
+                <constraint firstItem="JME-PF-XFL" firstAttribute="centerX" secondItem="b0p-jJ-ehZ" secondAttribute="centerX" id="nWs-w8-dBl"/>
+                <constraint firstAttribute="centerX" secondItem="b0p-jJ-ehZ" secondAttribute="centerX" id="oYV-iM-1Se"/>
+                <constraint firstItem="JME-PF-XFL" firstAttribute="top" secondItem="b0p-jJ-ehZ" secondAttribute="bottom" constant="12" id="vgZ-69-lQX"/>
+                <constraint firstItem="Y3v-zT-AcP" firstAttribute="top" secondItem="iwO-4p-Uyv" secondAttribute="bottom" constant="8" id="xLl-Yp-I1t"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HearthStatsIcon" width="40" height="40"/>
+    </resources>
+</document>

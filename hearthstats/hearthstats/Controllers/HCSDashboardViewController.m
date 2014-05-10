@@ -8,9 +8,12 @@
 
 #import "HCSDashboardViewController.h"
 #import "HCSDashboardTableViewCell.h"
+#import "HCSLogInViewController.h"
 #import "NSString+FontAwesome.h"
+#import "HCSCredentialStore.h"
+#import "UIImage+ImageEffects.h"
 
-@interface HCSDashboardViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface HCSDashboardViewController () <UITableViewDataSource, UITableViewDelegate, HCSLoginViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 @property (nonatomic) NSArray *rowArray;
@@ -54,6 +57,18 @@
                   @"Warlock"];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    
+    [super viewDidAppear:animated];
+    
+//    [self loggedOut];
+    
+    HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+    if (![credStore isLoggedIn]) {
+        [self loggedOut];
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
@@ -71,6 +86,24 @@
                                           otherButtonTitles:NSLocalizedString(@"Log out", nil), nil];
     [alert setTag:10];
     [alert show];
+}
+
+- (void)loggedOut {
+    
+    UIImage *newBG = [UIImage screenshot];
+    newBG = [newBG applyExtraLightEffect];
+    HCSLogInViewController *login = [[HCSLogInViewController alloc] init]; //WithImage:newBG];
+    [login setDelegate:self];
+    [self presentViewController:login
+                       animated:YES
+                     completion:nil];
+}
+
+#pragma mark - Log In Delegate
+
+- (void) dismissLogin {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - Table View Data Source

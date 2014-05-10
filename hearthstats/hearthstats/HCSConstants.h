@@ -13,4 +13,7 @@
 extern NSString *kBaseURL;
 extern NSString *const kDefaultFont;
 
+extern NSString *const kLoggedInNotification;
+extern NSString *const kLoggedInFailedNotification;
+
 @end

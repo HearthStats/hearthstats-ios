@@ -6,6 +6,15 @@
 
 #import <Availability.h>
 
+#ifdef DEBUG
+#define DLog(...) NSLog(@"%s [Line %d] %@", __PRETTY_FUNCTION__, __LINE__, [NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DLog(...) do { } while (0)
+#ifndef NS_BLOCK_ASSERTIONS
+#define NS_BLOCK_ASSERTIONS
+#endif
+#endif
+
 #ifndef __IPHONE_3_0
 #warning "This project uses features only available in iOS SDK 3.0 and later."
 #endif

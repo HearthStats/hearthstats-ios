@@ -12,4 +12,6 @@
 
 + (HCSSessionManager *)sharedInstance;
 
+- (void)loginWithEmail:(NSString *)email andPassword:(NSString *)password;
+
 @end
