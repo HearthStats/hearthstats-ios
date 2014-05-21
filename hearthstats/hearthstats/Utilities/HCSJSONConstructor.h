@@ -11,5 +11,6 @@
 @interface HCSJSONConstructor : NSObject
 
 + (NSDictionary *)constructUserJSONWithEmail:(NSString *)email andPassword:(NSString *)password;
++ (NSDictionary *)constructRetrieveMatchJSONWithAuthToken:(NSString *)authToken;
 
 @end

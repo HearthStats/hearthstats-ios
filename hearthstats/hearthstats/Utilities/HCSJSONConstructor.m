@@ -20,4 +20,10 @@
              };
 }
 
++ (NSDictionary *)constructRetrieveMatchJSONWithAuthToken:(NSString *)authToken {
+    
+    return @{@"auth_token": authToken,
+             @"season" : @"6"};
+}
+
 @end

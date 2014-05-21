@@ -12,8 +12,11 @@
 
 NSString *kBaseURL;
 NSString *const kDefaultFont = @"Avenir";
+NSString *const kHearthStats = @"HearthStats";
 
 NSString *const kLoggedInNotification = @"LoggedInNotification";
-NSString *const kLoggedInFailedNotification = @"kLoggedInFailedNotification";
+NSString *const kLoggedInFailedNotification = @"LoggedInFailedNotification";
+NSString *const kRetrieveMatchesNotification = @"RetrieveMatchesNotification";
+NSString *const kRetrieveMatchesFailedNotification = @"RetrieveMatchesFailedNotification";
 
 @end

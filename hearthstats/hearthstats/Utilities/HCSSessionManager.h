@@ -13,5 +13,6 @@
 + (HCSSessionManager *)sharedInstance;
 
 - (void)loginWithEmail:(NSString *)email andPassword:(NSString *)password;
+- (void)retrieveMatchesForSeason:(NSNumber *)season;
 
 @end

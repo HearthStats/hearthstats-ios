@@ -54,13 +54,26 @@
        failure:^(AFHTTPRequestOperation *operation, NSError *error) {
            DLog(@"%@", error.description);
            [[NSNotificationCenter defaultCenter] postNotificationName:kLoggedInFailedNotification object:nil];
-           UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"SwipeSimple"
+           UIAlertView *alert = [[UIAlertView alloc] initWithTitle:kHearthStats
                                                            message:NSLocalizedString(@"Invalid user name or password", nil)
                                                           delegate:self
-                                                 cancelButtonTitle:@"Okay"
+                                                 cancelButtonTitle:NSLocalizedString(@"Okay", nil)
                                                  otherButtonTitles:nil];
            [alert show];
        }];
+}
+
+- (void)retrieveMatchesForSeason:(NSNumber *)season {
+    
+    HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+    [self GET:@"/api/v2/matches/query"
+   parameters:[HCSJSONConstructor constructRetrieveMatchJSONWithAuthToken:[credStore authToken]]
+      success:^(AFHTTPRequestOperation *operation, id responseObject){
+          DLog(@"%@", responseObject);
+      }
+      failure:^(AFHTTPRequestOperation *operation, NSError *error){
+          DLog(@"%@", error.description);
+      }];
 }
 
 @end

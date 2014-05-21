@@ -12,12 +12,15 @@
 		05101618191EC79D00A6EA47 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 05101617191EC79D00A6EA47 /* UIImage+ImageEffects.m */; };
 		0510161B191ECAF400A6EA47 /* HCSJSONConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0510161A191ECAF400A6EA47 /* HCSJSONConstructor.m */; };
 		059ED887191EC04300ED19DA /* HCSLogInView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059ED886191EC04300ED19DA /* HCSLogInView~iphone.xib */; };
+		430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430EFA8B192D1E81009CEFD7 /* iAd.framework */; };
+		430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */; };
+		430EFA92192D2D70009CEFD7 /* HCSMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA91192D2D70009CEFD7 /* HCSMatch.m */; };
+		430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */; };
 		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
 		436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D00191032B800463075 /* UIImage+ImageWithColor.m */; };
 		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
 		436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5D06191036CE00463075 /* HCSDashboardCell.xib */; };
 		438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* HCSConstants.m */; };
-		438BFEFA190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 438BFEF9190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib */; };
 		43BD3484190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3485190B06F900057F89 /* CoreGraphics.framework */; };
 		43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
@@ -60,6 +63,13 @@
 		0510161A191ECAF400A6EA47 /* HCSJSONConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSJSONConstructor.m; sourceTree = "<group>"; };
 		059ED885191EBE2200ED19DA /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		059ED886191EC04300ED19DA /* HCSLogInView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSLogInView~iphone.xib"; sourceTree = "<group>"; };
+		430EFA8B192D1E81009CEFD7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		430EFA8D192D2CA0009CEFD7 /* HCSFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSFactory.h; sourceTree = "<group>"; };
+		430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSFactory.m; sourceTree = "<group>"; };
+		430EFA90192D2D70009CEFD7 /* HCSMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSMatch.h; sourceTree = "<group>"; };
+		430EFA91192D2D70009CEFD7 /* HCSMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSMatch.m; sourceTree = "<group>"; };
+		430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSCurrentAccount.h; sourceTree = "<group>"; };
+		430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSCurrentAccount.m; sourceTree = "<group>"; };
 		436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSSettingsView~iphone.xib"; sourceTree = "<group>"; };
 		436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		436C5D00191032B800463075 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
@@ -68,7 +78,6 @@
 		436C5D06191036CE00463075 /* HCSDashboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCSDashboardCell.xib; sourceTree = "<group>"; };
 		438BFEF6190F0C3900EAEF2D /* HCSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSConstants.h; sourceTree = "<group>"; };
 		438BFEF7190F0C3900EAEF2D /* HCSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstants.m; sourceTree = "<group>"; };
-		438BFEF9190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSDashboardView~iphone.xib"; sourceTree = "<group>"; };
 		43BD3480190B06F900057F89 /* hearthstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD3483190B06F900057F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43BD3485190B06F900057F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */,
 				43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */,
 				05101612191EC1EA00A6EA47 /* Crashlytics.framework in Frameworks */,
 				43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */,
@@ -145,7 +155,6 @@
 		436C5D021910368F00463075 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				438BFEF9190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib */,
 				436C5D03191036A800463075 /* HCSDashboardTableViewCell.h */,
 				436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */,
 				436C5D06191036CE00463075 /* HCSDashboardCell.xib */,
@@ -184,6 +193,7 @@
 		43BD3482190B06F900057F89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				430EFA8B192D1E81009CEFD7 /* iAd.framework */,
 				05101611191EC1EA00A6EA47 /* Crashlytics.framework */,
 				43BD3483190B06F900057F89 /* Foundation.framework */,
 				43BD3485190B06F900057F89 /* CoreGraphics.framework */,
@@ -262,6 +272,10 @@
 		43BD34B3190B0B3D00057F89 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				430EFA90192D2D70009CEFD7 /* HCSMatch.h */,
+				430EFA91192D2D70009CEFD7 /* HCSMatch.m */,
+				430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */,
+				430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,6 +299,8 @@
 				05101614191EC70600A6EA47 /* HCSCredentialStore.m */,
 				05101619191ECAF400A6EA47 /* HCSJSONConstructor.h */,
 				0510161A191ECAF400A6EA47 /* HCSJSONConstructor.m */,
+				430EFA8D192D2CA0009CEFD7 /* HCSFactory.h */,
+				430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -372,7 +388,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BD348E190B06F900057F89 /* InfoPlist.strings in Resources */,
-				438BFEFA190F0DFF00EAEF2D /* HCSDashboardView~iphone.xib in Resources */,
 				436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */,
 				43BD3496190B06F900057F89 /* Images.xcassets in Resources */,
 				436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */,
@@ -444,16 +459,19 @@
 				438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */,
 				43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */,
 				05101618191EC79D00A6EA47 /* UIImage+ImageEffects.m in Sources */,
+				430EFA92192D2D70009CEFD7 /* HCSMatch.m in Sources */,
 				43BD3490190B06F900057F89 /* main.m in Sources */,
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
 				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
+				430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */,
 				05101615191EC70600A6EA47 /* HCSCredentialStore.m in Sources */,
 				43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */,
 				436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */,
 				43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */,
 				43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */,
 				43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */,
+				430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */,
 				0510161B191ECAF400A6EA47 /* HCSJSONConstructor.m in Sources */,
 				43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */,
 			);
@@ -577,7 +595,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					/Users/hokiewalrus/Desktop,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hearthstats/hearthstats-Prefix.pch";
@@ -597,7 +614,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					/Users/hokiewalrus/Desktop,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hearthstats/hearthstats-Prefix.pch";
