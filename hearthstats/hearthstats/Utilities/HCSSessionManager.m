@@ -64,15 +64,18 @@
 }
 
 - (void)retrieveMatchesForSeason:(NSNumber *)season {
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
     
     HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
     [self GET:@"/api/v2/matches/query"
    parameters:[HCSJSONConstructor constructRetrieveMatchJSONWithAuthToken:[credStore authToken]]
       success:^(AFHTTPRequestOperation *operation, id responseObject){
           DLog(@"%@", responseObject);
+          [center postNotificationName:kRetrieveMatchesNotification object:nil userInfo:@{@"responseObject":responseObject}];
       }
       failure:^(AFHTTPRequestOperation *operation, NSError *error){
           DLog(@"%@", error.description);
+          [center postNotificationName:kRetrieveMatchesFailedNotification object:nil userInfo:@{@"error":error}];
       }];
 }
 

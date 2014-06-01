@@ -155,12 +155,18 @@
 }
 
 - (void)matchesRetrieved:(NSNotification *)notification {
-    
-    
+    [SVProgressHUD dismiss];
 }
 
 - (void)matchesRetrievedFailed:(NSNotification *)notification {
-    
+    [UIAlertView alertWithTitle:NSLocalizedString(@"Retrieval failed", nil)
+                        message:nil // TODO: Parse and make readable error message from notification
+              cancelButtonTitle:NSLocalizedString(@"Cancel", nil)
+              otherButtonTitles:@[NSLocalizedString(@"Retry", nil)]
+              completionHandler:^(UIAlertView *alertView, NSUInteger buttonClicked) {
+                  if(alertView.cancelButtonIndex == buttonClicked) return; // Do nothing
+                  [self retrieveMatches];
+              }];
 }
 
 #pragma mark - Log In Delegate
