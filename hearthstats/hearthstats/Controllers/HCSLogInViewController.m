@@ -17,6 +17,7 @@
 @property (nonatomic, weak) IBOutlet UITextField *emailField;
 @property (nonatomic, weak) IBOutlet UITextField *passwordField;
 @property (nonatomic, weak) IBOutlet UIButton *logInButton;
+@property (nonatomic, weak) IBOutlet UIImageView *bannerView;
 
 @end
 
@@ -48,6 +49,12 @@
     
     [super viewDidLoad];
     [_bgImageView setImage:_bgImage];
+    
+    if ([kBaseURL isEqualToString:@"http://beta.hearthstats.net"]) {
+        _bannerView.hidden = NO;
+    } else {
+        _bannerView.hidden = YES;
+    }
     
     [_emailField setDelegate:self];
     [_emailField setTag:10];

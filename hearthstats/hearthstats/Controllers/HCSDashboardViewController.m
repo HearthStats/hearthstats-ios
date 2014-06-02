@@ -95,8 +95,6 @@
     
     [super viewDidAppear:animated];
     
-//    [self loggedOut];
-    
     HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
     if (![credStore isLoggedIn]) {
         [self loggedOut];

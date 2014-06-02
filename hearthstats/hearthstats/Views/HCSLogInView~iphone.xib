@@ -73,17 +73,23 @@
                         <constraint firstAttribute="trailing" secondItem="cD4-np-SrR" secondAttribute="trailing" constant="20" id="phj-V6-XiC"/>
                     </constraints>
                 </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StagingBanner" translatesAutoresizingMaskIntoConstraints="NO" id="Ooz-Y1-y4m">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="8Zs-Sc-4yx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8l4-oh-kw2"/>
                 <constraint firstItem="JME-PF-XFL" firstAttribute="centerX" secondItem="iwO-4p-Uyv" secondAttribute="centerX" id="A1B-q5-pyH"/>
+                <constraint firstItem="Ooz-Y1-y4m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AxS-Yz-8gj"/>
                 <constraint firstItem="b0p-jJ-ehZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="Dvh-f8-ys5"/>
                 <constraint firstItem="iwO-4p-Uyv" firstAttribute="centerX" secondItem="Y3v-zT-AcP" secondAttribute="centerX" id="NkX-bG-GvR"/>
                 <constraint firstAttribute="trailing" secondItem="8Zs-Sc-4yx" secondAttribute="trailing" id="R3X-GN-IDV"/>
                 <constraint firstItem="8Zs-Sc-4yx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SVs-Kb-zvL"/>
                 <constraint firstAttribute="bottom" secondItem="8Zs-Sc-4yx" secondAttribute="bottom" id="bmV-BU-DFi"/>
                 <constraint firstItem="iwO-4p-Uyv" firstAttribute="top" secondItem="JME-PF-XFL" secondAttribute="bottom" constant="8" id="cUP-Q2-a6Y"/>
+                <constraint firstItem="Ooz-Y1-y4m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eng-g2-blu"/>
                 <constraint firstItem="JME-PF-XFL" firstAttribute="centerX" secondItem="b0p-jJ-ehZ" secondAttribute="centerX" id="nWs-w8-dBl"/>
                 <constraint firstAttribute="centerX" secondItem="b0p-jJ-ehZ" secondAttribute="centerX" id="oYV-iM-1Se"/>
                 <constraint firstItem="JME-PF-XFL" firstAttribute="top" secondItem="b0p-jJ-ehZ" secondAttribute="bottom" constant="12" id="vgZ-69-lQX"/>
@@ -95,5 +101,6 @@
     </objects>
     <resources>
         <image name="HearthStatsIcon" width="40" height="40"/>
+        <image name="StagingBanner" width="100" height="100"/>
     </resources>
 </document>

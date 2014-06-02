@@ -12,6 +12,7 @@
 #import "HCSConstructedViewController.h"
 #import "HCSSettingsViewController.h"
 #import "SVProgressHUD.h"
+#import "HCSCredentialStore.h"
 
 @implementation HCSAppDelegate
 
@@ -23,6 +24,9 @@
     kBaseURL = @"http://beta.hearthstats.net";
     
     [Crashlytics startWithAPIKey:@"33a7a0d865f1f5ad096f48493e2916bd878e2ec6"];
+    
+    HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+    [credStore clearSavedCredentials];
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:kDefaultFont size:10]}
                                              forState:UIControlStateNormal];
