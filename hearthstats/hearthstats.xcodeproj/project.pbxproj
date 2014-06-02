@@ -41,6 +41,7 @@
 		43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* HCSLogInViewController.m */; };
 		43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */; };
 		4971E4BD6C9448CEB314DAC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28A58F2058443C8AF23AAA5 /* libPods.a */; };
+		B45AD343193BDEA300FE3868 /* UIAlertView+BP.m in Sources */ = {isa = PBXBuildFile; fileRef = B45AD341193BDEA300FE3868 /* UIAlertView+BP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,8 @@
 		43E8C6A819116D5E0080488F /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
 		43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
 		A28A58F2058443C8AF23AAA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45AD341193BDEA300FE3868 /* UIAlertView+BP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BP.m"; sourceTree = "<group>"; };
+		B45AD342193BDEA300FE3868 /* UIAlertView+BP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BP.h"; sourceTree = "<group>"; };
 		F241589DA9E1405AA1EF433F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,6 +210,7 @@
 		43BD3489190B06F900057F89 /* hearthstats */ = {
 			isa = PBXGroup;
 			children = (
+				B45AD340193BDE7500FE3868 /* BPKit */,
 				436C5D0819105C5700463075 /* Assets */,
 				43BD34B2190B0B1D00057F89 /* Controllers */,
 				43BD34B4190B0B4800057F89 /* Views */,
@@ -303,6 +307,15 @@
 				430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B45AD340193BDE7500FE3868 /* BPKit */ = {
+			isa = PBXGroup;
+			children = (
+				B45AD341193BDEA300FE3868 /* UIAlertView+BP.m */,
+				B45AD342193BDEA300FE3868 /* UIAlertView+BP.h */,
+			);
+			name = BPKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +477,7 @@
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
 				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
+				B45AD343193BDEA300FE3868 /* UIAlertView+BP.m in Sources */,
 				430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */,
 				05101615191EC70600A6EA47 /* HCSCredentialStore.m in Sources */,
 				43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */,

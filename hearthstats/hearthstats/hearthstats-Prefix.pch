@@ -24,4 +24,5 @@
     #import <Foundation/Foundation.h>
     #import "HCSConstants.h"
     #import <Crashlytics/Crashlytics.h>
+    #import "UIAlertView+BP.h"
 #endif
