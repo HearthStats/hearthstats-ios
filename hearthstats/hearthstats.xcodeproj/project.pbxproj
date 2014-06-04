@@ -21,6 +21,7 @@
 		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
 		436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5D06191036CE00463075 /* HCSDashboardCell.xib */; };
 		438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* HCSConstants.m */; };
+		43AFC2B4193F9390004905E6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AFC2B3193F9390004905E6 /* libsqlite3.dylib */; };
 		43BD3484190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3485190B06F900057F89 /* CoreGraphics.framework */; };
 		43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
@@ -79,6 +80,7 @@
 		436C5D06191036CE00463075 /* HCSDashboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCSDashboardCell.xib; sourceTree = "<group>"; };
 		438BFEF6190F0C3900EAEF2D /* HCSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSConstants.h; sourceTree = "<group>"; };
 		438BFEF7190F0C3900EAEF2D /* HCSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstants.m; sourceTree = "<group>"; };
+		43AFC2B3193F9390004905E6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		43BD3480190B06F900057F89 /* hearthstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD3483190B06F900057F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43BD3485190B06F900057F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43AFC2B4193F9390004905E6 /* libsqlite3.dylib in Frameworks */,
 				430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */,
 				43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */,
 				05101612191EC1EA00A6EA47 /* Crashlytics.framework in Frameworks */,
@@ -196,6 +199,7 @@
 		43BD3482190B06F900057F89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43AFC2B3193F9390004905E6 /* libsqlite3.dylib */,
 				430EFA8B192D1E81009CEFD7 /* iAd.framework */,
 				05101611191EC1EA00A6EA47 /* Crashlytics.framework */,
 				43BD3483190B06F900057F89 /* Foundation.framework */,

@@ -17,7 +17,7 @@
 @property (nonatomic) PlayerClass player;
 @property (nonatomic) PlayerClass opponent;
 @property (nonatomic) NSNumber *numberOfTurns;
-@property (nonatomic) NSString *oppoentName;
+@property (nonatomic) NSString *opponentName;
 @property (nonatomic) MatchResult result;
 @property (nonatomic) NSNumber *seasonID;
 

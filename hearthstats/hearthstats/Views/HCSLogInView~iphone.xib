@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HCSLogInViewController">
             <connections>
-                <outlet property="bgImageView" destination="8Zs-Sc-4yx" id="XER-VJ-XD8"/>
                 <outlet property="emailField" destination="JME-PF-XFL" id="4bu-Ly-9lZ"/>
                 <outlet property="logInButton" destination="Y3v-zT-AcP" id="Qf3-TC-8Aw"/>
                 <outlet property="passwordField" destination="iwO-4p-Uyv" id="EwL-YK-nad"/>
+                <outlet property="rememberSwitch" destination="Sj4-U6-Ox0" id="ww5-p5-1pq"/>
                 <outlet property="view" destination="iN0-l3-epB" id="N7o-xh-S8B"/>
             </connections>
         </placeholder>
@@ -18,13 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Zs-Sc-4yx">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="JME-PF-XFL">
                     <rect key="frame" x="60" y="122" width="200" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="200" id="f3J-op-4b8"/>
                     </constraints>
@@ -33,7 +29,6 @@
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwO-4p-Uyv">
                     <rect key="frame" x="60" y="160" width="200" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="200" id="qZF-gg-ZLV"/>
                     </constraints>
@@ -41,26 +36,23 @@
                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="go" secureTextEntry="YES"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3v-zT-AcP">
-                    <rect key="frame" x="139" y="198" width="43" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <rect key="frame" x="139" y="198" width="42" height="33"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
                     <state key="normal" title="Log In">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b0p-jJ-ehZ">
                     <rect key="frame" x="58" y="60" width="204" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HearthStats" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cD4-np-SrR">
                             <rect key="frame" x="68" y="10" width="116" height="31"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="22"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="HearthStatsIcon" translatesAutoresizingMaskIntoConstraints="NO" id="LKN-gf-Lka">
                             <rect key="frame" x="20" y="5" width="40" height="40"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                     </subviews>
                     <constraints>
@@ -75,19 +67,41 @@
                 </view>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StagingBanner" translatesAutoresizingMaskIntoConstraints="NO" id="Ooz-Y1-y4m">
                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBk-U8-OL4">
+                    <rect key="frame" x="60" y="233" width="200" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ9-ZP-Fsu">
+                            <rect key="frame" x="0.0" y="10" width="116" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
+                            <color key="textColor" red="0.22745098039215686" green="0.35294117647058826" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sj4-U6-Ox0">
+                            <rect key="frame" x="151" y="5" width="51" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Sj4-U6-Ox0" secondAttribute="trailing" id="8FO-IZ-e8f"/>
+                        <constraint firstItem="VZ9-ZP-Fsu" firstAttribute="leading" secondItem="PBk-U8-OL4" secondAttribute="leading" id="G9I-eD-Abj"/>
+                        <constraint firstAttribute="centerY" secondItem="VZ9-ZP-Fsu" secondAttribute="centerY" id="OEp-YI-EDn"/>
+                        <constraint firstAttribute="height" constant="40" id="WKd-AC-pbl"/>
+                        <constraint firstItem="Sj4-U6-Ox0" firstAttribute="centerY" secondItem="VZ9-ZP-Fsu" secondAttribute="centerY" id="pUr-YR-HYS"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="8Zs-Sc-4yx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8l4-oh-kw2"/>
                 <constraint firstItem="JME-PF-XFL" firstAttribute="centerX" secondItem="iwO-4p-Uyv" secondAttribute="centerX" id="A1B-q5-pyH"/>
                 <constraint firstItem="Ooz-Y1-y4m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AxS-Yz-8gj"/>
                 <constraint firstItem="b0p-jJ-ehZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="Dvh-f8-ys5"/>
                 <constraint firstItem="iwO-4p-Uyv" firstAttribute="centerX" secondItem="Y3v-zT-AcP" secondAttribute="centerX" id="NkX-bG-GvR"/>
-                <constraint firstAttribute="trailing" secondItem="8Zs-Sc-4yx" secondAttribute="trailing" id="R3X-GN-IDV"/>
-                <constraint firstItem="8Zs-Sc-4yx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SVs-Kb-zvL"/>
-                <constraint firstAttribute="bottom" secondItem="8Zs-Sc-4yx" secondAttribute="bottom" id="bmV-BU-DFi"/>
+                <constraint firstItem="PBk-U8-OL4" firstAttribute="width" secondItem="iwO-4p-Uyv" secondAttribute="width" id="Vfv-9W-HE8"/>
+                <constraint firstAttribute="centerX" secondItem="PBk-U8-OL4" secondAttribute="centerX" id="ZrC-v6-Qsx"/>
+                <constraint firstItem="PBk-U8-OL4" firstAttribute="top" secondItem="Y3v-zT-AcP" secondAttribute="bottom" constant="2" id="cLt-TC-y9c"/>
                 <constraint firstItem="iwO-4p-Uyv" firstAttribute="top" secondItem="JME-PF-XFL" secondAttribute="bottom" constant="8" id="cUP-Q2-a6Y"/>
                 <constraint firstItem="Ooz-Y1-y4m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eng-g2-blu"/>
                 <constraint firstItem="JME-PF-XFL" firstAttribute="centerX" secondItem="b0p-jJ-ehZ" secondAttribute="centerX" id="nWs-w8-dBl"/>

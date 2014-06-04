@@ -14,6 +14,9 @@ NSString *kBaseURL;
 NSString *const kDefaultFont = @"Avenir";
 NSString *const kHearthStats = @"HearthStats";
 
+NSString *const kPreferenceRemember = @"PreferenceRemember";
+NSString *const kPreferenceLastEmail = @"PreferenceLastEmail";
+
 NSString *const kLoggedInNotification = @"LoggedInNotification";
 NSString *const kLoggedInFailedNotification = @"LoggedInFailedNotification";
 NSString *const kRetrieveMatchesNotification = @"RetrieveMatchesNotification";

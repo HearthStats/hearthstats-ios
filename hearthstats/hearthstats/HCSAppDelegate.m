@@ -19,7 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    [self.window setTintColor:[UIColor colorWithRed:0.231f green:0.357f blue:0.667f alpha:1.000]];
+    UIColor *tintColor = [UIColor colorWithRed:0.231f green:0.357f blue:0.667f alpha:1.000];
+    [self.window setTintColor:tintColor];
     
     kBaseURL = @"http://beta.hearthstats.net";
     
@@ -28,6 +29,13 @@
     HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
     [credStore clearSavedCredentials];
     
+    NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+    if (![preferences objectForKey:kPreferenceRemember]) {
+        [preferences setInteger:0 forKey:kPreferenceRemember];
+        [preferences synchronize];
+    }
+    
+    [[UISwitch appearance] setOnTintColor:tintColor];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:kDefaultFont size:10]}
                                              forState:UIControlStateNormal];
     [[UISegmentedControl appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:kDefaultFont size:13]}

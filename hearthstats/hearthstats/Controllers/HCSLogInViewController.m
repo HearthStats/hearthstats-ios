@@ -13,11 +13,11 @@
 @interface HCSLogInViewController () <UIGestureRecognizerDelegate, UITextFieldDelegate>
 
 @property (nonatomic) UIImage *bgImage;
-@property (nonatomic, weak) IBOutlet UIImageView *bgImageView;
 @property (nonatomic, weak) IBOutlet UITextField *emailField;
 @property (nonatomic, weak) IBOutlet UITextField *passwordField;
 @property (nonatomic, weak) IBOutlet UIButton *logInButton;
 @property (nonatomic, weak) IBOutlet UIImageView *bannerView;
+@property (nonatomic, weak) IBOutlet UISwitch *rememberSwitch;
 
 @end
 
@@ -48,7 +48,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    [_bgImageView setImage:_bgImage];
+//    [_bgImageView setImage:_bgImage];
     
     if ([kBaseURL isEqualToString:@"http://beta.hearthstats.net"]) {
         _bannerView.hidden = NO;
@@ -68,6 +68,9 @@
     [_logInButton addTarget:self
                      action:@selector(logInButtonPressed:)
            forControlEvents:UIControlEventTouchUpInside];
+    [_rememberSwitch addTarget:self
+                        action:@selector(switchSwitched:)
+              forControlEvents:UIControlEventValueChanged];
     
     UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self
                                                                                 action:@selector(dismissKeyboard)];
@@ -79,6 +82,17 @@
 - (void)viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
+    
+    NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+    if ([[preferences objectForKey:kPreferenceRemember] boolValue]) {
+        [_rememberSwitch setOn:YES];
+        if ([preferences objectForKey:kPreferenceLastEmail]) {
+            [_emailField setText:[preferences objectForKey:kPreferenceLastEmail]];
+        }
+    } else {
+        [_rememberSwitch setOn:NO];
+    }
+    
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(loggedIn)
                                                  name:kLoggedInNotification
@@ -113,6 +127,12 @@
     [self logIn];
 }
 
+- (void)switchSwitched:(UISwitch *)sender {
+    
+    [[NSUserDefaults standardUserDefaults] setInteger:sender.isOn forKey:kPreferenceRemember];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 - (void)logIn {
     
     NSString *errorMessage = nil;
@@ -138,6 +158,11 @@
 - (void)loggedIn {
     
     [SVProgressHUD showSuccessWithStatus:@"Success"];
+    NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+    if ([[preferences objectForKey:kPreferenceRemember] boolValue]) {
+        [preferences setObject:_emailField.text forKey:kPreferenceLastEmail];
+        [preferences synchronize];
+    }
     [self dismissKeyboard];
     if ([_delegate respondsToSelector:@selector(dismissLogin)]) {
         [_delegate dismissLogin];

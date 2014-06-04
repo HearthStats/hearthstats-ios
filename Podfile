@@ -6,5 +6,3 @@ pod 'SSKeychain'
 pod 'SVProgressHUD', :head
 # pod "ISO8601DateFormatter"
 pod 'Mixpanel'
-# pod 'MBProgressHUD', '~> 0.8'
-# pod 'PocketSVG'
