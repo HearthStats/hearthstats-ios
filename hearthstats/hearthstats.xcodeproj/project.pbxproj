@@ -14,14 +14,12 @@
 		059ED887191EC04300ED19DA /* HCSLogInView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059ED886191EC04300ED19DA /* HCSLogInView~iphone.xib */; };
 		430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430EFA8B192D1E81009CEFD7 /* iAd.framework */; };
 		430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */; };
-		430EFA92192D2D70009CEFD7 /* HCSMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA91192D2D70009CEFD7 /* HCSMatch.m */; };
 		430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */; };
 		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
 		436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D00191032B800463075 /* UIImage+ImageWithColor.m */; };
 		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
 		436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5D06191036CE00463075 /* HCSDashboardCell.xib */; };
 		438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* HCSConstants.m */; };
-		43AFC2B4193F9390004905E6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AFC2B3193F9390004905E6 /* libsqlite3.dylib */; };
 		43BD3484190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3485190B06F900057F89 /* CoreGraphics.framework */; };
 		43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
@@ -38,6 +36,8 @@
 		43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34B9190B0C0F00057F89 /* HCSArenaViewController.m */; };
 		43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */; };
 		43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */; };
+		43C0E51419489DD300989D13 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C0E51319489DD300989D13 /* CoreData.framework */; };
+		43C0E51719489DFB00989D13 /* hearthstats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */; };
 		43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A11911551B0080488F /* HCSSessionManager.m */; };
 		43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* HCSLogInViewController.m */; };
 		43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */; };
@@ -68,8 +68,6 @@
 		430EFA8B192D1E81009CEFD7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		430EFA8D192D2CA0009CEFD7 /* HCSFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSFactory.h; sourceTree = "<group>"; };
 		430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSFactory.m; sourceTree = "<group>"; };
-		430EFA90192D2D70009CEFD7 /* HCSMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSMatch.h; sourceTree = "<group>"; };
-		430EFA91192D2D70009CEFD7 /* HCSMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSMatch.m; sourceTree = "<group>"; };
 		430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSCurrentAccount.h; sourceTree = "<group>"; };
 		430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSCurrentAccount.m; sourceTree = "<group>"; };
 		436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSSettingsView~iphone.xib"; sourceTree = "<group>"; };
@@ -105,6 +103,8 @@
 		43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstructedViewController.m; sourceTree = "<group>"; };
 		43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSSettingsViewController.h; sourceTree = "<group>"; };
 		43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSettingsViewController.m; sourceTree = "<group>"; };
+		43C0E51319489DD300989D13 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hearthstats.xcdatamodel; sourceTree = "<group>"; };
 		43E8C6A01911551B0080488F /* HCSSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSSessionManager.h; sourceTree = "<group>"; };
 		43E8C6A11911551B0080488F /* HCSSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSessionManager.m; sourceTree = "<group>"; };
 		43E8C6A3191167F70080488F /* HCSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSLogInViewController.h; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43AFC2B4193F9390004905E6 /* libsqlite3.dylib in Frameworks */,
+				43C0E51419489DD300989D13 /* CoreData.framework in Frameworks */,
 				430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */,
 				43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */,
 				05101612191EC1EA00A6EA47 /* Crashlytics.framework in Frameworks */,
@@ -199,6 +199,7 @@
 		43BD3482190B06F900057F89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43C0E51319489DD300989D13 /* CoreData.framework */,
 				43AFC2B3193F9390004905E6 /* libsqlite3.dylib */,
 				430EFA8B192D1E81009CEFD7 /* iAd.framework */,
 				05101611191EC1EA00A6EA47 /* Crashlytics.framework */,
@@ -238,6 +239,7 @@
 				43BD348C190B06F900057F89 /* InfoPlist.strings */,
 				43BD348F190B06F900057F89 /* main.m */,
 				43BD3491190B06F900057F89 /* hearthstats-Prefix.pch */,
+				43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -280,8 +282,6 @@
 		43BD34B3190B0B3D00057F89 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				430EFA90192D2D70009CEFD7 /* HCSMatch.h */,
-				430EFA91192D2D70009CEFD7 /* HCSMatch.m */,
 				430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */,
 				430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */,
 			);
@@ -476,10 +476,10 @@
 				438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */,
 				43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */,
 				05101618191EC79D00A6EA47 /* UIImage+ImageEffects.m in Sources */,
-				430EFA92192D2D70009CEFD7 /* HCSMatch.m in Sources */,
 				43BD3490190B06F900057F89 /* main.m in Sources */,
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
+				43C0E51719489DFB00989D13 /* hearthstats.xcdatamodeld in Sources */,
 				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
 				B45AD343193BDEA300FE3868 /* UIAlertView+BP.m in Sources */,
 				430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */,
@@ -712,6 +712,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */,
+			);
+			currentVersion = 43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */;
+			path = hearthstats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 43BD3478190B06F900057F89 /* Project object */;
 }
