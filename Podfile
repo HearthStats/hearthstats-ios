@@ -6,3 +6,6 @@ pod 'SSKeychain'
 pod 'SVProgressHUD', :head
 # pod "ISO8601DateFormatter"
 pod 'Mixpanel'
+target 'integrationTests', :exclusive => true do
+  pod 'KIF', '~> 3.0'
+end
