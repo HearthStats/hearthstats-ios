@@ -8,25 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum PlayerClass {
-    NONE,
-    DRUID,
-    HUNTER,
-    MAGE,
-    PALADIN,
-    PRIEST,
-    ROGUE,
-    SHAMAN,
-    WARLOCK,
-    WARRIOR
-} PlayerClass;
+typedef NS_ENUM(NSUInteger, PlayerClass) {
+    PlayerClassNone = 0,
+    PlayerClassDruid,
+    PlayerClassHunter,
+    PlayerClassMage,
+    PlayerClassPaladin,
+    PlayerClassPriest,
+    PlayerClassRogue,
+    PlayerClassShaman,
+    PlayerClassWarlock,
+    PlayerClassWarrior
+};
 
-typedef enum MatchResult {
-    UNKNOWN,
-    VICTORY,
-    DEFEAT,
-    DRAW
-} MatchResult;
+typedef NS_ENUM(NSUInteger, MatchResult) {
+    MatchResultUnknown,
+    MatchResultVictory,
+    MatchResultDefeat,
+    MatchResultDraw
+};
 
 FOUNDATION_EXPORT NSString * kBaseURL;
 FOUNDATION_EXPORT NSString * const kDefaultFont;
