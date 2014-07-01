@@ -1,5 +1,12 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/CrashlyticsFramework"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+<<<<<<< HEAD
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/KIF" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/SSKeychain" "${PODS_ROOT}/Headers/SVProgressHUD"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/KIF" -isystem "${PODS_ROOT}/Headers/Mixpanel" -isystem "${PODS_ROOT}/Headers/SSKeychain" -isystem "${PODS_ROOT}/Headers/SVProgressHUD"
 OTHER_LDFLAGS = -ObjC -framework Accelerate -framework CoreGraphics -framework CoreTelephony -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit
+=======
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/CrashlyticsFramework" "${PODS_ROOT}/Headers/Harpy" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/SSKeychain" "${PODS_ROOT}/Headers/SVProgressHUD" "${PODS_ROOT}/Headers/UIColor-ColorWithHexAndAlpha" "${PODS_ROOT}/Headers/UIDevice-SupportedDevices" "${PODS_ROOT}/Headers/UIFloatLabelTextField" "${PODS_ROOT}/Headers/UIFloatLabelTextView" "${PODS_ROOT}/Headers/UIView-AutoLayoutView"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/CrashlyticsFramework" -isystem "${PODS_ROOT}/Headers/Harpy" -isystem "${PODS_ROOT}/Headers/Mixpanel" -isystem "${PODS_ROOT}/Headers/SSKeychain" -isystem "${PODS_ROOT}/Headers/SVProgressHUD" -isystem "${PODS_ROOT}/Headers/UIColor-ColorWithHexAndAlpha" -isystem "${PODS_ROOT}/Headers/UIDevice-SupportedDevices" -isystem "${PODS_ROOT}/Headers/UIFloatLabelTextField" -isystem "${PODS_ROOT}/Headers/UIFloatLabelTextView" -isystem "${PODS_ROOT}/Headers/UIView-AutoLayoutView"
+OTHER_LDFLAGS = -ObjC -framework Accelerate -framework CoreGraphics -framework CoreTelephony -framework Crashlytics -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit
+>>>>>>> origin/housekeeping
 PODS_ROOT = ${SRCROOT}/../Pods

@@ -18,25 +18,55 @@ PODS:
   - AFNetworking/UIKit (2.2.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+<<<<<<< HEAD
   - KIF (3.0.6):
     - KIF/XCTest
   - KIF/XCTest (3.0.6)
+=======
+  - CrashlyticsFramework (2.2.1)
+  - Harpy (2.5.4):
+    - UIDevice-SupportedDevices
+>>>>>>> origin/housekeeping
   - Mixpanel (2.3.5)
   - SSKeychain (1.2.2)
   - SVProgressHUD (HEAD based on 1.0)
+  - UIColor-ColorWithHexAndAlpha (1.2.0)
+  - UIDevice-SupportedDevices (1.0.1)
+  - UIFloatLabelTextField (1.0.7)
+  - UIFloatLabelTextView (1.0.1)
+  - UIView-AutoLayoutView (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking
+<<<<<<< HEAD
   - KIF (~> 3.0)
+=======
+  - CrashlyticsFramework
+  - Harpy
+>>>>>>> origin/housekeeping
   - Mixpanel
   - SSKeychain
   - SVProgressHUD (HEAD)
+  - UIColor-ColorWithHexAndAlpha
+  - UIFloatLabelTextField
+  - UIFloatLabelTextView
+  - UIView-AutoLayoutView
 
 SPEC CHECKSUMS:
   AFNetworking: 47947303319594706f48a55185ea95a95159ab94
+<<<<<<< HEAD
   KIF: 7fcc68436ffda73749885a68b998fdac7bf6f9f4
+=======
+  CrashlyticsFramework: a9d172599c3a34e68067e16446a764041b980162
+  Harpy: b1caa948f274a5c92713dd648635ec2d3f58e35d
+>>>>>>> origin/housekeeping
   Mixpanel: 73ab2e90b651fee096a16448004df39ca535cd72
   SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
   SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  UIColor-ColorWithHexAndAlpha: ed237e455f0b036b986e031a2ce649324cabe6dd
+  UIDevice-SupportedDevices: 6b3dc841285444aeb41ab812bf20b7a205ba091a
+  UIFloatLabelTextField: e0633a5789fdf5e605e106212061b988667def07
+  UIFloatLabelTextView: 3a3a47c9347a38c396f0dd878dcbef6a5f879652
+  UIView-AutoLayoutView: 8d028905af945be76eac8a1f11569856d676cde3
 
 COCOAPODS: 0.33.1
