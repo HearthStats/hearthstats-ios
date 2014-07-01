@@ -1,7 +1,7 @@
 #include "Pods-integrationTests-KIF.xcconfig"
 FRAMEWORK_SEARCH_PATHS = ${PODS_INTEGRATIONTESTS_KIF_FRAMEWORK_SEARCH_PATHS}
 GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/KIF" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/KIF" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/SSKeychain" "${PODS_ROOT}/Headers/SVProgressHUD"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/KIF" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/CrashlyticsFramework" "${PODS_ROOT}/Headers/Harpy" "${PODS_ROOT}/Headers/KIF" "${PODS_ROOT}/Headers/Mixpanel" "${PODS_ROOT}/Headers/SSKeychain" "${PODS_ROOT}/Headers/SVProgressHUD" "${PODS_ROOT}/Headers/UIColor-ColorWithHexAndAlpha" "${PODS_ROOT}/Headers/UIDevice-SupportedDevices" "${PODS_ROOT}/Headers/UIFloatLabelTextField" "${PODS_ROOT}/Headers/UIFloatLabelTextView" "${PODS_ROOT}/Headers/UIView-AutoLayoutView"
 OTHER_CFLAGS = ${PODS_INTEGRATIONTESTS_KIF_OTHER_CFLAGS}
 OTHER_LDFLAGS = -ObjC ${PODS_INTEGRATIONTESTS_KIF_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}

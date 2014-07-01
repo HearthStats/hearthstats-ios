@@ -21,7 +21,7 @@
 #import "NSData+MPBase64.h"
 #import "UIView+MPSnapshotImage.h"
 
-#define VERSION @"2.3.5"
+#define VERSION @"2.4.0"
 
 #ifdef MIXPANEL_LOG
 #define MixpanelLog(...) NSLog(__VA_ARGS__)
@@ -98,13 +98,18 @@ static void MixpanelReachabilityCallback(SCNetworkReachabilityRef target, SCNetw
 
 static Mixpanel *sharedInstance = nil;
 
-+ (Mixpanel *)sharedInstanceWithToken:(NSString *)apiToken
++ (Mixpanel *)sharedInstanceWithToken:(NSString *)apiToken launchOptions:(NSDictionary *)launchOptions
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        sharedInstance = [[super alloc] initWithToken:apiToken andFlushInterval:60];
+        sharedInstance = [[super alloc] initWithToken:apiToken launchOptions:launchOptions andFlushInterval:60];
     });
     return sharedInstance;
+}
+
++ (Mixpanel *)sharedInstanceWithToken:(NSString *)apiToken
+{
+    return [Mixpanel sharedInstanceWithToken:apiToken launchOptions:nil];
 }
 
 + (Mixpanel *)sharedInstance
@@ -115,7 +120,7 @@ static Mixpanel *sharedInstance = nil;
     return sharedInstance;
 }
 
-- (instancetype)initWithToken:(NSString *)apiToken andFlushInterval:(NSUInteger)flushInterval
+- (instancetype)initWithToken:(NSString *)apiToken launchOptions:(NSDictionary *)launchOptions andFlushInterval:(NSUInteger)flushInterval
 {
     if (apiToken == nil) {
         apiToken = @"";
@@ -157,15 +162,15 @@ static Mixpanel *sharedInstance = nil;
 
         // wifi reachability
         BOOL reachabilityOk = NO;
-        if ((self.reachability = SCNetworkReachabilityCreateWithName(NULL, "api.mixpanel.com")) != NULL) {
+        if ((_reachability = SCNetworkReachabilityCreateWithName(NULL, "api.mixpanel.com")) != NULL) {
             SCNetworkReachabilityContext context = {0, (__bridge void*)self, NULL, NULL, NULL};
-            if (SCNetworkReachabilitySetCallback(self.reachability, MixpanelReachabilityCallback, &context)) {
-                if (SCNetworkReachabilitySetDispatchQueue(self.reachability, self.serialQueue)) {
+            if (SCNetworkReachabilitySetCallback(_reachability, MixpanelReachabilityCallback, &context)) {
+                if (SCNetworkReachabilitySetDispatchQueue(_reachability, self.serialQueue)) {
                     reachabilityOk = YES;
                     MixpanelDebug(@"%@ successfully set up reachability callback", self);
                 } else {
                     // cleanup callback if setting dispatch queue failed
-                    SCNetworkReachabilitySetCallback(self.reachability, NULL, NULL);
+                    SCNetworkReachabilitySetCallback(_reachability, NULL, NULL);
                 }
             }
         }
@@ -207,18 +212,33 @@ static Mixpanel *sharedInstance = nil;
                                    name:UIApplicationWillEnterForegroundNotification
                                  object:nil];
         [self unarchive];
+        
+        if (launchOptions && launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey]) {
+            [self trackPushNotification:launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey] event:@"$app_open"];
+        }
     }
 
     return self;
 }
 
+- (instancetype)initWithToken:(NSString *)apiToken andFlushInterval:(NSUInteger)flushInterval
+{
+    return [self initWithToken:apiToken launchOptions:nil andFlushInterval:flushInterval];
+}
+
 - (void)dealloc
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    if (self.reachability) {
-        SCNetworkReachabilitySetCallback(self.reachability, NULL, NULL);
-        SCNetworkReachabilitySetDispatchQueue(self.reachability, NULL);
-        self.reachability = nil;
+    if (_reachability != NULL) {
+        if (!SCNetworkReachabilitySetCallback(_reachability, NULL, NULL)) {
+            NSLog(@"%@ error unsetting reachability callback", self);
+        }
+        if (!SCNetworkReachabilitySetDispatchQueue(_reachability, NULL)) {
+            NSLog(@"%@ error unsetting reachability dispatch queue", self);
+        }
+        CFRelease(_reachability);
+        _reachability = NULL;
+        MixpanelDebug(@"realeased reachability");
     }
 }
 
@@ -707,12 +727,14 @@ static Mixpanel *sharedInstance = nil;
 
 - (void)reachabilityChanged:(SCNetworkReachabilityFlags)flags
 {
-    dispatch_async(self.serialQueue, ^{
-        BOOL wifi = (flags & kSCNetworkReachabilityFlagsReachable) && !(flags & kSCNetworkReachabilityFlagsIsWWAN);
-        NSMutableDictionary *properties = [self.automaticProperties mutableCopy];
-        properties[@"$wifi"] = wifi ? @YES : @NO;
-        self.automaticProperties = [properties copy];
-    });
+    // this should be run in the serial queue. the reason we don't dispatch_async here
+    // is because it's only ever called by the reachability callback, which is already
+    // set to run on the serial queue. see SCNetworkReachabilitySetDispatchQueue in init
+    BOOL wifi = (flags & kSCNetworkReachabilityFlagsReachable) && !(flags & kSCNetworkReachabilityFlagsIsWWAN);
+    NSMutableDictionary *properties = [self.automaticProperties mutableCopy];
+    properties[@"$wifi"] = wifi ? @YES : @NO;
+    self.automaticProperties = [properties copy];
+    MixpanelDebug(@"%@ reachability changed, wifi=%d", self, wifi);
 }
 
 - (NSURLRequest *)apiRequestWithEndpoint:(NSString *)endpoint andBody:(NSString *)body
@@ -946,6 +968,28 @@ static Mixpanel *sharedInstance = nil;
     dispatch_async(_serialQueue, ^{
        [self archive];
     });
+}
+
+- (void)trackPushNotification:(NSDictionary *)userInfo event:(NSString *)event
+{
+    MixpanelDebug(@"%@ tracking push payload %@", self, userInfo);
+    
+    if (userInfo && userInfo[@"mp"]) {
+        NSDictionary *mpPayload = userInfo[@"mp"];
+        
+        if ([mpPayload isKindOfClass:[NSDictionary class]] && mpPayload[@"m"] && mpPayload[@"c"]) {
+            [self track:event properties:@{@"campaign_id": mpPayload[@"c"],
+                                           @"message_id": mpPayload[@"m"],
+                                           @"message_type": @"push"}];
+        } else {
+            NSLog(@"%@ malformed mixpanel push payload %@", self, mpPayload);
+        }
+    }
+}
+
+- (void)trackPushNotification:(NSDictionary *)userInfo
+{
+    [self trackPushNotification:userInfo event:@"$campaign_received"];
 }
 
 #pragma mark - Decide
