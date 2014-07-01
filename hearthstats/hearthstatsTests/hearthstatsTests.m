@@ -25,4 +25,10 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
+
+- (void)testNothing {
+    
+    XCTAssertEqual(2, 2);
+}
+
 @end

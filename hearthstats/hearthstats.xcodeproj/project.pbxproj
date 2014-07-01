@@ -19,6 +19,7 @@
 		430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430EFA8B192D1E81009CEFD7 /* iAd.framework */; };
 		430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */; };
 		430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */; };
+		4314CF2319630D0000D1DD08 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05101611191EC1EA00A6EA47 /* Crashlytics.framework */; };
 		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
 		436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D00191032B800463075 /* UIImage+ImageWithColor.m */; };
 		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
@@ -167,6 +168,7 @@
 			files = (
 				43BD349D190B06F900057F89 /* XCTest.framework in Frameworks */,
 				43BD349F190B06F900057F89 /* UIKit.framework in Frameworks */,
+				4314CF2319630D0000D1DD08 /* Crashlytics.framework in Frameworks */,
 				43BD349E190B06F900057F89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -834,6 +836,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hearthstats/hearthstats-Prefix.pch";
@@ -856,6 +859,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hearthstats/hearthstats-Prefix.pch";

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43BD347F190B06F900057F89"
-               BuildableName = "hearthstats.app"
-               BlueprintName = "hearthstats"
-               ReferencedContainer = "container:hearthstats.xcodeproj">
+               BlueprintIdentifier = "93EAF7EC07A245769A92A23D"
+               BuildableName = "libPods.a"
+               BlueprintName = "Pods"
+               ReferencedContainer = "container:../Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,26 +38,7 @@
                ReferencedContainer = "container:hearthstats.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "05AC1F4D19608BC900D46EF4"
-               BuildableName = "integrationTests.xctest"
-               BlueprintName = "integrationTests"
-               ReferencedContainer = "container:hearthstats.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43BD347F190B06F900057F89"
-            BuildableName = "hearthstats.app"
-            BlueprintName = "hearthstats"
-            ReferencedContainer = "container:hearthstats.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -68,15 +49,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43BD347F190B06F900057F89"
-            BuildableName = "hearthstats.app"
-            BlueprintName = "hearthstats"
-            ReferencedContainer = "container:hearthstats.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -86,15 +58,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43BD347F190B06F900057F89"
-            BuildableName = "hearthstats.app"
-            BlueprintName = "hearthstats"
-            ReferencedContainer = "container:hearthstats.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
