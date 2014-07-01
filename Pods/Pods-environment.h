@@ -48,6 +48,18 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 2
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 3
 
+// CrashlyticsFramework
+#define COCOAPODS_POD_AVAILABLE_CrashlyticsFramework
+#define COCOAPODS_VERSION_MAJOR_CrashlyticsFramework 2
+#define COCOAPODS_VERSION_MINOR_CrashlyticsFramework 2
+#define COCOAPODS_VERSION_PATCH_CrashlyticsFramework 1
+
+// Harpy
+#define COCOAPODS_POD_AVAILABLE_Harpy
+#define COCOAPODS_VERSION_MAJOR_Harpy 2
+#define COCOAPODS_VERSION_MINOR_Harpy 5
+#define COCOAPODS_VERSION_PATCH_Harpy 4
+
 // Mixpanel
 #define COCOAPODS_POD_AVAILABLE_Mixpanel
 #define COCOAPODS_VERSION_MAJOR_Mixpanel 2
@@ -65,4 +77,34 @@
 #define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1
 #define COCOAPODS_VERSION_MINOR_SVProgressHUD 0
 #define COCOAPODS_VERSION_PATCH_SVProgressHUD 0
+
+// UIColor-ColorWithHexAndAlpha
+#define COCOAPODS_POD_AVAILABLE_UIColor_ColorWithHexAndAlpha
+#define COCOAPODS_VERSION_MAJOR_UIColor_ColorWithHexAndAlpha 1
+#define COCOAPODS_VERSION_MINOR_UIColor_ColorWithHexAndAlpha 2
+#define COCOAPODS_VERSION_PATCH_UIColor_ColorWithHexAndAlpha 0
+
+// UIDevice-SupportedDevices
+#define COCOAPODS_POD_AVAILABLE_UIDevice_SupportedDevices
+#define COCOAPODS_VERSION_MAJOR_UIDevice_SupportedDevices 1
+#define COCOAPODS_VERSION_MINOR_UIDevice_SupportedDevices 0
+#define COCOAPODS_VERSION_PATCH_UIDevice_SupportedDevices 1
+
+// UIFloatLabelTextField
+#define COCOAPODS_POD_AVAILABLE_UIFloatLabelTextField
+#define COCOAPODS_VERSION_MAJOR_UIFloatLabelTextField 1
+#define COCOAPODS_VERSION_MINOR_UIFloatLabelTextField 0
+#define COCOAPODS_VERSION_PATCH_UIFloatLabelTextField 7
+
+// UIFloatLabelTextView
+#define COCOAPODS_POD_AVAILABLE_UIFloatLabelTextView
+#define COCOAPODS_VERSION_MAJOR_UIFloatLabelTextView 1
+#define COCOAPODS_VERSION_MINOR_UIFloatLabelTextView 0
+#define COCOAPODS_VERSION_PATCH_UIFloatLabelTextView 1
+
+// UIView-AutoLayoutView
+#define COCOAPODS_POD_AVAILABLE_UIView_AutoLayoutView
+#define COCOAPODS_VERSION_MAJOR_UIView_AutoLayoutView 1
+#define COCOAPODS_VERSION_MINOR_UIView_AutoLayoutView 0
+#define COCOAPODS_VERSION_PATCH_UIView_AutoLayoutView 0
 
