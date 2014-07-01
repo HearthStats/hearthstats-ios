@@ -10,7 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-<<<<<<< HEAD
 		<key>009BE57AA2C04A5987F5A3AF</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -26,16 +25,13 @@
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>011E58741D6648BE8FF9F4F9</key>
-=======
 		<key>0016065B54A74FF0829594FF</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UITouch-KIFAdditions.m</string>
@@ -45,7 +41,6 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>019DD1D8049D4B658BA30C9F</key>
-=======
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>AFNetworkActivityIndicatorManager.h</string>
@@ -131,7 +126,6 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>018CBF5FE18942438F52CE10</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>children</key>
 			<array>
@@ -139,7 +133,6 @@
 				<string>ED09A9A09FD74A34A05BBFD4</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>KIF</string>
@@ -163,7 +156,6 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>0228A7ABACE240DB839A46BF</key>
-=======
 			<string>PBXFileReference</string>
 			<key>name</key>
 			<string>MPDismissKeyboard.png</string>
@@ -195,14 +187,12 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>021A12BADC274AE0B503C2EA</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>AFNetworking.h</string>
@@ -212,7 +202,6 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>02B19C95CCED4394B8CEEA85</key>
-=======
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-UIFloatLabelTextView-dummy.m</string>
@@ -234,16 +223,13 @@
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>032E2DABE9FB4142A48DD0AE</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>fileRef</key>
 			<string>8296F59F9CF34180840D6018</string>
 			<key>isa</key>
-<<<<<<< HEAD
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>035A007FBB30442F95D39E6A</key>
-=======
 			<string>PBXFileReference</string>
 			<key>name</key>
 			<string>MPCheckmark@2x.png</string>
@@ -253,15 +239,12 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>03BA5F01ABE44F3ABD45CBF0</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-<<<<<<< HEAD
 				<string>D1E13CC44CB94E3F8EB35BB7</string>
-=======
 				<string>25E903F00F9D485FAB429713</string>
 				<string>748476A5C31A4C83A38F2BC4</string>
 				<string>69FB956FF5A9406388AC3710</string>
@@ -274,14 +257,12 @@
 				<string>EE81285C37704268B1135ADE</string>
 				<string>39A5034123C7474FBD77DEE8</string>
 				<string>47A6E696E6C341F78A566378</string>
->>>>>>> origin/housekeeping
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-<<<<<<< HEAD
 		<key>044690F9A397462E9CA51C8F</key>
 		<dict>
 			<key>fileRef</key>
@@ -304,7 +285,6 @@
 			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>libPods-AFNetworking.a</string>
-=======
 		<key>05263937994D4C1982618803</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -332,24 +312,18 @@
 			<string>UIColor-ColorWithHexAndAlpha</string>
 			<key>path</key>
 			<string>UIColor-ColorWithHexAndAlpha</string>
->>>>>>> origin/housekeeping
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-<<<<<<< HEAD
 		<key>06E727FE44A9428B8D37379D</key>
-=======
 		<key>059F9F1B73204CD38B9A2528</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>fileRef</key>
 			<string>76BFD49C0F234B04B7B2D00B</string>
 			<key>isa</key>
-<<<<<<< HEAD
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>078CD37B86414D818B56989E</key>
-=======
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
@@ -361,14 +335,12 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>05A42D778F9C49DCAFB02E51</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIWindow-KIFAdditions.h</string>
@@ -387,7 +359,6 @@
 				<string>7A0203D0CBE9486896DE445C</string>
 				<string>766CFB5B1F2D44B0AF614A8A</string>
 				<string>72C7D75A9C0C47FA89B3E68B</string>
-=======
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-SVProgressHUD-Private.xcconfig</string>
@@ -401,12 +372,11 @@
 				<string>5914A6C8D0A34E948389CB86</string>
 				<string>806247F4D1A642ABBF35A8A6</string>
 				<string>59AABA85624041768B50DCED</string>
->>>>>>> origin/housekeeping
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>Pods-integrationTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -419,7 +389,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>094E09CF642D4E0684AD34FA</key>
-=======
+
 			<string>UIView-AutoLayoutView</string>
 			<key>path</key>
 			<string>UIView-AutoLayoutView</string>
@@ -427,7 +397,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>06E01D1342214E87B9FF8173</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -436,7 +406,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIView-KIFAdditions.m</string>
 			<key>path</key>
 			<string>Additions/UIView-KIFAdditions.m</string>
@@ -458,7 +428,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>0BF9B5BE7E6F45E8874699CD</key>
-=======
+
 			<string>NSData+MPBase64.m</string>
 			<key>path</key>
 			<string>Mixpanel/NSData+MPBase64.m</string>
@@ -466,14 +436,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>076BE0CA2F2547759E80D42C</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-Mixpanel.xcconfig</string>
@@ -481,7 +451,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0CA665BC2D3A4CB382603D18</key>
-=======
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIColor+MPColor.m</string>
@@ -491,7 +461,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>08299C34A3454DB6878D573F</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -500,7 +470,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-<<<<<<< HEAD
+
 			<string>Pods-AFNetworking.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -513,34 +483,34 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>0CC2C089BAAF41E0BCDB0979</key>
-=======
+
 			<string>Pods-UIDevice-SupportedDevices-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>090C95AF37834B81B8D34E9E</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIColor+MPColor.m</string>
 			<key>path</key>
 			<string>Mixpanel/UIColor+MPColor.m</string>
-=======
+
 			<string>CoreGraphics.framework</string>
 			<key>path</key>
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>0CDDCD98DA864B998C77A646</key>
-=======
+
 		<key>0A1C366368054BD0B6C5DB44</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -593,14 +563,14 @@
 			<string>Debug</string>
 		</dict>
 		<key>0A4552C39EE040BC84A65ED4</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIView+MPSnapshotImage.m</string>
@@ -613,7 +583,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>BFB3B9F4FEB243868AA262C9</string>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-Harpy-prefix.pch</string>
@@ -624,7 +594,7 @@
 		<dict>
 			<key>containerPortal</key>
 			<string>009864910D104BA0B45A490B</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
@@ -634,7 +604,7 @@
 			<key>remoteInfo</key>
 			<string>Pods-UIDevice-SupportedDevices</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>0DAF749C92FA4803AFB740BB</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -691,7 +661,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>16ACA9AE26464745AA2578AD</string>
-=======
+
 		<key>0A9BEF751E1E49A787F52176</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -722,7 +692,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>E3E8240B1BC64B75B8E8F197</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -731,12 +701,12 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>0E9C8F3C3C854C3EBDDAA8B4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
-=======
+
 		<key>0C1D2F04D74645A299C5C53C</key>
 		<dict>
 			<key>children</key>
@@ -748,13 +718,13 @@
 				<string>68901D357A304A0AA3E96715</string>
 				<string>F28C598F18A14F01805CB1B2</string>
 			</array>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>AFSecurityPolicy.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFSecurityPolicy.m</string>
@@ -762,13 +732,13 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0EC3EBDF86E74F65952D9089</key>
-=======
+
 			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0DA11D79A3664071A1CDF04B</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>76203FC9BF634463B6E0B793</string>
@@ -786,7 +756,7 @@
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIActivityIndicatorView+AFNetworking.m</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m</string>
@@ -794,7 +764,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0F6CA968819D4A929495DD8B</key>
-=======
+
 			<string>UIDevice-SupportedDevices</string>
 			<key>path</key>
 			<string>UIDevice-SupportedDevices</string>
@@ -809,7 +779,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>1094D362FEDD4AE6AB3442F9</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -818,7 +788,7 @@
 				<string>0193A2E41E5542F6977F9F4E</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
@@ -828,7 +798,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0F8ACE14243A4279A8E667C3</key>
-=======
+
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
@@ -841,7 +811,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>128D60E3339C4BD98F1B8BD0</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -850,7 +820,7 @@
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-<<<<<<< HEAD
+
 			<string>Pods-SSKeychain.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -859,7 +829,7 @@
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
-=======
+
 			<string>Pods-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -883,7 +853,7 @@
 			<array>
 				<string>3FA908DF1AA54EB593F03A55</string>
 			</array>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -895,17 +865,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>106C5611715F47E793EF8650</key>
 		<dict>
 			<key>fileRef</key>
 			<string>68C3DA86393746A7A1D579D8</string>
-=======
+
 		<key>150A1002BA6C4D1F8D308068</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -917,7 +887,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>10EA7544890D4531B65A5C7D</key>
 		<dict>
 			<key>fileRef</key>
@@ -926,7 +896,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>115C7208EFB24F14ABA36945</key>
-=======
+
 		<key>15F90CEA30F84D09B2C8EEB7</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -969,7 +939,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>17317DB3A730421087EE29DF</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -977,7 +947,7 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>KIFTypist.h</string>
 			<key>path</key>
@@ -998,7 +968,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>288F48602CEB4A128454B0A1</string>
-=======
+
 			<key>path</key>
 			<string>Pods-UIColor-ColorWithHexAndAlpha-prefix.pch</string>
 			<key>sourceTree</key>
@@ -1036,7 +1006,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>806247F4D1A642ABBF35A8A6</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1045,9 +1015,9 @@
 				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>1543AD9FA33C43D3904FAA8C</key>
-=======
+
 		<key>18DCD708064F412D98BB649E</key>
 		<dict>
 			<key>isa</key>
@@ -1058,12 +1028,12 @@
 			<string>9DBD722FD24743949E3A5BB2</string>
 		</dict>
 		<key>199729D27F2445B8B442E249</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>32ECF00F87244004A0C40BD2</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>167D1C9B51E242B38E06C7A6</key>
@@ -1081,7 +1051,7 @@
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>16ACA9AE26464745AA2578AD</key>
-=======
+
 			<string>PBXFileReference</string>
 			<key>name</key>
 			<string>MPCloseBtn.png</string>
@@ -1091,7 +1061,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>19D3537F2126491BBCC9C1D3</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>children</key>
 			<array>
@@ -1102,7 +1072,7 @@
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIImage+MPAverageColor.m</string>
 			<key>path</key>
 			<string>Mixpanel/UIImage+MPAverageColor.m</string>
@@ -1117,7 +1087,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>17BF3ABBA630445EAEC3EBB9</key>
-=======
+
 			<string>CrashlyticsFramework</string>
 			<key>path</key>
 			<string>CrashlyticsFramework</string>
@@ -1162,7 +1132,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1D09C455DE7D4FF4A7085D0C</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>3B470B9D697E49DA8516AE82</string>
@@ -1177,7 +1147,7 @@
 			<key>dependencies</key>
 			<array/>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -1187,7 +1157,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>17DDCE2C9B2C4E77B9088CE1</key>
-=======
+
 			<string>PBXNativeTarget</string>
 			<key>name</key>
 			<string>Pods-AFNetworking</string>
@@ -1206,7 +1176,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>1DE821BEE20B4A0EAB84C84F</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1215,7 +1185,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>KIFSystemTestActor.h</string>
 			<key>path</key>
 			<string>Classes/KIFSystemTestActor.h</string>
@@ -1230,7 +1200,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>19A9EE326D724CF0B1695FCA</key>
-=======
+
 			<string>AFHTTPSessionManager.h</string>
 			<key>path</key>
 			<string>AFNetworking/AFHTTPSessionManager.h</string>
@@ -1238,19 +1208,19 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1E67E9464443481DB6AA78F7</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>17DDCE2C9B2C4E77B9088CE1</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>19F5C5E37C894F909D83CFFA</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>54BEA0DDCCF74065A6164017</string>
-=======
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
@@ -3945,7 +3915,7 @@
 			<string>0</string>
 			<key>defaultConfigurationName</key>
 			<string>Release</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
@@ -3955,7 +3925,7 @@
 			<key>remoteInfo</key>
 			<string>Pods-AFNetworking</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>1B18D6CCB0824515BE4965C9</key>
 		<dict>
 			<key>isa</key>
@@ -3973,7 +3943,7 @@
 		<dict>
 			<key>containerPortal</key>
 			<string>54BEA0DDCCF74065A6164017</string>
-=======
+
 		<key>806247F4D1A642ABBF35A8A6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3993,7 +3963,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>EFAD036D4C4649AA8A9BAEA3</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
@@ -4003,9 +3973,9 @@
 			<key>remoteInfo</key>
 			<string>Pods-integrationTests-KIF</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>1BA356418D2A4EBE86C0D86E</key>
-=======
+
 		<key>81BF2472DFC5486F8224AA40</key>
 		<dict>
 			<key>containerPortal</key>
@@ -4020,7 +3990,7 @@
 			<string>Pods-UIFloatLabelTextView</string>
 		</dict>
 		<key>83B67C9A1DEF4D6089A3DD7F</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>children</key>
 			<array>
@@ -4030,7 +4000,7 @@
 				<string>A9843B4C0C574083B6495C00</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>SVProgressHUD</string>
@@ -4043,7 +4013,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>4F5EB16157974E349158FBFD</string>
-=======
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -4080,11 +4050,11 @@
 		<dict>
 			<key>fileRef</key>
 			<string>C7D6A55B1A8943D293AF9ED3</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>1D3D6972A8464A58980859FF</key>
 		<dict>
 			<key>fileRef</key>
@@ -4113,7 +4083,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>20927FCBFCE44DDC90E46787</key>
-=======
+
 		<key>85E9158C2CA04C8594AE088E</key>
 		<dict>
 			<key>fileRef</key>
@@ -4136,7 +4106,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>89FE13892BA5490DBD7C97C5</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4145,7 +4115,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIAlertView+AFNetworking.h</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIAlertView+AFNetworking.h</string>
@@ -4160,7 +4130,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>22462337B3494530931A3A5F</key>
-=======
+
 			<string>NSData+MPBase64.h</string>
 			<key>path</key>
 			<string>Mixpanel/NSData+MPBase64.h</string>
@@ -4168,14 +4138,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8A048ABB83BB4ACAA9CA6AC9</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-integrationTests.xcconfig</string>
@@ -4186,7 +4156,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>FB8762D15B0D4C37B3DC98C4</string>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIView+MPSnapshotImage.h</string>
@@ -4215,7 +4185,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>9E7CFED95D664965985EC8FB</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4224,7 +4194,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>2564F3CDE180408DBC801894</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -4281,7 +4251,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>295B3401E0C34EF09B928CAE</string>
-=======
+
 		<key>8B546DE9692F4620900EA32F</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -4296,7 +4266,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array/>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
@@ -4308,11 +4278,11 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>264D794C91B440A1ACC6352A</key>
-=======
+
 		<key>8BEC63B352824D74BB488BB0</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4321,7 +4291,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>KIFTestCase.h</string>
 			<key>path</key>
 			<string>Classes/KIFTestCase.h</string>
@@ -4345,7 +4315,7 @@
 			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>288F48602CEB4A128454B0A1</key>
-=======
+
 			<string>AFSecurityPolicy.h</string>
 			<key>path</key>
 			<string>AFNetworking/AFSecurityPolicy.h</string>
@@ -4353,14 +4323,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8CDAC65C8BC44E4FBFBD9C3C</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>AFHTTPSessionManager.m</string>
@@ -4370,7 +4340,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>295B3401E0C34EF09B928CAE</key>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MPSurveyQuestionViewController.h</string>
@@ -4380,13 +4350,13 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8CEBA07DFBD4409A8D9A6484</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
@@ -4404,7 +4374,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>29D5FB96F2DD48D6B221126A</key>
-=======
+
 			<key>name</key>
 			<string>MPCloseBtn@2x.png</string>
 			<key>path</key>
@@ -4420,26 +4390,26 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>8DACC236A58E4443A117EA96</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>XCTest.framework</string>
 			<key>path</key>
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework</string>
-=======
+
 			<string>UIImageView+AFNetworking.h</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIImageView+AFNetworking.h</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>2A5C8D1EFA2A4B96BD7E7ACE</key>
 		<dict>
 			<key>containerPortal</key>
@@ -4454,7 +4424,7 @@
 			<string>Pods-Mixpanel</string>
 		</dict>
 		<key>2B1CE40F22D847BD9A39BA7A</key>
-=======
+
 		<key>8DD8B81E54CE47B5AED83DE1</key>
 		<dict>
 			<key>children</key>
@@ -4472,14 +4442,14 @@
 			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>8F173B1317DB49EFA7C51999</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIProgressView+AFNetworking.h</string>
@@ -4489,7 +4459,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2CC4E5C1152045E892C8312B</key>
-=======
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-UIDevice-SupportedDevices.xcconfig</string>
@@ -4497,7 +4467,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>91667C9F892649DDAB6C7049</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4506,7 +4476,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UITouch-KIFAdditions.h</string>
 			<key>path</key>
 			<string>Additions/UITouch-KIFAdditions.h</string>
@@ -4514,7 +4484,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2CD4C5C5ED004FCDA64F64AD</key>
-=======
+
 			<string>AFURLConnectionOperation.h</string>
 			<key>path</key>
 			<string>AFNetworking/AFURLConnectionOperation.h</string>
@@ -4522,14 +4492,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>91EFA2CF01EA4DEA89231576</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>KIFSystemTestActor.m</string>
@@ -4539,7 +4509,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2CD708A565E44C5C8B275A7D</key>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-Mixpanel-prefix.pch</string>
@@ -4572,7 +4542,7 @@
 			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>9363FF54D41248FE89212F9C</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4594,7 +4564,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>AFHTTPRequestOperation.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFHTTPRequestOperation.m</string>
@@ -4609,7 +4579,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>2DC2DD165DC845D5835D3330</key>
-=======
+
 			<string>AFHTTPRequestOperation.h</string>
 			<key>path</key>
 			<string>AFNetworking/AFHTTPRequestOperation.h</string>
@@ -4617,7 +4587,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>944507E40A4A47348B116D88</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4626,7 +4596,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIImageView+AFNetworking.m</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIImageView+AFNetworking.m</string>
@@ -4646,7 +4616,7 @@
 			</dict>
 		</dict>
 		<key>2E1739ED535F4FC5AFFB9F83</key>
-=======
+
 			<string>SVProgressHUD.h</string>
 			<key>path</key>
 			<string>SVProgressHUD/SVProgressHUD.h</string>
@@ -4689,7 +4659,7 @@
 			<string>0</string>
 		</dict>
 		<key>956C855C370F451D90151315</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4698,7 +4668,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>MPSurveyQuestionViewController.h</string>
 			<key>path</key>
 			<string>Mixpanel/MPSurveyQuestionViewController.h</string>
@@ -4706,7 +4676,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2F4E5B49CB36455290A79491</key>
-=======
+
 			<string>UIImage+MPAverageColor.h</string>
 			<key>path</key>
 			<string>Mixpanel/UIImage+MPAverageColor.h</string>
@@ -4729,7 +4699,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>95FF65572E9C4732A632C27F</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4738,7 +4708,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>NSException-KIFAdditions.m</string>
 			<key>path</key>
 			<string>Additions/NSException-KIFAdditions.m</string>
@@ -4746,7 +4716,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>32ECF00F87244004A0C40BD2</key>
-=======
+
 			<string>AFHTTPRequestOperation.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFHTTPRequestOperation.m</string>
@@ -4761,14 +4731,14 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>960A4A4B583D4329B58F17A5</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>XCTestCase-KIFAdditions.h</string>
@@ -4804,7 +4774,7 @@
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>33D77AB20B624E39B4965B54</key>
-=======
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MPNotificationViewController.m</string>
@@ -4814,14 +4784,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>966548A704144B9FBF5ED05D</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MPNotification.m</string>
@@ -4843,7 +4813,7 @@
 			</dict>
 		</dict>
 		<key>34313B0A31ED48A5AA0EBB27</key>
-=======
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-UIView-AutoLayoutView.xcconfig</string>
@@ -4912,7 +4882,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>99AFA83BE9EE453F92EC67ED</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4921,7 +4891,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>MPSurvey.h</string>
 			<key>path</key>
 			<string>Mixpanel/MPSurvey.h</string>
@@ -4932,7 +4902,7 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>9AE45183CD224E38B9F9C747</string>
-=======
+
 			<string>AFNetworkActivityIndicatorManager.m</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m</string>
@@ -4977,7 +4947,7 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>05A42D778F9C49DCAFB02E51</string>
->>>>>>> origin/housekeeping
+
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -4995,11 +4965,11 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-<<<<<<< HEAD
+
 				<string>Pods-integrationTests-KIF-prefix.pch</string>
-=======
+
 				<string>Pods-SVProgressHUD-prefix.pch</string>
->>>>>>> origin/housekeeping
+
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -5029,7 +4999,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>34AD7E22668E4316BEB82B28</key>
 		<dict>
 			<key>fileRef</key>
@@ -5050,9 +5020,9 @@
 			</dict>
 		</dict>
 		<key>356B69BD1C5542598AD7C944</key>
-=======
+
 		<key>9D9908EE4CD44F8DA170DF05</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -5060,7 +5030,7 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>UIAlertView+AFNetworking.m</string>
 			<key>path</key>
@@ -5094,7 +5064,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>44494241C3934EE3BB169994</string>
-=======
+
 			<key>path</key>
 			<string>Pods-CrashlyticsFramework-dummy.m</string>
 			<key>sourceTree</key>
@@ -5104,7 +5074,7 @@
 		<dict>
 			<key>containerPortal</key>
 			<string>009864910D104BA0B45A490B</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
@@ -5114,47 +5084,47 @@
 			<key>remoteInfo</key>
 			<string>Pods-UIColor-ColorWithHexAndAlpha</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>3613EF3E7947414B85B95934</key>
-=======
+
 		<key>9E191A2B05C845C3A3FED706</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>KIFTestStepValidation.h</string>
 			<key>path</key>
 			<string>Classes/KIFTestStepValidation.h</string>
-=======
+
 			<string>text</string>
 			<key>name</key>
 			<string>Podfile</string>
 			<key>path</key>
 			<string>../Podfile</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>37E9F514EBB742C8B466195A</key>
-=======
+
 		<key>9E7CFED95D664965985EC8FB</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIActivityIndicatorView+AFNetworking.h</string>
@@ -5211,7 +5181,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3BCFF74EE6314642826F474C</key>
-=======
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIFloatLabelTextField.m</string>
@@ -5221,14 +5191,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9EB2B99F114545A19E7798DC</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>NSFileManager-KIFAdditions.m</string>
@@ -5273,7 +5243,7 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>67E2896629A84FD591ACB931</string>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>Crashlytics.h</string>
@@ -5286,7 +5256,7 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>FF338AB108A645A19CB70971</string>
->>>>>>> origin/housekeeping
+
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -5304,11 +5274,11 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-<<<<<<< HEAD
+
 				<string>Pods-SVProgressHUD-prefix.pch</string>
-=======
+
 				<string>Pods-CrashlyticsFramework-prefix.pch</string>
->>>>>>> origin/housekeeping
+
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -5338,7 +5308,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>3DC531B415054B44A6212934</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -5369,7 +5339,7 @@
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>3F5ED18C974A4537813E9354</key>
-=======
+
 		<key>9FB0968D247C40C1979254CA</key>
 		<dict>
 			<key>fileRef</key>
@@ -5378,29 +5348,29 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>A0097975B0BD4522A855C8EA</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-<<<<<<< HEAD
+
 				<string>8B2885D2F1BB4F4886F46006</string>
 				<string>C29DDDE0FA9447489DC64F59</string>
-=======
+
 				<string>255ED19D695B4FE2AE5B0615</string>
 				<string>FE2AF500AFEF44FCA15E7BB6</string>
 				<string>0FDDA92EA5344ACCBEEF297C</string>
 				<string>7844151FF491400EB2E08800</string>
 				<string>B3356773E00242D7B39FD5F4</string>
->>>>>>> origin/housekeeping
+
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>3F9A724C22EB4B7CB6DAC7F5</key>
 		<dict>
 			<key>fileRef</key>
@@ -5416,9 +5386,9 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>4091CB612DEB42A88090BCAE</key>
-=======
+
 		<key>A07E01C6F6584E6497BB3D01</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -5426,7 +5396,7 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
@@ -5437,21 +5407,21 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>40C5735D2E26494080F6171F</key>
-=======
+
 			<key>path</key>
 			<string>libPods-Harpy.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>A0ECCA78B5D74567B80DCB90</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>AFURLRequestSerialization.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFURLRequestSerialization.m</string>
@@ -5462,7 +5432,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>BD2DFF80F3B74FDDB679A503</string>
-=======
+
 			<string>MPCheckmark.png</string>
 			<key>path</key>
 			<string>Mixpanel/Media.xcassets/MPCheckmark.imageset/MPCheckmark.png</string>
@@ -5473,11 +5443,11 @@
 		<dict>
 			<key>fileRef</key>
 			<string>369FE9732F824D67908D3CB2</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>421860FF9184480B8C1A1E86</key>
 		<dict>
 			<key>children</key>
@@ -5502,7 +5472,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>4365CD7F34AC4EE99B506A0A</key>
-=======
+
 		<key>A51A7B57782D4BB4AA30BCB8</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -5546,7 +5516,7 @@
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>A63072496E5748C283F0A920</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -5555,7 +5525,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>MPDismissKeyboard@2x.png</string>
 			<key>path</key>
 			<string>Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard@2x.png</string>
@@ -5563,7 +5533,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4446BAC8429146EA8378F192</key>
-=======
+
 			<string>UIKit+AFNetworking.h</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIKit+AFNetworking.h</string>
@@ -5571,13 +5541,13 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A6693E2B15684812B311D430</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
@@ -5588,7 +5558,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>44494241C3934EE3BB169994</key>
-=======
+
 			<key>name</key>
 			<string>MPNotification.storyboard</string>
 			<key>path</key>
@@ -5597,14 +5567,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A767466AAAF6445AADC4D6F6</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>AFURLConnectionOperation.h</string>
@@ -5614,7 +5584,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>44620EE5EE3843D9A9E11F66</key>
-=======
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-UIView-AutoLayoutView-Private.xcconfig</string>
@@ -5650,13 +5620,13 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>A986F0A38B9B45F2AE1233DF</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
@@ -5668,7 +5638,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>4C3B7295CA9E4A4D9AA24AD3</string>
-=======
+
 			<key>name</key>
 			<string>MPCloseBtn@2x.png</string>
 			<key>path</key>
@@ -5680,7 +5650,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>4A72821A2AB246789B9BFA23</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -5702,21 +5672,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>452CCAF7B81044A183883388</key>
-=======
+
 		<key>A9E1A90A7BFB48E9934A70C2</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>7A0203D0CBE9486896DE445C</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>45DEFC6348DB49F084E5F9ED</key>
 		<dict>
-=======
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -5800,7 +5770,7 @@
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
 			</dict>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>target</key>
@@ -5808,7 +5778,7 @@
 			<key>targetProxy</key>
 			<string>1B1A8C72E55B4C52BB94DBBB</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>467070E629A64D12867D339F</key>
 		<dict>
 			<key>children</key>
@@ -5818,7 +5788,7 @@
 				<string>862810A224DE44E9A0D69400</string>
 				<string>568634D20746441EB82B191C</string>
 				<string>1BA356418D2A4EBE86C0D86E</string>
-=======
+
 		<key>ACA8091ADEEE48DFBE7AE66B</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -5847,18 +5817,18 @@
 				<string>E3E8240B1BC64B75B8E8F197</string>
 				<string>14E95FDCAFF54BD8849307D5</string>
 				<string>8ABF857E7ECE4BC4A90AA393</string>
->>>>>>> origin/housekeeping
+
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>468891E7A7A8481BA76952E2</key>
-=======
+
 			<string>Harpy</string>
 			<key>path</key>
 			<string>Harpy</string>
@@ -5888,14 +5858,14 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>B1638E0849134F2DAA97D7D1</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-AFNetworking-Private.xcconfig</string>
@@ -5903,7 +5873,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>47C723B61734443796F8AD87</key>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MPSurveyNavigationController.h</string>
@@ -5913,7 +5883,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B18A5E0B29814DCD8CF9C9B2</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -5922,7 +5892,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIWindow-KIFAdditions.m</string>
 			<key>path</key>
 			<string>Additions/UIWindow-KIFAdditions.m</string>
@@ -5960,7 +5930,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>B62347A7B14F4AE9878C3ED5</string>
-=======
+
 			<string>UIDevice+SupportedDevices.h</string>
 			<key>path</key>
 			<string>UIDevice+SupportedDevices/UIDevice+SupportedDevices.h</string>
@@ -5994,21 +5964,21 @@
 		<dict>
 			<key>fileRef</key>
 			<string>D42073FDF80D408EB0AAC5DA</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>49FC688A883F4A0EB520F19E</key>
-=======
+
 		<key>B378F8ED889D4A98AEA1F2A0</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-<<<<<<< HEAD
+
 				<string>779AB223B13240079290DF5F</string>
 			</array>
 			<key>isa</key>
@@ -6017,7 +5987,7 @@
 			<string>0</string>
 		</dict>
 		<key>4AC7FD6C43B24000944D41D9</key>
-=======
+
 				<string>150A1002BA6C4D1F8D308068</string>
 				<string>9E7CFED95D664965985EC8FB</string>
 				<string>4AFCD67B90F84450A911D8E7</string>
@@ -6032,7 +6002,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B3B35828AE8648C9AFE49929</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>475A5C481471420698C14B56</string>
@@ -6061,7 +6031,7 @@
 				<string>28A922EC08A64BEFB43C5774</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -6076,7 +6046,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>B435364A19904406ADE1EBF1</string>
-=======
+
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
@@ -6124,7 +6094,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>99AFA83BE9EE453F92EC67ED</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -6133,7 +6103,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>4BEE9D9BC9994143AAF41305</key>
 		<dict>
 			<key>children</key>
@@ -6165,7 +6135,7 @@
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
-=======
+
 		<key>B705285CD8984027B87EC11F</key>
 		<dict>
 			<key>fileRef</key>
@@ -6246,7 +6216,7 @@
 			<string>0</string>
 			<key>defaultConfigurationName</key>
 			<string>Release</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
@@ -6256,7 +6226,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>4E25D973A61346B7B56743DF</key>
 		<dict>
 			<key>fileRef</key>
@@ -6270,16 +6240,16 @@
 			</dict>
 		</dict>
 		<key>4F45CB7F0BC046408365F35A</key>
-=======
+
 		<key>B7ECF14ED61543329DF19031</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>SSKeychain.h</string>
@@ -6289,7 +6259,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4F5EB16157974E349158FBFD</key>
-=======
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-UIFloatLabelTextView-Private.xcconfig</string>
@@ -6297,7 +6267,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B8E5A756D5C04F49B1DDCFED</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>DCA0C9E7024849B79B922E70</string>
@@ -6312,7 +6282,7 @@
 			<key>dependencies</key>
 			<array/>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
@@ -6350,7 +6320,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>5147DAF3B60B4D30856EE162</key>
-=======
+
 			<string>PBXNativeTarget</string>
 			<key>name</key>
 			<string>Pods-Mixpanel</string>
@@ -6362,12 +6332,12 @@
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>B915050799F94A259C4325CE</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>B1638E0849134F2DAA97D7D1</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text</string>
@@ -6413,7 +6383,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>51F5723D19A94FB98783724D</key>
-=======
+
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>B97E491C3D744F0DBE3239C1</key>
@@ -6438,12 +6408,12 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>BA12DFDC0F4E4F4095CF875A</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>5ABC7960ECED4C44B19A44A5</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -6465,7 +6435,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>874A33D8615A4593867C6FC9</string>
-=======
+
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
@@ -6477,29 +6447,29 @@
 		<dict>
 			<key>fileRef</key>
 			<string>682F31825B254780ACF1086E</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-<<<<<<< HEAD
+
 				<string>-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
 		<key>54A2EB6814C348678FEB1DF8</key>
-=======
+
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
 		<key>BB5096D433004EA0910913DE</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>MPArrowLeft@2x.png</string>
 			<key>path</key>
@@ -6610,7 +6580,7 @@
 				<string>646F0D6F165C4BB0A9225758</string>
 				<string>E9332C715CA848EB9C5DA5BF</string>
 				<string>F3AA0180916A46259EC851C8</string>
-=======
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
@@ -6627,7 +6597,7 @@
 				<string>49459F0337094FFEB45F573B</string>
 				<string>9709085480434CA5B0A22775</string>
 				<string>05263937994D4C1982618803</string>
->>>>>>> origin/housekeeping
+
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -6640,7 +6610,7 @@
 			<key>productName</key>
 			<string>Pods-UIFloatLabelTextField</string>
 			<key>productReference</key>
-<<<<<<< HEAD
+
 			<string>CF5FE316B98E43A5BDA01825</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
@@ -6698,7 +6668,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5D5376E90FB144AC884ABEE1</key>
-=======
+
 			<string>38FF0A89085544869CB8CDF9</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
@@ -6716,7 +6686,7 @@
 			</dict>
 		</dict>
 		<key>BC33F3F7626342499CF31B35</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -6725,7 +6695,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>NSException-KIFAdditions.h</string>
 			<key>path</key>
 			<string>Additions/NSException-KIFAdditions.h</string>
@@ -6878,7 +6848,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>33D77AB20B624E39B4965B54</string>
-=======
+
 			<string>UIImage+MPAverageColor.m</string>
 			<key>path</key>
 			<string>Mixpanel/UIImage+MPAverageColor.m</string>
@@ -6909,7 +6879,7 @@
 		</dict>
 		<key>BCEC27107A3941158F7F020C</key>
 		<dict>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>target</key>
@@ -6917,18 +6887,18 @@
 			<key>targetProxy</key>
 			<string>A9E45AA1529943C88C0FD957</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>668174A714F14E78ADF14CAD</key>
-=======
+
 		<key>BE3357AB9170497E96EF2ECF</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIButton+AFNetworking.m</string>
 			<key>path</key>
 			<string>UIKit+AFNetworking/UIButton+AFNetworking.m</string>
@@ -6949,7 +6919,7 @@
 			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>67E2896629A84FD591ACB931</key>
-=======
+
 			<string>MPArrowRight@2x.png</string>
 			<key>path</key>
 			<string>Mixpanel/Media.xcassets/MPArrowRight.imageset/MPArrowRight@2x.png</string>
@@ -6957,7 +6927,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BEC529FB816A4C6C8FCB5AC0</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -6965,23 +6935,23 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-SVProgressHUD-Private.xcconfig</string>
-=======
+
 			<key>path</key>
 			<string>libPods-SVProgressHUD.a</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>68C3DA86393746A7A1D579D8</key>
-=======
+
 		<key>BF8945AEAF0B41F3A5393E9B</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -6989,7 +6959,7 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>KIFTestActor.h</string>
 			<key>path</key>
@@ -7029,7 +6999,7 @@
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
-=======
+
 			<key>path</key>
 			<string>Pods-AFNetworking-prefix.pch</string>
 			<key>sourceTree</key>
@@ -7160,7 +7130,7 @@
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
 			</dict>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7172,11 +7142,11 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>69F18A06589B4ACC865F0BBC</key>
-=======
+
 		<key>C54CCE7D1D304A849277A1BC</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -7185,7 +7155,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>MPSurveyQuestion.m</string>
 			<key>path</key>
 			<string>Mixpanel/MPSurveyQuestion.m</string>
@@ -7193,7 +7163,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6AF9B19E33B24E339105E302</key>
-=======
+
 			<string>AFHTTPRequestOperationManager.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFHTTPRequestOperationManager.m</string>
@@ -7208,14 +7178,14 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C5A1C0A43D3A4EB3A00F0955</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-integrationTests-acknowledgements.plist</string>
@@ -7226,7 +7196,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>47C723B61734443796F8AD87</string>
-=======
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>AFURLSessionManager.m</string>
@@ -7239,7 +7209,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>F9456F45AB85462A8327569C</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -7248,23 +7218,23 @@
 				<string>-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>6CA6B8C012094E8893DFD2FC</key>
 		<dict>
 			<key>fileRef</key>
 			<string>2F4E5B49CB36455290A79491</string>
-=======
+
 		<key>C636F8238C4C4A14A129C7E2</key>
 		<dict>
 			<key>fileRef</key>
 			<string>FBCBFDD87D0D4819A8145A76</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-<<<<<<< HEAD
+
 				<string>-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
@@ -7283,7 +7253,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>6EEC04799F574AF0B5CA3FF4</key>
-=======
+
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
@@ -7311,30 +7281,30 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C7D6A55B1A8943D293AF9ED3</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-SSKeychain-prefix.pch</string>
-=======
+
 			<string>wrapper.framework</string>
 			<key>name</key>
 			<string>Foundation.framework</string>
 			<key>path</key>
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>6EF8A247724A41FBB702FC65</key>
-=======
+
 		<key>C7F83482A61A42C9A16B5E78</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -7361,7 +7331,7 @@
 				<string>47E45542B58747A8B07EE053</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -7371,18 +7341,18 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6FCDA07E00494790A9E2E9F6</key>
-=======
+
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
 		<key>C86A7DF7688649279DD5E563</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>06E01D1342214E87B9FF8173</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>name</key>
 			<string>MPCheckmark.png</string>
@@ -7392,7 +7362,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6FE8E44F93D2483AA2B76D52</key>
-=======
+
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
@@ -7435,7 +7405,7 @@
 			<string>61DCBD7612654B44A5C81B97</string>
 		</dict>
 		<key>CD6069121EF1477A9B47E341</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -7443,21 +7413,21 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MPSurveyNavigationController.h</string>
 			<key>path</key>
 			<string>Mixpanel/MPSurveyNavigationController.h</string>
-=======
+
 			<key>path</key>
 			<string>libPods-UIDevice-SupportedDevices.a</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>704B53F9F2624742A4D82AA4</key>
 		<dict>
 			<key>fileRef</key>
@@ -7492,7 +7462,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>7273C376D0704FE499D1B1FA</key>
-=======
+
 		<key>CD6D521121434732A6918B6C</key>
 		<dict>
 			<key>fileRef</key>
@@ -7501,14 +7471,14 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>CE933233B117492CBC00B262</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIApplication-KIFAdditions.m</string>
@@ -7518,7 +7488,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>72C7D75A9C0C47FA89B3E68B</key>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIActivityIndicatorView+AFNetworking.h</string>
@@ -7528,14 +7498,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CE9A743A890A4F70BE11ACCC</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-integrationTests-resources.sh</string>
@@ -7546,7 +7516,7 @@
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-UIFloatLabelTextView-prefix.pch</string>
@@ -7557,7 +7527,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>8DACC236A58E4443A117EA96</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -7569,7 +7539,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>74B4FAC27507434282495FC9</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -7659,12 +7629,12 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>F3169076A04744AE9AC42BAD</string>
-=======
+
 		<key>D0CB04697C2649C58A2B6502</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>A767466AAAF6445AADC4D6F6</string>
->>>>>>> origin/housekeeping
+
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -7682,11 +7652,11 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-<<<<<<< HEAD
+
 				<string>Pods-Mixpanel-prefix.pch</string>
-=======
+
 				<string>Pods-UIView-AutoLayoutView-prefix.pch</string>
->>>>>>> origin/housekeeping
+
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -7716,7 +7686,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>7A0203D0CBE9486896DE445C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -8029,9 +7999,9 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8296F59F9CF34180840D6018</key>
-=======
+
 		<key>D126ADD870CE4A049B55FAF5</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>DDC0ED3276FA42DA85FD1911</string>
@@ -8081,7 +8051,7 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>CGGeometry-KIFAdditions.h</string>
 			<key>path</key>
 			<string>Additions/CGGeometry-KIFAdditions.h</string>
@@ -9820,7 +9790,7 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>A27B0F3475A546E0B8B07428</string>
-=======
+
 			<string>Release</string>
 		</dict>
 		<key>D1891745EAFE402B9994FBC1</key>
@@ -9834,7 +9804,7 @@
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>6A0EE4406B8341E4BD0DE64D</string>
->>>>>>> origin/housekeeping
+
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -9852,7 +9822,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-<<<<<<< HEAD
+
 				<string>Pods-SSKeychain-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
@@ -9861,9 +9831,9 @@
 				</array>
 				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
 				<string>NO</string>
-=======
+
 				<string>Pods-UIColor-ColorWithHexAndAlpha-prefix.pch</string>
->>>>>>> origin/housekeeping
+
 				<key>GCC_VERSION</key>
 				<string>com.apple.compilers.llvm.clang.1_0</string>
 				<key>INSTALL_PATH</key>
@@ -9884,7 +9854,7 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>Debug</string>
 		</dict>
 		<key>C69513D0F0B4421BA114201D</key>
@@ -9909,7 +9879,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C77260338CEE4D3B85FB5B32</key>
-=======
+
 			<string>Release</string>
 		</dict>
 		<key>D32AAAD4F9CA48089EB00226</key>
@@ -10032,19 +10002,19 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D6161B7ECF1748F6A9B01A37</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>939162D1D75346C6892DD0EB</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>C7D2D1A85C5A4978833AE42E</key>
 		<dict>
 			<key>fileRef</key>
 			<string>EA1569CF024F4F15A836500F</string>
-=======
+
 			<string>PBXFileReference</string>
 			<key>name</key>
 			<string>MPArrowLeft.png</string>
@@ -10071,7 +10041,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>D3FD668F9D3A498480E5E7BA</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -10080,9 +10050,9 @@
 				<string>-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>C7F25726362E4BB193020C4E</key>
-=======
+
 		<key>D99200C5445D46EE8BA0FA0B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -10111,7 +10081,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>DBEFBD85F1B249E38BF69769</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>children</key>
 			<array>
@@ -10123,7 +10093,7 @@
 				<string>E0CEB217B5194DBFBA8C54BA</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Pods</string>
@@ -10131,7 +10101,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C9045C55EAEF4E7AAD3465C9</key>
-=======
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
@@ -10156,13 +10126,13 @@
 			<string>Pods-CrashlyticsFramework</string>
 		</dict>
 		<key>DC507C833AAA4FBFB18E717C</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>MPLogo.png</string>
 			<key>path</key>
@@ -10178,7 +10148,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>CA7CCD2CAD664EA9B44B8D11</key>
-=======
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
@@ -10216,7 +10186,7 @@
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>DCA1D43A576141DD8FA8A9E5</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -10225,7 +10195,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>Mixpanel.h</string>
 			<key>path</key>
 			<string>Mixpanel/Mixpanel.h</string>
@@ -10236,7 +10206,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>68D9727217E342E08C9695C9</string>
-=======
+
 			<string>SSKeychainQuery.h</string>
 			<key>path</key>
 			<string>SSKeychain/SSKeychainQuery.h</string>
@@ -10247,7 +10217,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>7246D901F5214EB5992B2279</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -10256,7 +10226,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>CB370E02B8B24DCB9C5CDFA3</key>
 		<dict>
 			<key>fileRef</key>
@@ -10286,12 +10256,12 @@
 		<dict>
 			<key>fileRef</key>
 			<string>84034D8F200C4E65B243E55E</string>
-=======
+
 		<key>DCF1887DC45B41D9A9126659</key>
 		<dict>
 			<key>fileRef</key>
 			<string>A51A7B57782D4BB4AA30BCB8</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -10300,7 +10270,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>CCDE743CA5DC43729979687E</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -10319,16 +10289,16 @@
 			<string>0</string>
 		</dict>
 		<key>CD1836E115364B99B1CECEA1</key>
-=======
+
 		<key>DD991FB131794EF19DCAEBD7</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UITableView-KIFAdditions.h</string>
@@ -10338,7 +10308,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CD512C914CF84910AD0D9D81</key>
-=======
+
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-UIDevice-SupportedDevices-Private.xcconfig</string>
@@ -10346,13 +10316,13 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DDC0ED3276FA42DA85FD1911</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>MPCloseBtn@2x.png</string>
 			<key>path</key>
@@ -10361,7 +10331,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CF3F9357FA3046C7B50EF3B0</key>
-=======
+
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
@@ -10370,13 +10340,13 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DE32F9E845804458AB44F93A</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-<<<<<<< HEAD
+
 				<string>94155BE764E7486D8309A724</string>
 				<string>01D971DE4D4D4DF9BAFDBBB3</string>
 				<string>C77260338CEE4D3B85FB5B32</string>
@@ -10403,7 +10373,7 @@
 			<string>0</string>
 		</dict>
 		<key>CF5FE316B98E43A5BDA01825</key>
-=======
+
 				<string>9FB0968D247C40C1979254CA</string>
 			</array>
 			<key>isa</key>
@@ -10412,7 +10382,7 @@
 			<string>0</string>
 		</dict>
 		<key>DE9714CAA576430E86BC0F45</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -10420,33 +10390,33 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>path</key>
 			<string>libPods-SSKeychain.a</string>
-=======
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>UIColor+ColorWithHexAndAlpha.m</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>D1E13CC44CB94E3F8EB35BB7</key>
 		<dict>
 			<key>fileRef</key>
 			<string>B642AB0C69D14BF089E2F804</string>
-=======
+
 		<key>DEA78ACA5A1240B393ED494E</key>
 		<dict>
 			<key>fileRef</key>
 			<string>D61449120CC648EB92CA7649</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>D3D8B98E503E4E71943211AE</key>
 		<dict>
 			<key>fileRef</key>
@@ -10465,7 +10435,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>0E9C8F3C3C854C3EBDDAA8B4</string>
-=======
+
 		<key>DFF9AE15109946039E757719</key>
 		<dict>
 			<key>fileRef</key>
@@ -10484,7 +10454,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>A9E1A90A7BFB48E9934A70C2</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -10493,7 +10463,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>D56D2C39D32043C0AC263EE6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -10513,7 +10483,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>1B18D6CCB0824515BE4965C9</string>
-=======
+
 		<key>E3467FAB87F94A5BA6C6C747</key>
 		<dict>
 			<key>fileRef</key>
@@ -10525,7 +10495,7 @@
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -10537,7 +10507,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>D76B0381207941C199CF3290</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -10548,7 +10518,7 @@
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
 			<key>defaultConfigurationName</key>
-=======
+
 		<key>E40C7DB716814DD686038836</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -10612,22 +10582,22 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
->>>>>>> origin/housekeeping
+
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>D89277C10D3F4E0F88F4E11C</key>
 		<dict>
 			<key>fileRef</key>
 			<string>A1FE04D54D5B4EBF8F01607D</string>
-=======
+
 		<key>E55068EEAEB24CAA91555930</key>
 		<dict>
 			<key>fileRef</key>
 			<string>A07E01C6F6584E6497BB3D01</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -10636,7 +10606,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>DA37B203C23B45E4BE063B0D</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -10690,16 +10660,16 @@
 		<dict>
 			<key>fileRef</key>
 			<string>F6BA64D1BA18440EBC8A3F6E</string>
-=======
+
 		<key>E576AB33DD574A158BD7A30A</key>
 		<dict>
 			<key>fileRef</key>
 			<string>65B2758A52994066B6344EFD</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>DE54D8AC53F8413B8533E350</key>
 		<dict>
 			<key>fileRef</key>
@@ -10708,14 +10678,14 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>E017D243BBC04CDF89ADE712</key>
-=======
+
 		<key>E5C3F3D5B0A94FDE8C2AA814</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>fileRef</key>
 			<string>89FE13892BA5490DBD7C97C5</string>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
@@ -10743,11 +10713,11 @@
 			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>E0CEB217B5194DBFBA8C54BA</key>
-=======
+
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>E6E5ABF09C4D40CFAE03EA4A</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>9A3D290C4C124A10934CAA90</string>
@@ -10795,7 +10765,7 @@
 				<string>YES</string>
 			</dict>
 			<key>isa</key>
-<<<<<<< HEAD
+
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.script.sh</string>
@@ -10805,19 +10775,19 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E171D33909E94C96810F3B1A</key>
-=======
+
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
 		</dict>
 		<key>E79B741C18A34CA2B808E535</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>name</key>
 			<string>MPCloseBtn@2x.png</string>
 			<key>path</key>
@@ -10846,7 +10816,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>E3AE7285590740D68C122348</key>
-=======
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
@@ -10855,14 +10825,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E7E8A58567DB427EB2837DD6</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-SSKeychain-dummy.m</string>
@@ -10951,7 +10921,7 @@
 			<dict>
 				<key>COMPILER_FLAGS</key>
 				<string>-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-=======
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>MPNotificationViewController.h</string>
@@ -11062,18 +11032,18 @@
 				<string>NO</string>
 				<key>VALIDATE_PRODUCT</key>
 				<string>YES</string>
->>>>>>> origin/housekeeping
+
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>E6AB9910964745AEB89939BC</key>
-=======
+
 		<key>E9265288E8E849DEAE51626E</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -11081,25 +11051,25 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>path</key>
 			<string>libPods-SVProgressHUD.a</string>
-=======
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>Harpy.h</string>
 			<key>path</key>
 			<string>Harpy/Harpy.h</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>E6FC358772414E9C95BB62D8</key>
-=======
+
 		<key>EAA024290E42481685419F4F</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -11108,13 +11078,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-<<<<<<< HEAD
+
 			<string>Pods-Mixpanel-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E79AF16BBC1D42C89E9DA29C</key>
-=======
+
 			<string>Pods-SVProgressHUD-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -11134,7 +11104,7 @@
 			<string>0</string>
 		</dict>
 		<key>EB1C23F3D96844C5A4907C12</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -11143,7 +11113,7 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-<<<<<<< HEAD
+
 			<string>Pods-integrationTests-KIF.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -11198,7 +11168,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>EA1569CF024F4F15A836500F</key>
-=======
+
 			<string>Pods-Mixpanel.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -11250,7 +11220,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>EEA888EFB8A74758A4B08B83</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -11258,17 +11228,17 @@
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
+
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIScrollView-KIFAdditions.m</string>
 			<key>path</key>
 			<string>Additions/UIScrollView-KIFAdditions.m</string>
-=======
+
 			<key>path</key>
 			<string>libPods-UIFloatLabelTextView.a</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
@@ -11286,7 +11256,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>EA92F57FBFC844CFA8DA7F50</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -11313,7 +11283,7 @@
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
-=======
+
 		<key>EF49DA0B3EDA4B678A130915</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -11370,7 +11340,7 @@
 		<dict>
 			<key>fileRef</key>
 			<string>32DAF7679A684C94AB281E3A</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
@@ -11382,7 +11352,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>EC1D765D07454A08810C17A9</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -11469,9 +11439,9 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ED397B8387A24B689E3A80C3</key>
-=======
+
 		<key>EFAD036D4C4649AA8A9BAEA3</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -11480,7 +11450,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>AFURLConnectionOperation.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFURLConnectionOperation.m</string>
@@ -11499,17 +11469,17 @@
 			<string>Podfile</string>
 			<key>path</key>
 			<string>../Podfile</string>
-=======
+
 			<string>SSKeychain.m</string>
 			<key>path</key>
 			<string>SSKeychain/SSKeychain.m</string>
->>>>>>> origin/housekeeping
+
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>EFEB3AD1670B448685ECDAB0</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -11529,18 +11499,18 @@
 		<dict>
 			<key>fileRef</key>
 			<string>F47D4834F8F94C0E9DAF5E67</string>
-=======
+
 		<key>F046F4DC92A84599B8BCA21F</key>
 		<dict>
 			<key>fileRef</key>
 			<string>657784C8008648CB9A9CFEF8</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-<<<<<<< HEAD
+
 				<string>-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
@@ -11595,7 +11565,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F3AA0180916A46259EC851C8</key>
-=======
+
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
@@ -11613,35 +11583,35 @@
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>F0DC65D037594BB2999581FC</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-<<<<<<< HEAD
+
 				<string>0CB1822C40D547F3860506C1</string>
 				<string>299C45966AC84017A532064E</string>
-=======
+
 				<string>864B5BED84DC4839B1154EAE</string>
->>>>>>> origin/housekeeping
+
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-<<<<<<< HEAD
+
 		<key>F46051A6D2CB4DFF97476677</key>
 		<dict>
 			<key>fileRef</key>
 			<string>8154E4AB194345058DD3DF41</string>
-=======
+
 		<key>F1451929B71444F697B484F7</key>
 		<dict>
 			<key>fileRef</key>
 			<string>2178D4BB09F9420086902584</string>
->>>>>>> origin/housekeeping
+
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -11650,7 +11620,7 @@
 				<string>-fobjc-arc</string>
 			</dict>
 		</dict>
-<<<<<<< HEAD
+
 		<key>F4672805318842A28E9995A7</key>
 		<dict>
 			<key>fileRef</key>
@@ -11664,16 +11634,16 @@
 			</dict>
 		</dict>
 		<key>F47D4834F8F94C0E9DAF5E67</key>
-=======
+
 		<key>F18A27B875EA4B7F80D5ED15</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>XCTestCase-KIFAdditions.m</string>
 			<key>path</key>
 			<string>Additions/XCTestCase-KIFAdditions.m</string>
@@ -11695,7 +11665,7 @@
 			<string>XCConfigurationList</string>
 		</dict>
 		<key>F6BA64D1BA18440EBC8A3F6E</key>
-=======
+
 			<string>MPLogo@2x.png</string>
 			<key>path</key>
 			<string>Mixpanel/Media.xcassets/MPLogo.imageset/MPLogo@2x.png</string>
@@ -11703,14 +11673,14 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F28C598F18A14F01805CB1B2</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>MPSurvey.m</string>
@@ -11720,7 +11690,7 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F875786753E74B8B9BA4B5FF</key>
-=======
+
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-resources.sh</string>
@@ -11753,7 +11723,7 @@
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>F2EE2C24AC08414AA94762F3</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -11764,7 +11734,7 @@
 			<key>name</key>
 			<string>AFNetworkActivityIndicatorManager.m</string>
 			<key>path</key>
-<<<<<<< HEAD
+
 			<string>UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -11782,7 +11752,7 @@
 			</dict>
 		</dict>
 		<key>F899857D933D4A05825BB5AE</key>
-=======
+
 			<string>Pods-UIFloatLabelTextField.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
@@ -11802,14 +11772,14 @@
 			<string>0</string>
 		</dict>
 		<key>F537E19229D646FC80924EE8</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-<<<<<<< HEAD
+
 			<string>sourcecode.c.h</string>
 			<key>name</key>
 			<string>UIImageView+AFNetworking.h</string>
@@ -11835,7 +11805,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>FA3D6D010B0C47BFAEF7C406</key>
-=======
+
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
 			<string>UIWebView+AFNetworking.m</string>
@@ -11845,11 +11815,11 @@
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F61200495C0F43C38E4D740D</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>children</key>
 			<array>
-<<<<<<< HEAD
+
 				<string>DBEC88CB7E614F62950A8518</string>
 				<string>34AD7E22668E4316BEB82B28</string>
 			</array>
@@ -11868,7 +11838,7 @@
 			<string>19F5C5E37C894F909D83CFFA</string>
 		</dict>
 		<key>FA89045A66CA4277A104EEC2</key>
-=======
+
 				<string>8F173B1317DB49EFA7C51999</string>
 				<string>DD991FB131794EF19DCAEBD7</string>
 				<string>08299C34A3454DB6878D573F</string>
@@ -11882,7 +11852,7 @@
 			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>F71B16677B854821A8F272BE</key>
->>>>>>> origin/housekeeping
+
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -11891,7 +11861,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-<<<<<<< HEAD
+
 			<string>UIApplication-KIFAdditions.h</string>
 			<key>path</key>
 			<string>Additions/UIApplication-KIFAdditions.h</string>
@@ -11918,7 +11888,7 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>FB8762D15B0D4C37B3DC98C4</key>
-=======
+
 			<string>MPDismissKeyboard@2x.png</string>
 			<key>path</key>
 			<string>Mixpanel/Media.xcassets/MPDismissKeyboard.imageset/MPDismissKeyboard@2x.png</string>
@@ -11965,7 +11935,6 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>F9456F45AB85462A8327569C</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -11973,7 +11942,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-<<<<<<< HEAD
 			<key>name</key>
 			<string>UIImage+MPImageEffects.m</string>
 			<key>path</key>
@@ -11985,7 +11953,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>2CD708A565E44C5C8B275A7D</string>
-=======
 			<key>path</key>
 			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
@@ -12053,13 +12020,10 @@
 		<dict>
 			<key>fileRef</key>
 			<string>26C81F4F10EE416CB91EAFD0</string>
->>>>>>> origin/housekeeping
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-<<<<<<< HEAD
 		<key>FD7910232FE04ACF90550D1A</key>
-=======
 		<key>FBCBFDD87D0D4819A8145A76</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -12090,7 +12054,6 @@
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>FEE23EB2F4B04FEBBBB7D58B</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -12099,7 +12062,6 @@
 				<string>4CF6977C540D4D489D12F8C0</string>
 			</array>
 			<key>isa</key>
-<<<<<<< HEAD
 			<string>PBXFileReference</string>
 			<key>name</key>
 			<string>MPArrowRight@2x.png</string>
@@ -12134,7 +12096,6 @@
 			<string>0</string>
 		</dict>
 		<key>FFF33F2D415549A7852B4DDD</key>
-=======
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
@@ -12149,23 +12110,19 @@
 			<string>98DEF4DB326145E1ACA32033</string>
 		</dict>
 		<key>FF338AB108A645A19CB70971</key>
->>>>>>> origin/housekeeping
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-<<<<<<< HEAD
 			<key>name</key>
 			<string>MPNotification.storyboard</string>
 			<key>path</key>
 			<string>Mixpanel/MPNotification.storyboard</string>
-=======
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-CrashlyticsFramework-Private.xcconfig</string>
->>>>>>> origin/housekeeping
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -12183,10 +12140,7 @@
 		</dict>
 	</dict>
 	<key>rootObject</key>
-<<<<<<< HEAD
 	<string>54BEA0DDCCF74065A6164017</string>
-=======
 	<string>009864910D104BA0B45A490B</string>
->>>>>>> origin/housekeeping
 </dict>
 </plist>

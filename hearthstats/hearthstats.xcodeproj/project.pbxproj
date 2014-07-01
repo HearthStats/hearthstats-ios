@@ -45,11 +45,8 @@
 		43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* HCSLogInViewController.m */; };
 		43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */; };
 		4971E4BD6C9448CEB314DAC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28A58F2058443C8AF23AAA5 /* libPods.a */; };
-<<<<<<< HEAD
 		790C1D2A7A334E809348A72D /* libPods-integrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3B51F011A043CA829ED443 /* libPods-integrationTests.a */; };
-=======
 		8E289EF71962614500D64414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E289EF61962614500D64414 /* Images.xcassets */; };
->>>>>>> origin/housekeeping
 		B45AD343193BDEA300FE3868 /* UIAlertView+BP.m in Sources */ = {isa = PBXBuildFile; fileRef = B45AD341193BDEA300FE3868 /* UIAlertView+BP.m */; };
 /* End PBXBuildFile section */
 
@@ -129,11 +126,8 @@
 		43E8C6A4191167F70080488F /* HCSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSLogInViewController.m; sourceTree = "<group>"; };
 		43E8C6A819116D5E0080488F /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
 		43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		8C79988C9CD448C6AC19866E /* Pods-integrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-integrationTests.xcconfig"; path = "../Pods/Pods-integrationTests.xcconfig"; sourceTree = "<group>"; };
-=======
 		8E289EF61962614500D64414 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hearthstats/Images.xcassets; sourceTree = SOURCE_ROOT; };
->>>>>>> origin/housekeeping
 		A28A58F2058443C8AF23AAA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45AD341193BDEA300FE3868 /* UIAlertView+BP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BP.m"; sourceTree = "<group>"; };
 		B45AD342193BDEA300FE3868 /* UIAlertView+BP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BP.h"; sourceTree = "<group>"; };
@@ -180,7 +174,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		05AC1F5219608BC900D46EF4 /* integrationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,10 +192,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		436C5CFE1910329100463075 /* Extensions */ = {
-=======
 		436C5CFE1910329100463075 /* Categories / Extensions */ = {
->>>>>>> origin/housekeeping
 			isa = PBXGroup;
 			children = (
 				B45AD340193BDE7500FE3868 /* BPKit */,
