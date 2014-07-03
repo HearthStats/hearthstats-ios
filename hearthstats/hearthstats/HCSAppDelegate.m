@@ -13,6 +13,7 @@
 #import "HCSSettingsViewController.h"
 #import "SVProgressHUD.h"
 #import "HCSCredentialStore.h"
+#import <Crashlytics/Crashlytics.h>
 
 @implementation HCSAppDelegate
 @synthesize managedObjectContext = _managedObjectContext;

@@ -136,7 +136,7 @@
 
 - (void)loggedOut {
     
-    UIImage *newBG = [UIImage screenshot];
+//    UIImage *newBG = [UIImage screenshot];
 //    newBG = [newBG applyExtraLightEffect];
     HCSLogInViewController *login = [[HCSLogInViewController alloc] init]; //WithImage:newBG];
     [login setDelegate:self];
