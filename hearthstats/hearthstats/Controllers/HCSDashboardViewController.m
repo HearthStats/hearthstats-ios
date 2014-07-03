@@ -7,7 +7,6 @@
 //
 
 #import "HCSDashboardViewController.h"
-#import <iAd/iAd.h>
 #import "HCSDashboardTableViewCell.h"
 #import "HCSLogInViewController.h"
 #import "NSString+FontAwesome.h"
@@ -50,31 +49,30 @@
                                                                    action:@selector(logOut)];
     [self.navigationItem setRightBarButtonItem:rightButton];
     
-    _tableView = [[UITableView alloc] init];
-    [_tableView setDataSource:self];
-    [_tableView setDelegate:self];
-    [_tableView setSeparatorInset:UIEdgeInsetsZero];
-    [_tableView setSeparatorColor:[UIColor blackColor]];
-    [_tableView registerNib:[UINib nibWithNibName:@"HCSDashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
-    [_tableView setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [self.originalContentView addSubview:_tableView];
+    self.tableView = [[UITableView alloc] init];
+    [self.tableView setDataSource:self];
+    [self.tableView setDelegate:self];
+    [self.tableView setSeparatorInset:UIEdgeInsetsZero];
+    [self.tableView setSeparatorColor:[UIColor blackColor]];
+    [self.tableView registerNib:[UINib nibWithNibName:@"HCSDashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
+    [self.tableView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.view addSubview:self.tableView];
     
     id topGuide = [self topLayoutGuide];
     
-    [self.originalContentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[_tableView]|"
-                                                                                     options:0
-                                                                                     metrics:0
-                                                                                       views:NSDictionaryOfVariableBindings(_tableView)]];
-    [self.originalContentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[topGuide][_tableView]|"
-                                                                                     options:0
-                                                                                     metrics:0
-                                                                                       views:NSDictionaryOfVariableBindings(topGuide, _tableView)]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[_tableView]|"
+                                                                      options:0
+                                                                      metrics:0
+                                                                        views:NSDictionaryOfVariableBindings(_tableView)]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[topGuide][_tableView]|"
+                                                                      options:0
+                                                                      metrics:0
+                                                                        views:NSDictionaryOfVariableBindings(topGuide, _tableView)]];
     
-    _rowArray = @[@"12.5%",
-                  @"87.5%",
-                  @"Party Time",
-                  @"Warlock"];
-    self.canDisplayBannerAds = YES;
+    self.rowArray = @[@"12.5%",
+                      @"87.5%",
+                      @"Party Time",
+                      @"Warlock"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -153,10 +151,12 @@
 }
 
 - (void)matchesRetrieved:(NSNotification *)notification {
+    
     [SVProgressHUD dismiss];
 }
 
 - (void)matchesRetrievedFailed:(NSNotification *)notification {
+    
     [UIAlertView alertWithTitle:NSLocalizedString(@"Retrieval failed", nil)
                         message:nil // TODO: Parse and make readable error message from notification
               cancelButtonTitle:NSLocalizedString(@"Cancel", nil)
@@ -185,7 +185,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return [_rowArray count];
+    return [self.rowArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

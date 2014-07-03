@@ -16,7 +16,6 @@
 		05AC1F5019608BC900D46EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		05AC1F5119608BC900D46EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
 		05AC1F5719608BC900D46EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AC1F5519608BC900D46EF4 /* InfoPlist.strings */; };
-		430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430EFA8B192D1E81009CEFD7 /* iAd.framework */; };
 		430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */; };
 		430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */; };
 		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
@@ -152,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C0E51419489DD300989D13 /* CoreData.framework in Frameworks */,
-				430EFA8C192D1E81009CEFD7 /* iAd.framework in Frameworks */,
 				43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */,
 				05101612191EC1EA00A6EA47 /* Crashlytics.framework in Frameworks */,
 				43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */,
