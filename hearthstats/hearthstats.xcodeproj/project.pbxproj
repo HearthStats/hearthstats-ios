@@ -42,7 +42,6 @@
 		43C0E51719489DFB00989D13 /* hearthstats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */; };
 		43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A11911551B0080488F /* HCSSessionManager.m */; };
 		43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* HCSLogInViewController.m */; };
-		43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */; };
 		4971E4BD6C9448CEB314DAC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28A58F2058443C8AF23AAA5 /* libPods.a */; };
 		790C1D2A7A334E809348A72D /* libPods-integrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3B51F011A043CA829ED443 /* libPods-integrationTests.a */; };
 		8E289EF71962614500D64414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E289EF61962614500D64414 /* Images.xcassets */; };
@@ -123,8 +122,6 @@
 		43E8C6A11911551B0080488F /* HCSSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSessionManager.m; sourceTree = "<group>"; };
 		43E8C6A3191167F70080488F /* HCSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSLogInViewController.h; sourceTree = "<group>"; };
 		43E8C6A4191167F70080488F /* HCSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSLogInViewController.m; sourceTree = "<group>"; };
-		43E8C6A819116D5E0080488F /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
-		43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
 		8C79988C9CD448C6AC19866E /* Pods-integrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-integrationTests.xcconfig"; path = "../Pods/Pods-integrationTests.xcconfig"; sourceTree = "<group>"; };
 		8E289EF61962614500D64414 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hearthstats/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		A28A58F2058443C8AF23AAA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,8 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				B45AD340193BDE7500FE3868 /* BPKit */,
-				43E8C6A819116D5E0080488F /* NSString+FontAwesome.h */,
-				43E8C6A919116D5E0080488F /* NSString+FontAwesome.m */,
 				436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */,
 				436C5D00191032B800463075 /* UIImage+ImageWithColor.m */,
 				05101616191EC79D00A6EA47 /* UIImage+ImageEffects.h */,
@@ -614,7 +609,6 @@
 				05101615191EC70600A6EA47 /* HCSCredentialStore.m in Sources */,
 				43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */,
 				436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */,
-				43E8C6AA19116D5E0080488F /* NSString+FontAwesome.m in Sources */,
 				43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */,
 				43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */,
 				430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */,

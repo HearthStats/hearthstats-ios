@@ -9,7 +9,6 @@
 #import "HCSDashboardViewController.h"
 #import "HCSDashboardTableViewCell.h"
 #import "HCSLogInViewController.h"
-#import "NSString+FontAwesome.h"
 #import "HCSCredentialStore.h"
 #import "UIImage+ImageEffects.h"
 #import "HCSSessionManager.h"
@@ -56,6 +55,7 @@
     [self.tableView setSeparatorColor:[UIColor blackColor]];
     [self.tableView registerNib:[UINib nibWithNibName:@"HCSDashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
     [self.tableView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 1)]];
     [self.view addSubview:self.tableView];
     
     id topGuide = [self topLayoutGuide];
@@ -198,23 +198,27 @@
     
     UIColor *bgColor;
     UIImage *icon;
-    NSString *iconLabel;
+    NSString *subtitle;
     switch (indexPath.row) {
         case 0:
             bgColor = [UIColor colorWithRed:0.192f green:0.667f blue:0.882f alpha:1.000];
             icon = [UIImage imageNamed:@"ArenaDashboard"];
+            subtitle = NSLocalizedString(@"Arena Win Rate", nil);
             break;
         case 1:
             bgColor = [UIColor colorWithRed:0.196f green:0.733f blue:0.463f alpha:1.000];
             icon = [UIImage imageNamed:@"ConstructedDashboard"];
+            subtitle = NSLocalizedString(@"Ranked Win Rate", nil);
             break;
         case 2:
             bgColor = [UIColor colorWithRed:0.518f green:0.192f blue:0.592f alpha:1.000];
-            iconLabel = [NSString fontAwesomeIconStringForEnum:FAGlobe];
+            icon = [UIImage imageNamed:@"DeckDashboard"];
+            subtitle = NSLocalizedString(@"Best Deck", nil);
             break;
         case 3:
             bgColor = [UIColor colorWithRed:0.427f green:0.800f blue:0.933f alpha:1.000];
-            iconLabel = [NSString fontAwesomeIconStringForEnum:FABarChartO];
+            icon = [UIImage imageNamed:@"ArenaClassDashboard"];
+            subtitle = NSLocalizedString(@"Best Arena Class", nil);
             break;
         default:
             bgColor = [UIColor whiteColor];
@@ -222,11 +226,10 @@
     }
     cell.backgroundColor = bgColor;
     cell.icon.image = icon;
+    cell.subtitle.text = subtitle;
+    cell.title.text = self.rowArray[indexPath.row];
     
-    cell.iconLabel.font = [UIFont fontWithName:kFontAwesomeFamilyName size:48];
-    cell.iconLabel.textColor = [UIColor whiteColor];
-    cell.iconLabel.textAlignment = NSTextAlignmentCenter;
-    cell.iconLabel.text = iconLabel;
+    cell.userInteractionEnabled = NO;
     
     return cell;
 }

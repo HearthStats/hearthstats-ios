@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -14,33 +14,47 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArenaDashboard" translatesAutoresizingMaskIntoConstraints="NO" id="nit-zG-gnG">
-                        <rect key="frame" x="20" y="24" width="62" height="42"/>
+                        <rect key="frame" x="20" y="24" width="42" height="42"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="42" id="eFv-ez-EzC"/>
-                            <constraint firstAttribute="width" constant="62" id="rB5-cb-u7O"/>
+                            <constraint firstAttribute="width" constant="42" id="rB5-cb-u7O"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqX-cI-VXf">
-                        <rect key="frame" x="20" y="24" width="62" height="42"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSE-f6-DRj">
+                        <rect key="frame" x="100" y="9" width="200" height="52"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="BZt-cR-cW4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="38"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Arena Class" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQq-JF-Xbq">
+                        <rect key="frame" x="150" y="53" width="150" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="vbQ-0M-etE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="gqX-cI-VXf" firstAttribute="width" secondItem="nit-zG-gnG" secondAttribute="width" id="09X-1d-EW2"/>
-                    <constraint firstItem="gqX-cI-VXf" firstAttribute="leading" secondItem="nit-zG-gnG" secondAttribute="leading" id="FdP-UM-wKz"/>
                     <constraint firstItem="nit-zG-gnG" firstAttribute="leading" secondItem="EsM-N5-DY8" secondAttribute="leading" constant="20" id="NFE-TU-qI9"/>
+                    <constraint firstAttribute="centerY" secondItem="vSE-f6-DRj" secondAttribute="centerY" constant="10" id="R2v-TT-3Ub"/>
+                    <constraint firstAttribute="bottom" secondItem="KQq-JF-Xbq" secondAttribute="bottom" constant="11" id="as8-An-55O"/>
                     <constraint firstItem="nit-zG-gnG" firstAttribute="top" secondItem="EsM-N5-DY8" secondAttribute="top" constant="24" id="hjV-pQ-bMO"/>
-                    <constraint firstItem="gqX-cI-VXf" firstAttribute="top" secondItem="nit-zG-gnG" secondAttribute="top" id="nWi-cO-4DO"/>
-                    <constraint firstItem="gqX-cI-VXf" firstAttribute="height" secondItem="nit-zG-gnG" secondAttribute="height" id="qBU-kM-Abc"/>
+                    <constraint firstAttribute="trailing" secondItem="KQq-JF-Xbq" secondAttribute="trailing" constant="20" id="jeR-qm-Fk1"/>
+                    <constraint firstAttribute="trailing" secondItem="vSE-f6-DRj" secondAttribute="trailing" constant="20" id="nnm-nA-lES"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="icon" destination="nit-zG-gnG" id="mkJ-bO-F12"/>
-                <outlet property="iconLabel" destination="gqX-cI-VXf" id="8fy-bK-6Mj"/>
+                <outlet property="subtitle" destination="KQq-JF-Xbq" id="ZB3-7S-Grn"/>
+                <outlet property="title" destination="vSE-f6-DRj" id="3UI-ew-sMC"/>
             </connections>
         </tableViewCell>
     </objects>
