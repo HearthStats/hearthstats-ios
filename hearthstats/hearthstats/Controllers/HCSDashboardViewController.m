@@ -10,11 +10,10 @@
 #import "HCSDashboardTableViewCell.h"
 #import "HCSLogInViewController.h"
 #import "HCSCredentialStore.h"
-#import "UIImage+ImageEffects.h"
 #import "HCSSessionManager.h"
 #import "SVProgressHUD.h"
 
-@interface HCSDashboardViewController () <UITableViewDataSource, UITableViewDelegate, HCSLoginViewDelegate>
+@interface HCSDashboardViewController () <UITableViewDataSource, UITableViewDelegate, HCSLoginViewDelegate, UIAlertViewDelegate>
 
 @property (nonatomic) UITableView *tableView;
 @property (nonatomic) NSArray *rowArray;
@@ -134,9 +133,7 @@
 
 - (void)loggedOut {
     
-//    UIImage *newBG = [UIImage screenshot];
-//    newBG = [newBG applyExtraLightEffect];
-    HCSLogInViewController *login = [[HCSLogInViewController alloc] init]; //WithImage:newBG];
+    HCSLogInViewController *login = [[HCSLogInViewController alloc] init];
     [login setDelegate:self];
     [self presentViewController:login
                        animated:YES
@@ -165,6 +162,17 @@
                   if(alertView.cancelButtonIndex == buttonClicked) return; // Do nothing
                   [self retrieveMatches];
               }];
+}
+
+#pragma mark - Alert View Delegate
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    
+    if (alertView.tag == 10 && buttonIndex == 1) {
+        HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+        [credStore clearSavedCredentials];
+        [self loggedOut];
+    }
 }
 
 #pragma mark - Log In Delegate
