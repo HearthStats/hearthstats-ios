@@ -18,6 +18,8 @@
 		05AC1F5719608BC900D46EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AC1F5519608BC900D46EF4 /* InfoPlist.strings */; };
 		430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */; };
 		430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */; };
+		43516CA419756DCE00644EDF /* HCSChangelogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43516CA319756DCE00644EDF /* HCSChangelogViewController.m */; };
+		43516CAA1975718300644EDF /* changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43516CA91975718300644EDF /* changelog.txt */; };
 		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
 		436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D00191032B800463075 /* UIImage+ImageWithColor.m */; };
 		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
@@ -84,6 +86,9 @@
 		430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSFactory.m; sourceTree = "<group>"; };
 		430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSCurrentAccount.h; sourceTree = "<group>"; };
 		430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSCurrentAccount.m; sourceTree = "<group>"; };
+		43516CA219756DCE00644EDF /* HCSChangelogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSChangelogViewController.h; sourceTree = "<group>"; };
+		43516CA319756DCE00644EDF /* HCSChangelogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSChangelogViewController.m; sourceTree = "<group>"; };
+		43516CA91975718300644EDF /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = changelog.txt; path = ../../../changelog.txt; sourceTree = "<group>"; };
 		436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSSettingsView~iphone.xib"; sourceTree = "<group>"; };
 		436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		436C5D00191032B800463075 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
@@ -187,6 +192,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		43516CA119756DAB00644EDF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */,
+				43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */,
+				43516CA219756DCE00644EDF /* HCSChangelogViewController.h */,
+				43516CA319756DCE00644EDF /* HCSChangelogViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		436C5CFE1910329100463075 /* Categories / Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +231,7 @@
 			children = (
 				8E289EF61962614500D64414 /* Images.xcassets */,
 				059ED885191EBE2200ED19DA /* fontawesome-webfont.ttf */,
+				43516CA91975718300644EDF /* changelog.txt */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -307,14 +324,13 @@
 		43BD34B2190B0B1D00057F89 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				43516CA119756DAB00644EDF /* Settings */,
 				43BD34B5190B0C0400057F89 /* HCSDashboardViewController.h */,
 				43BD34B6190B0C0400057F89 /* HCSDashboardViewController.m */,
 				43BD34B8190B0C0F00057F89 /* HCSArenaViewController.h */,
 				43BD34B9190B0C0F00057F89 /* HCSArenaViewController.m */,
 				43BD34BB190B0C1C00057F89 /* HCSConstructedViewController.h */,
 				43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */,
-				43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */,
-				43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */,
 				43E8C6A3191167F70080488F /* HCSLogInViewController.h */,
 				43E8C6A4191167F70080488F /* HCSLogInViewController.m */,
 			);
@@ -493,6 +509,7 @@
 				43BD348E190B06F900057F89 /* InfoPlist.strings in Resources */,
 				436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */,
 				8E289EF71962614500D64414 /* Images.xcassets in Resources */,
+				43516CAA1975718300644EDF /* changelog.txt in Resources */,
 				436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */,
 				059ED887191EC04300ED19DA /* HCSLogInView~iphone.xib in Resources */,
 			);
@@ -603,6 +620,7 @@
 				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
 				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
 				43C0E51719489DFB00989D13 /* hearthstats.xcdatamodeld in Sources */,
+				43516CA419756DCE00644EDF /* HCSChangelogViewController.m in Sources */,
 				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
 				B45AD343193BDEA300FE3868 /* UIAlertView+BP.m in Sources */,
 				430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */,
