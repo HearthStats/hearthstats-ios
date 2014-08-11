@@ -279,12 +279,12 @@
 		43BD3489190B06F900057F89 /* hearthstats */ = {
 			isa = PBXGroup;
 			children = (
+				43BD34B2190B0B1D00057F89 /* Controllers */,
+				43BD34B4190B0B4800057F89 /* Views */,
+				43BD34B3190B0B3D00057F89 /* Models */,
+				43BD34C1190B109C00057F89 /* Utilities */,
 				8E289EF5196260B000D64414 /* Config */,
 				436C5CFE1910329100463075 /* Categories / Extensions */,
-				43BD34B3190B0B3D00057F89 /* Models */,
-				43BD34B4190B0B4800057F89 /* Views */,
-				43BD34B2190B0B1D00057F89 /* Controllers */,
-				43BD34C1190B109C00057F89 /* Utilities */,
 				436C5D0819105C5700463075 /* Assets */,
 				43BD348A190B06F900057F89 /* Supporting Files */,
 			);

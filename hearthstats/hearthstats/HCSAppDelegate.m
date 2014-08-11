@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UIColor *tintColor = [UIColor colorWithRed:0.231f green:0.357f blue:0.667f alpha:1.000];
+    UIColor *tintColor = [UIColor colorWithRed:0.949f green:0.455f blue:0.192f alpha:1.000];
     [self.window setTintColor:tintColor];
     
     kBaseURL = @"http://beta.hearthstats.net";
