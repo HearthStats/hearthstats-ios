@@ -17,7 +17,7 @@
                     withResult:(MatchResult)result
                      withClass:(PlayerClass)playerClass
              withOpponentClass:(PlayerClass)opponentClass
-                      withCoin:(BOOL)hasCoin
+                      withCoin:(NSNumber *)hasCoin
                      forSeason:(NSNumber *)season
                      forDeckID:(NSString *)deckID;
 

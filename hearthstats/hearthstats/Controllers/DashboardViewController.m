@@ -142,6 +142,13 @@
     
     [SVProgressHUD showWithStatus:NSLocalizedString(@"Retrieving Stats", nil)
                          maskType:SVProgressHUDMaskTypeClear];
+    [[SessionManager sharedInstance] retrieveMatchesForMode:0
+                                                 withResult:0
+                                                  withClass:0
+                                          withOpponentClass:0
+                                                   withCoin:nil
+                                                  forSeason:@0
+                                                  forDeckID:nil];
 }
 
 - (void)matchesRetrieved:(NSNotification *)notification {
