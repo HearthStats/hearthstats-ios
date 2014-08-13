@@ -52,7 +52,7 @@
     [self.tableView setDelegate:self];
     [self.tableView setSeparatorInset:UIEdgeInsetsZero];
     [self.tableView setSeparatorColor:[UIColor blackColor]];
-    [self.tableView registerNib:[UINib nibWithNibName:@"HCSDashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"DashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
     [self.tableView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 1)]];
     [self.view addSubview:self.tableView];
