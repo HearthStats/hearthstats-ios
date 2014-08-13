@@ -13,7 +13,7 @@
 #import "SessionManager.h"
 #import "SVProgressHUD.h"
 
-@interface DashboardViewController () <UITableViewDataSource, UITableViewDelegate, HCSLoginViewDelegate, UIAlertViewDelegate>
+@interface DashboardViewController () <UITableViewDataSource, UITableViewDelegate, LoginViewDelegate, UIAlertViewDelegate>
 
 @property (nonatomic) UITableView *tableView;
 @property (nonatomic) NSArray *rowArray;
