@@ -9,6 +9,7 @@
 #import "SessionManager.h"
 #import "JSONConstructor.h"
 #import "CredentialStore.h"
+#import "Factory.h"
 
 @implementation SessionManager
 
@@ -63,12 +64,29 @@
        }];
 }
 
-- (void)retrieveMatchesForSeason:(NSNumber *)season {
-    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+- (void)retrieveMatchesForMode:(MatchMode)mode
+                    withResult:(MatchResult)result
+                     withClass:(PlayerClass)playerClass
+             withOpponentClass:(PlayerClass)opponentClass
+                      withCoin:(NSNumber *)hasCoin
+                     forSeason:(NSNumber *)season
+                     forDeckID:(NSString *)deckID {
     
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
     CredentialStore *credStore = [[CredentialStore alloc] init];
+    
+    NSDictionary *parameters = [JSONConstructor constructMatchJSONWithAuthToken:[credStore authToken]
+                                                                        forMode:mode
+                                                                     withResult:result
+                                                                withPlayerClass:playerClass
+                                                              withOpponentClass:opponentClass
+                                                                       withCoin:hasCoin
+                                                                      forSeason:season
+                                                                      forDeckID:deckID];
+//    DLog(@"%@", parameters);
+    
     [self GET:@"/api/v2/matches/query"
-   parameters:[JSONConstructor constructRetrieveMatchJSONWithAuthToken:[credStore authToken]]
+   parameters:parameters
       success:^(AFHTTPRequestOperation *operation, id responseObject){
           DLog(@"%@", responseObject);
           [center postNotificationName:kRetrieveMatchesNotification object:nil userInfo:@{@"responseObject":responseObject}];

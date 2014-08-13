@@ -11,6 +11,13 @@
 @interface JSONConstructor : NSObject
 
 + (NSDictionary *)constructUserJSONWithEmail:(NSString *)email andPassword:(NSString *)password;
-+ (NSDictionary *)constructRetrieveMatchJSONWithAuthToken:(NSString *)authToken;
++ (NSDictionary *)constructMatchJSONWithAuthToken:(NSString *)authToken
+                                          forMode:(MatchMode)mode
+                                       withResult:(MatchResult)result
+                                  withPlayerClass:(PlayerClass)playerClass
+                                withOpponentClass:(PlayerClass)opponentClass
+                                         withCoin:(NSNumber *)hasCoin
+                                        forSeason:(NSNumber *)season
+                                        forDeckID:(NSString *)deckID;
 
 @end

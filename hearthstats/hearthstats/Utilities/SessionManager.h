@@ -13,6 +13,12 @@
 + (SessionManager *)sharedInstance;
 
 - (void)loginWithEmail:(NSString *)email andPassword:(NSString *)password;
-- (void)retrieveMatchesForSeason:(NSNumber *)season;
+- (void)retrieveMatchesForMode:(MatchMode)mode
+                    withResult:(MatchResult)result
+                     withClass:(PlayerClass)playerClass
+             withOpponentClass:(PlayerClass)opponentClass
+                      withCoin:(NSNumber *)hasCoin
+                     forSeason:(NSNumber *)season
+                     forDeckID:(NSString *)deckID;
 
 @end
