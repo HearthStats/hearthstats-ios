@@ -8,9 +8,9 @@
 
 #import "AFHTTPRequestOperationManager.h"
 
-@interface HCSSessionManager : AFHTTPRequestOperationManager
+@interface SessionManager : AFHTTPRequestOperationManager
 
-+ (HCSSessionManager *)sharedInstance;
++ (SessionManager *)sharedInstance;
 
 - (void)loginWithEmail:(NSString *)email andPassword:(NSString *)password;
 - (void)retrieveMatchesForSeason:(NSNumber *)season;

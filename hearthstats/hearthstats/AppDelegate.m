@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSAppDelegate.h"
-#import "HCSDashboardViewController.h"
-#import "HCSArenaViewController.h"
-#import "HCSConstructedViewController.h"
-#import "HCSSettingsViewController.h"
+#import "AppDelegate.h"
+#import "DashboardViewController.h"
+#import "ArenaViewController.h"
+#import "ConstructedViewController.h"
+#import "SettingsViewController.h"
 #import "SVProgressHUD.h"
-#import "HCSCredentialStore.h"
+#import "CredentialStore.h"
 #import <Crashlytics/Crashlytics.h>
 
-@implementation HCSAppDelegate
+@implementation AppDelegate
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
@@ -30,7 +30,7 @@
     
     [Crashlytics startWithAPIKey:@"33a7a0d865f1f5ad096f48493e2916bd878e2ec6"];
     
-    HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+    CredentialStore *credStore = [[CredentialStore alloc] init];
     [credStore clearSavedCredentials];
     
     NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
@@ -48,13 +48,13 @@
     [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:kDefaultFont size:18]}
                                                 forState:UIControlStateNormal];
     
-    HCSDashboardViewController *firstVC = [[HCSDashboardViewController alloc] init];
+    DashboardViewController *firstVC = [[DashboardViewController alloc] init];
     UINavigationController *firstNav = [[UINavigationController alloc] initWithRootViewController:firstVC];
-    HCSArenaViewController *secondVC = [[HCSArenaViewController alloc] init];
+    ArenaViewController *secondVC = [[ArenaViewController alloc] init];
     UINavigationController *secondNav = [[UINavigationController alloc] initWithRootViewController:secondVC];
-    HCSConstructedViewController *thirdVC = [[HCSConstructedViewController alloc] init];
+    ConstructedViewController *thirdVC = [[ConstructedViewController alloc] init];
     UINavigationController *thirdNav = [[UINavigationController alloc] initWithRootViewController:thirdVC];
-    HCSSettingsViewController *fourthVC = [[HCSSettingsViewController alloc] init];
+    SettingsViewController *fourthVC = [[SettingsViewController alloc] init];
     UINavigationController *fourthNav = [[UINavigationController alloc] initWithRootViewController:fourthVC];
     
     [SVProgressHUD setBackgroundColor:[UIColor colorWithWhite:0.200f alpha:1.000]];

@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HCSCurrentAccount : NSObject
+@interface CurrentAccount : NSObject
 
 @property (nonatomic) NSString *email;
 @property (nonatomic) NSArray *matches;
 
-+ (HCSCurrentAccount *)sharedInstance;
++ (CurrentAccount *)sharedInstance;
 
 @end

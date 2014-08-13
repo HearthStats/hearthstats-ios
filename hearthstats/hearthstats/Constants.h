@@ -38,7 +38,7 @@ FOUNDATION_EXPORT NSString * const kLoggedInFailedNotification;
 FOUNDATION_EXPORT NSString * const kRetrieveMatchesNotification;
 FOUNDATION_EXPORT NSString * const kRetrieveMatchesFailedNotification;
 
-@interface HCSConstants : NSObject
+@interface Constants : NSObject
 
 
 @end

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HCSCredentialStore : NSObject
+@interface CredentialStore : NSObject
 
 - (BOOL)isLoggedIn;
 - (void)clearSavedCredentials;

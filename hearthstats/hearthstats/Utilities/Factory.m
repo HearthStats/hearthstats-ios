@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSFactory.h"
+#import "Factory.h"
 
-@implementation HCSFactory
+@implementation Factory
 
 @end

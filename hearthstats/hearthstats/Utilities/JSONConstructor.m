@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSJSONConstructor.h"
+#import "JSONConstructor.h"
 
-@implementation HCSJSONConstructor
+@implementation JSONConstructor
 
 #pragma mark - Class Methods
 

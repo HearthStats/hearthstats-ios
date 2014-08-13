@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSConstants.h"
+#import "Constants.h"
 
 NSString * kBaseURL;
 NSString * const kDefaultFont                           = @"Avenir";
@@ -18,6 +18,6 @@ NSString * const kLoggedInFailedNotification            = @"LoggedInFailedNotifi
 NSString * const kRetrieveMatchesNotification           = @"RetrieveMatchesNotification";
 NSString * const kRetrieveMatchesFailedNotification     = @"RetrieveMatchesFailedNotification";
 
-@implementation HCSConstants
+@implementation Constants
 
 @end

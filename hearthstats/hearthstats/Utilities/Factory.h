@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HCSFactory : NSObject
+@interface Factory : NSObject
 
 @end

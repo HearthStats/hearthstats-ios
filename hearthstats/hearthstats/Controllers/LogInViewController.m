@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSLogInViewController.h"
-#import "HCSSessionManager.h"
+#import "LogInViewController.h"
+#import "SessionManager.h"
 #import "SVProgressHUD.h"
 
-@interface HCSLogInViewController () <UIGestureRecognizerDelegate, UITextFieldDelegate>
+@interface LogInViewController () <UIGestureRecognizerDelegate, UITextFieldDelegate>
 
 @property (nonatomic) UIImage *bgImage;
 @property (nonatomic, weak) IBOutlet UITextField *emailField;
@@ -21,7 +21,7 @@
 
 @end
 
-@implementation HCSLogInViewController
+@implementation LogInViewController
 
 #pragma mark - Init Methods
 
@@ -151,7 +151,7 @@
         [alert show];
     } else {
         [SVProgressHUD showWithStatus:@"Logging in" maskType:SVProgressHUDMaskTypeClear];
-        [[HCSSessionManager sharedInstance] loginWithEmail:_emailField.text andPassword:_passwordField.text];
+        [[SessionManager sharedInstance] loginWithEmail:_emailField.text andPassword:_passwordField.text];
     }
 }
 

@@ -1,25 +1,25 @@
 //
-//  HCSArenaViewController.m
+//  HCSConstructedViewController.m
 //  hearthstats
 //
 //  Created by Paul Tower on 4/25/14.
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSArenaViewController.h"
+#import "ConstructedViewController.h"
 
-@interface HCSArenaViewController ()
+@interface ConstructedViewController ()
 
 @end
 
-@implementation HCSArenaViewController
+@implementation ConstructedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        [self.tabBarItem setTitle:NSLocalizedString(@"Arena", nil)];
-        [self.tabBarItem setImage:[UIImage imageNamed:@"ArenaIcon"]];
+        [self.tabBarItem setTitle:NSLocalizedString(@"Constructed", nil)];
+        [self.tabBarItem setImage:[UIImage imageNamed:@"ConstructedIcon"]];
     }
     return self;
 }
@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    self.title = NSLocalizedString(@"Arena", nil);
+    self.title = NSLocalizedString(@"Constructed", nil);
 }
 
 - (void)didReceiveMemoryWarning {

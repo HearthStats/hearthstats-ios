@@ -14,7 +14,7 @@
 
 @end
 
-@interface HCSLogInViewController : UIViewController
+@interface LogInViewController : UIViewController
 
 @property (nonatomic, weak) id <HCSLoginViewDelegate> delegate;
 

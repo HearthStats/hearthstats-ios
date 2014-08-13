@@ -1,5 +1,5 @@
 //
-//  HCSDashboardViewController.h
+//  HCSConstructedViewController.h
 //  hearthstats
 //
 //  Created by Paul Tower on 4/25/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HCSDashboardViewController : UIViewController
+@interface ConstructedViewController : UIViewController
 
 @end

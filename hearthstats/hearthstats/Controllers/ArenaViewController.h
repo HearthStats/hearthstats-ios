@@ -1,5 +1,5 @@
 //
-//  HCSSettingsViewController.h
+//  HCSArenaViewController.h
 //  hearthstats
 //
 //  Created by Paul Tower on 4/25/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HCSSettingsViewController : UIViewController
+@interface ArenaViewController : UIViewController
 
 @end

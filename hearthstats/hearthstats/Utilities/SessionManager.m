@@ -6,20 +6,20 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSSessionManager.h"
-#import "HCSJSONConstructor.h"
-#import "HCSCredentialStore.h"
+#import "SessionManager.h"
+#import "JSONConstructor.h"
+#import "CredentialStore.h"
 
-@implementation HCSSessionManager
+@implementation SessionManager
 
 #pragma mark - Singleton Methods
 
-+ (HCSSessionManager *)sharedInstance {
++ (SessionManager *)sharedInstance {
     
-    static HCSSessionManager *_sharedInstance = nil;
+    static SessionManager *_sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sharedInstance = [[HCSSessionManager alloc] initWithBaseURL:[NSURL URLWithString:kBaseURL]];
+        _sharedInstance = [[SessionManager alloc] initWithBaseURL:[NSURL URLWithString:kBaseURL]];
     });
     
     return _sharedInstance;
@@ -44,10 +44,10 @@
 - (void)loginWithEmail:(NSString *)email andPassword:(NSString *)password {
     
     [self POST:@"/api/v2/users/sign_in"
-    parameters:[HCSJSONConstructor constructUserJSONWithEmail:email andPassword:password]
+    parameters:[JSONConstructor constructUserJSONWithEmail:email andPassword:password]
        success:^(AFHTTPRequestOperation *operation, id responseObject){
             DLog(@"%@", responseObject);
-           HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+           CredentialStore *credStore = [[CredentialStore alloc] init];
            [credStore setAuthToken:responseObject[@"auth_token"]];
            [[NSNotificationCenter defaultCenter] postNotificationName:kLoggedInNotification object:nil];
        }
@@ -66,9 +66,9 @@
 - (void)retrieveMatchesForSeason:(NSNumber *)season {
     NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
     
-    HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+    CredentialStore *credStore = [[CredentialStore alloc] init];
     [self GET:@"/api/v2/matches/query"
-   parameters:[HCSJSONConstructor constructRetrieveMatchJSONWithAuthToken:[credStore authToken]]
+   parameters:[JSONConstructor constructRetrieveMatchJSONWithAuthToken:[credStore authToken]]
       success:^(AFHTTPRequestOperation *operation, id responseObject){
           DLog(@"%@", responseObject);
           [center postNotificationName:kRetrieveMatchesNotification object:nil userInfo:@{@"responseObject":responseObject}];

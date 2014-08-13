@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSCurrentAccount.h"
+#import "CurrentAccount.h"
 
-@implementation HCSCurrentAccount
+@implementation CurrentAccount
 
-+ (HCSCurrentAccount *)sharedInstance {
++ (CurrentAccount *)sharedInstance {
     
-    static HCSCurrentAccount *_sharedInstance = nil;
+    static CurrentAccount *_sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sharedInstance = [[HCSCurrentAccount alloc] init];
+        _sharedInstance = [[CurrentAccount alloc] init];
     });
     
     return _sharedInstance;

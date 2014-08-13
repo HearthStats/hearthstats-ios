@@ -8,42 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		05101612191EC1EA00A6EA47 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05101611191EC1EA00A6EA47 /* Crashlytics.framework */; };
-		05101615191EC70600A6EA47 /* HCSCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 05101614191EC70600A6EA47 /* HCSCredentialStore.m */; };
+		05101615191EC70600A6EA47 /* CredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 05101614191EC70600A6EA47 /* CredentialStore.m */; };
 		05101618191EC79D00A6EA47 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 05101617191EC79D00A6EA47 /* UIImage+ImageEffects.m */; };
-		0510161B191ECAF400A6EA47 /* HCSJSONConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0510161A191ECAF400A6EA47 /* HCSJSONConstructor.m */; };
-		059ED887191EC04300ED19DA /* HCSLogInView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059ED886191EC04300ED19DA /* HCSLogInView~iphone.xib */; };
+		0510161B191ECAF400A6EA47 /* JSONConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0510161A191ECAF400A6EA47 /* JSONConstructor.m */; };
+		059ED887191EC04300ED19DA /* LogInView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059ED886191EC04300ED19DA /* LogInView~iphone.xib */; };
 		05AC1F4F19608BC900D46EF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD349C190B06F900057F89 /* XCTest.framework */; };
 		05AC1F5019608BC900D46EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		05AC1F5119608BC900D46EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
 		05AC1F5719608BC900D46EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AC1F5519608BC900D46EF4 /* InfoPlist.strings */; };
-		430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */; };
-		430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */; };
-		43516CA419756DCE00644EDF /* HCSChangelogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43516CA319756DCE00644EDF /* HCSChangelogViewController.m */; };
+		430EFA8F192D2CA0009CEFD7 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA8E192D2CA0009CEFD7 /* Factory.m */; };
+		430EFA9A192D3977009CEFD7 /* CurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 430EFA99192D3977009CEFD7 /* CurrentAccount.m */; };
+		43516CA419756DCE00644EDF /* ChangelogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43516CA319756DCE00644EDF /* ChangelogViewController.m */; };
 		43516CAA1975718300644EDF /* changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43516CA91975718300644EDF /* changelog.txt */; };
-		436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */; };
+		436C5CFD191030CD00463075 /* SettingsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5CFC191030CD00463075 /* SettingsView~iphone.xib */; };
 		436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D00191032B800463075 /* UIImage+ImageWithColor.m */; };
-		436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */; };
-		436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5D06191036CE00463075 /* HCSDashboardCell.xib */; };
-		438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* HCSConstants.m */; };
+		436C5D05191036A800463075 /* DashboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C5D04191036A800463075 /* DashboardTableViewCell.m */; };
+		436C5D07191036CE00463075 /* DashboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436C5D06191036CE00463075 /* DashboardCell.xib */; };
+		438BFEF8190F0C3900EAEF2D /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 438BFEF7190F0C3900EAEF2D /* Constants.m */; };
 		43BD3484190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD3486190B06F900057F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3485190B06F900057F89 /* CoreGraphics.framework */; };
 		43BD3488190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
 		43BD348E190B06F900057F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43BD348C190B06F900057F89 /* InfoPlist.strings */; };
 		43BD3490190B06F900057F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD348F190B06F900057F89 /* main.m */; };
-		43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD3493190B06F900057F89 /* HCSAppDelegate.m */; };
+		43BD3494190B06F900057F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD3493190B06F900057F89 /* AppDelegate.m */; };
 		43BD349D190B06F900057F89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD349C190B06F900057F89 /* XCTest.framework */; };
 		43BD349E190B06F900057F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3483190B06F900057F89 /* Foundation.framework */; };
 		43BD349F190B06F900057F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD3487190B06F900057F89 /* UIKit.framework */; };
 		43BD34A7190B06F900057F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43BD34A5190B06F900057F89 /* InfoPlist.strings */; };
 		43BD34A9190B06F900057F89 /* hearthstatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34A8190B06F900057F89 /* hearthstatsTests.m */; };
-		43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34B6190B0C0400057F89 /* HCSDashboardViewController.m */; };
-		43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34B9190B0C0F00057F89 /* HCSArenaViewController.m */; };
-		43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */; };
-		43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */; };
+		43BD34B7190B0C0400057F89 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34B6190B0C0400057F89 /* DashboardViewController.m */; };
+		43BD34BA190B0C0F00057F89 /* ArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34B9190B0C0F00057F89 /* ArenaViewController.m */; };
+		43BD34BD190B0C1C00057F89 /* ConstructedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BC190B0C1C00057F89 /* ConstructedViewController.m */; };
+		43BD34C0190B0C3400057F89 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BD34BF190B0C3400057F89 /* SettingsViewController.m */; };
 		43C0E51419489DD300989D13 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C0E51319489DD300989D13 /* CoreData.framework */; };
 		43C0E51719489DFB00989D13 /* hearthstats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */; };
-		43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A11911551B0080488F /* HCSSessionManager.m */; };
-		43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* HCSLogInViewController.m */; };
+		43E8C6A21911551B0080488F /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A11911551B0080488F /* SessionManager.m */; };
+		43E8C6A5191167F70080488F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8C6A4191167F70080488F /* LogInViewController.m */; };
 		4971E4BD6C9448CEB314DAC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28A58F2058443C8AF23AAA5 /* libPods.a */; };
 		790C1D2A7A334E809348A72D /* libPods-integrationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3B51F011A043CA829ED443 /* libPods-integrationTests.a */; };
 		8E289EF71962614500D64414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E289EF61962614500D64414 /* Images.xcassets */; };
@@ -69,34 +69,34 @@
 
 /* Begin PBXFileReference section */
 		05101611191EC1EA00A6EA47 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		05101613191EC70600A6EA47 /* HCSCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSCredentialStore.h; sourceTree = "<group>"; };
-		05101614191EC70600A6EA47 /* HCSCredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSCredentialStore.m; sourceTree = "<group>"; };
+		05101613191EC70600A6EA47 /* CredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CredentialStore.h; sourceTree = "<group>"; };
+		05101614191EC70600A6EA47 /* CredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CredentialStore.m; sourceTree = "<group>"; };
 		05101616191EC79D00A6EA47 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		05101617191EC79D00A6EA47 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		05101619191ECAF400A6EA47 /* HCSJSONConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSJSONConstructor.h; sourceTree = "<group>"; };
-		0510161A191ECAF400A6EA47 /* HCSJSONConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSJSONConstructor.m; sourceTree = "<group>"; };
+		05101619191ECAF400A6EA47 /* JSONConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONConstructor.h; sourceTree = "<group>"; };
+		0510161A191ECAF400A6EA47 /* JSONConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONConstructor.m; sourceTree = "<group>"; };
 		059ED885191EBE2200ED19DA /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
-		059ED886191EC04300ED19DA /* HCSLogInView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSLogInView~iphone.xib"; sourceTree = "<group>"; };
+		059ED886191EC04300ED19DA /* LogInView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "LogInView~iphone.xib"; sourceTree = "<group>"; };
 		05AC1F4E19608BC900D46EF4 /* integrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = integrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AC1F5419608BC900D46EF4 /* integrationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "integrationTests-Info.plist"; sourceTree = "<group>"; };
 		05AC1F5619608BC900D46EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05AC1F5A19608BC900D46EF4 /* integrationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "integrationTests-Prefix.pch"; sourceTree = "<group>"; };
 		430EFA8B192D1E81009CEFD7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		430EFA8D192D2CA0009CEFD7 /* HCSFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSFactory.h; sourceTree = "<group>"; };
-		430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSFactory.m; sourceTree = "<group>"; };
-		430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSCurrentAccount.h; sourceTree = "<group>"; };
-		430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSCurrentAccount.m; sourceTree = "<group>"; };
-		43516CA219756DCE00644EDF /* HCSChangelogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSChangelogViewController.h; sourceTree = "<group>"; };
-		43516CA319756DCE00644EDF /* HCSChangelogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSChangelogViewController.m; sourceTree = "<group>"; };
+		430EFA8D192D2CA0009CEFD7 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		430EFA8E192D2CA0009CEFD7 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		430EFA98192D3977009CEFD7 /* CurrentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentAccount.h; sourceTree = "<group>"; };
+		430EFA99192D3977009CEFD7 /* CurrentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentAccount.m; sourceTree = "<group>"; };
+		43516CA219756DCE00644EDF /* ChangelogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangelogViewController.h; sourceTree = "<group>"; };
+		43516CA319756DCE00644EDF /* ChangelogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangelogViewController.m; sourceTree = "<group>"; };
 		43516CA91975718300644EDF /* changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = changelog.txt; path = ../../../changelog.txt; sourceTree = "<group>"; };
-		436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HCSSettingsView~iphone.xib"; sourceTree = "<group>"; };
+		436C5CFC191030CD00463075 /* SettingsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SettingsView~iphone.xib"; sourceTree = "<group>"; };
 		436C5CFF191032B800463075 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		436C5D00191032B800463075 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
-		436C5D03191036A800463075 /* HCSDashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSDashboardTableViewCell.h; sourceTree = "<group>"; };
-		436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSDashboardTableViewCell.m; sourceTree = "<group>"; };
-		436C5D06191036CE00463075 /* HCSDashboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCSDashboardCell.xib; sourceTree = "<group>"; };
-		438BFEF6190F0C3900EAEF2D /* HCSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSConstants.h; sourceTree = "<group>"; };
-		438BFEF7190F0C3900EAEF2D /* HCSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstants.m; sourceTree = "<group>"; };
+		436C5D03191036A800463075 /* DashboardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewCell.h; sourceTree = "<group>"; };
+		436C5D04191036A800463075 /* DashboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewCell.m; sourceTree = "<group>"; };
+		436C5D06191036CE00463075 /* DashboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardCell.xib; sourceTree = "<group>"; };
+		438BFEF6190F0C3900EAEF2D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		438BFEF7190F0C3900EAEF2D /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		43AFC2B3193F9390004905E6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		43BD3480190B06F900057F89 /* hearthstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD3483190B06F900057F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,27 +106,27 @@
 		43BD348D190B06F900057F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43BD348F190B06F900057F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43BD3491190B06F900057F89 /* hearthstats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hearthstats-Prefix.pch"; sourceTree = "<group>"; };
-		43BD3492190B06F900057F89 /* HCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HCSAppDelegate.h; path = ../HCSAppDelegate.h; sourceTree = "<group>"; };
-		43BD3493190B06F900057F89 /* HCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HCSAppDelegate.m; path = ../HCSAppDelegate.m; sourceTree = "<group>"; };
+		43BD3492190B06F900057F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		43BD3493190B06F900057F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		43BD349B190B06F900057F89 /* hearthstatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hearthstatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD349C190B06F900057F89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		43BD34A4190B06F900057F89 /* hearthstatsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hearthstatsTests-Info.plist"; sourceTree = "<group>"; };
 		43BD34A6190B06F900057F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43BD34A8190B06F900057F89 /* hearthstatsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hearthstatsTests.m; sourceTree = "<group>"; };
-		43BD34B5190B0C0400057F89 /* HCSDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSDashboardViewController.h; sourceTree = "<group>"; };
-		43BD34B6190B0C0400057F89 /* HCSDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSDashboardViewController.m; sourceTree = "<group>"; };
-		43BD34B8190B0C0F00057F89 /* HCSArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSArenaViewController.h; sourceTree = "<group>"; };
-		43BD34B9190B0C0F00057F89 /* HCSArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSArenaViewController.m; sourceTree = "<group>"; };
-		43BD34BB190B0C1C00057F89 /* HCSConstructedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSConstructedViewController.h; sourceTree = "<group>"; };
-		43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSConstructedViewController.m; sourceTree = "<group>"; };
-		43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSSettingsViewController.h; sourceTree = "<group>"; };
-		43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSettingsViewController.m; sourceTree = "<group>"; };
+		43BD34B5190B0C0400057F89 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		43BD34B6190B0C0400057F89 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		43BD34B8190B0C0F00057F89 /* ArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArenaViewController.h; sourceTree = "<group>"; };
+		43BD34B9190B0C0F00057F89 /* ArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArenaViewController.m; sourceTree = "<group>"; };
+		43BD34BB190B0C1C00057F89 /* ConstructedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstructedViewController.h; sourceTree = "<group>"; };
+		43BD34BC190B0C1C00057F89 /* ConstructedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstructedViewController.m; sourceTree = "<group>"; };
+		43BD34BE190B0C3400057F89 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		43BD34BF190B0C3400057F89 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		43C0E51319489DD300989D13 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hearthstats.xcdatamodel; sourceTree = "<group>"; };
-		43E8C6A01911551B0080488F /* HCSSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSSessionManager.h; sourceTree = "<group>"; };
-		43E8C6A11911551B0080488F /* HCSSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSSessionManager.m; sourceTree = "<group>"; };
-		43E8C6A3191167F70080488F /* HCSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSLogInViewController.h; sourceTree = "<group>"; };
-		43E8C6A4191167F70080488F /* HCSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSLogInViewController.m; sourceTree = "<group>"; };
+		43E8C6A01911551B0080488F /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		43E8C6A11911551B0080488F /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		43E8C6A3191167F70080488F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		43E8C6A4191167F70080488F /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		8C79988C9CD448C6AC19866E /* Pods-integrationTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-integrationTests.xcconfig"; path = "../Pods/Pods-integrationTests.xcconfig"; sourceTree = "<group>"; };
 		8E289EF61962614500D64414 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hearthstats/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		A28A58F2058443C8AF23AAA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,10 +195,10 @@
 		43516CA119756DAB00644EDF /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				43BD34BE190B0C3400057F89 /* HCSSettingsViewController.h */,
-				43BD34BF190B0C3400057F89 /* HCSSettingsViewController.m */,
-				43516CA219756DCE00644EDF /* HCSChangelogViewController.h */,
-				43516CA319756DCE00644EDF /* HCSChangelogViewController.m */,
+				43BD34BE190B0C3400057F89 /* SettingsViewController.h */,
+				43BD34BF190B0C3400057F89 /* SettingsViewController.m */,
+				43516CA219756DCE00644EDF /* ChangelogViewController.h */,
+				43516CA319756DCE00644EDF /* ChangelogViewController.m */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 		436C5D021910368F00463075 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				436C5D03191036A800463075 /* HCSDashboardTableViewCell.h */,
-				436C5D04191036A800463075 /* HCSDashboardTableViewCell.m */,
-				436C5D06191036CE00463075 /* HCSDashboardCell.xib */,
+				436C5D03191036A800463075 /* DashboardTableViewCell.h */,
+				436C5D04191036A800463075 /* DashboardTableViewCell.m */,
+				436C5D06191036CE00463075 /* DashboardCell.xib */,
 			);
 			name = Dashboard;
 			sourceTree = "<group>";
@@ -325,14 +325,14 @@
 			isa = PBXGroup;
 			children = (
 				43516CA119756DAB00644EDF /* Settings */,
-				43BD34B5190B0C0400057F89 /* HCSDashboardViewController.h */,
-				43BD34B6190B0C0400057F89 /* HCSDashboardViewController.m */,
-				43BD34B8190B0C0F00057F89 /* HCSArenaViewController.h */,
-				43BD34B9190B0C0F00057F89 /* HCSArenaViewController.m */,
-				43BD34BB190B0C1C00057F89 /* HCSConstructedViewController.h */,
-				43BD34BC190B0C1C00057F89 /* HCSConstructedViewController.m */,
-				43E8C6A3191167F70080488F /* HCSLogInViewController.h */,
-				43E8C6A4191167F70080488F /* HCSLogInViewController.m */,
+				43BD34B5190B0C0400057F89 /* DashboardViewController.h */,
+				43BD34B6190B0C0400057F89 /* DashboardViewController.m */,
+				43BD34B8190B0C0F00057F89 /* ArenaViewController.h */,
+				43BD34B9190B0C0F00057F89 /* ArenaViewController.m */,
+				43BD34BB190B0C1C00057F89 /* ConstructedViewController.h */,
+				43BD34BC190B0C1C00057F89 /* ConstructedViewController.m */,
+				43E8C6A3191167F70080488F /* LogInViewController.h */,
+				43E8C6A4191167F70080488F /* LogInViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -340,10 +340,10 @@
 		43BD34B3190B0B3D00057F89 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				43BD3492190B06F900057F89 /* HCSAppDelegate.h */,
-				43BD3493190B06F900057F89 /* HCSAppDelegate.m */,
-				430EFA98192D3977009CEFD7 /* HCSCurrentAccount.h */,
-				430EFA99192D3977009CEFD7 /* HCSCurrentAccount.m */,
+				43BD3492190B06F900057F89 /* AppDelegate.h */,
+				43BD3493190B06F900057F89 /* AppDelegate.m */,
+				430EFA98192D3977009CEFD7 /* CurrentAccount.h */,
+				430EFA99192D3977009CEFD7 /* CurrentAccount.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -352,8 +352,8 @@
 			isa = PBXGroup;
 			children = (
 				436C5D021910368F00463075 /* Dashboard */,
-				436C5CFC191030CD00463075 /* HCSSettingsView~iphone.xib */,
-				059ED886191EC04300ED19DA /* HCSLogInView~iphone.xib */,
+				436C5CFC191030CD00463075 /* SettingsView~iphone.xib */,
+				059ED886191EC04300ED19DA /* LogInView~iphone.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -361,14 +361,14 @@
 		43BD34C1190B109C00057F89 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				43E8C6A01911551B0080488F /* HCSSessionManager.h */,
-				43E8C6A11911551B0080488F /* HCSSessionManager.m */,
-				05101613191EC70600A6EA47 /* HCSCredentialStore.h */,
-				05101614191EC70600A6EA47 /* HCSCredentialStore.m */,
-				05101619191ECAF400A6EA47 /* HCSJSONConstructor.h */,
-				0510161A191ECAF400A6EA47 /* HCSJSONConstructor.m */,
-				430EFA8D192D2CA0009CEFD7 /* HCSFactory.h */,
-				430EFA8E192D2CA0009CEFD7 /* HCSFactory.m */,
+				43E8C6A01911551B0080488F /* SessionManager.h */,
+				43E8C6A11911551B0080488F /* SessionManager.m */,
+				05101613191EC70600A6EA47 /* CredentialStore.h */,
+				05101614191EC70600A6EA47 /* CredentialStore.m */,
+				05101619191ECAF400A6EA47 /* JSONConstructor.h */,
+				0510161A191ECAF400A6EA47 /* JSONConstructor.m */,
+				430EFA8D192D2CA0009CEFD7 /* Factory.h */,
+				430EFA8E192D2CA0009CEFD7 /* Factory.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -376,8 +376,8 @@
 		8E289EF5196260B000D64414 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				438BFEF6190F0C3900EAEF2D /* HCSConstants.h */,
-				438BFEF7190F0C3900EAEF2D /* HCSConstants.m */,
+				438BFEF6190F0C3900EAEF2D /* Constants.h */,
+				438BFEF7190F0C3900EAEF2D /* Constants.m */,
 			);
 			name = Config;
 			sourceTree = "<group>";
@@ -459,7 +459,7 @@
 		43BD3478190B06F900057F89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HCS;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Hypercube Software";
 				TargetAttributes = {
@@ -507,11 +507,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BD348E190B06F900057F89 /* InfoPlist.strings in Resources */,
-				436C5CFD191030CD00463075 /* HCSSettingsView~iphone.xib in Resources */,
+				436C5CFD191030CD00463075 /* SettingsView~iphone.xib in Resources */,
 				8E289EF71962614500D64414 /* Images.xcassets in Resources */,
 				43516CAA1975718300644EDF /* changelog.txt in Resources */,
-				436C5D07191036CE00463075 /* HCSDashboardCell.xib in Resources */,
-				059ED887191EC04300ED19DA /* HCSLogInView~iphone.xib in Resources */,
+				436C5D07191036CE00463075 /* DashboardCell.xib in Resources */,
+				059ED887191EC04300ED19DA /* LogInView~iphone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,25 +613,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438BFEF8190F0C3900EAEF2D /* HCSConstants.m in Sources */,
-				43E8C6A5191167F70080488F /* HCSLogInViewController.m in Sources */,
+				438BFEF8190F0C3900EAEF2D /* Constants.m in Sources */,
+				43E8C6A5191167F70080488F /* LogInViewController.m in Sources */,
 				05101618191EC79D00A6EA47 /* UIImage+ImageEffects.m in Sources */,
 				43BD3490190B06F900057F89 /* main.m in Sources */,
-				43BD34B7190B0C0400057F89 /* HCSDashboardViewController.m in Sources */,
-				43BD3494190B06F900057F89 /* HCSAppDelegate.m in Sources */,
+				43BD34B7190B0C0400057F89 /* DashboardViewController.m in Sources */,
+				43BD3494190B06F900057F89 /* AppDelegate.m in Sources */,
 				43C0E51719489DFB00989D13 /* hearthstats.xcdatamodeld in Sources */,
-				43516CA419756DCE00644EDF /* HCSChangelogViewController.m in Sources */,
-				436C5D05191036A800463075 /* HCSDashboardTableViewCell.m in Sources */,
+				43516CA419756DCE00644EDF /* ChangelogViewController.m in Sources */,
+				436C5D05191036A800463075 /* DashboardTableViewCell.m in Sources */,
 				B45AD343193BDEA300FE3868 /* UIAlertView+BP.m in Sources */,
-				430EFA9A192D3977009CEFD7 /* HCSCurrentAccount.m in Sources */,
-				05101615191EC70600A6EA47 /* HCSCredentialStore.m in Sources */,
-				43BD34BD190B0C1C00057F89 /* HCSConstructedViewController.m in Sources */,
+				430EFA9A192D3977009CEFD7 /* CurrentAccount.m in Sources */,
+				05101615191EC70600A6EA47 /* CredentialStore.m in Sources */,
+				43BD34BD190B0C1C00057F89 /* ConstructedViewController.m in Sources */,
 				436C5D01191032B800463075 /* UIImage+ImageWithColor.m in Sources */,
-				43BD34C0190B0C3400057F89 /* HCSSettingsViewController.m in Sources */,
-				43BD34BA190B0C0F00057F89 /* HCSArenaViewController.m in Sources */,
-				430EFA8F192D2CA0009CEFD7 /* HCSFactory.m in Sources */,
-				0510161B191ECAF400A6EA47 /* HCSJSONConstructor.m in Sources */,
-				43E8C6A21911551B0080488F /* HCSSessionManager.m in Sources */,
+				43BD34C0190B0C3400057F89 /* SettingsViewController.m in Sources */,
+				43BD34BA190B0C0F00057F89 /* ArenaViewController.m in Sources */,
+				430EFA8F192D2CA0009CEFD7 /* Factory.m in Sources */,
+				0510161B191ECAF400A6EA47 /* JSONConstructor.m in Sources */,
+				43E8C6A21911551B0080488F /* SessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
