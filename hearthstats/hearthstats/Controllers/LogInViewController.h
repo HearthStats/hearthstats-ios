@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol HCSLoginViewDelegate <NSObject>
+@protocol LoginViewDelegate <NSObject>
 
 - (void)dismissLogin;
 
 @end
 
-@interface HCSLogInViewController : UIViewController
+@interface LogInViewController : UIViewController
 
-@property (nonatomic, weak) id <HCSLoginViewDelegate> delegate;
+@property (nonatomic, weak) id <LoginViewDelegate> delegate;
 
 - (id)initWithImage:(UIImage *)newImage;
 

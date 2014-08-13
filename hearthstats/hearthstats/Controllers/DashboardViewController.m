@@ -6,21 +6,21 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSDashboardViewController.h"
-#import "HCSDashboardTableViewCell.h"
-#import "HCSLogInViewController.h"
-#import "HCSCredentialStore.h"
-#import "HCSSessionManager.h"
+#import "DashboardViewController.h"
+#import "DashboardTableViewCell.h"
+#import "LogInViewController.h"
+#import "CredentialStore.h"
+#import "SessionManager.h"
 #import "SVProgressHUD.h"
 
-@interface HCSDashboardViewController () <UITableViewDataSource, UITableViewDelegate, HCSLoginViewDelegate, UIAlertViewDelegate>
+@interface DashboardViewController () <UITableViewDataSource, UITableViewDelegate, LoginViewDelegate, UIAlertViewDelegate>
 
 @property (nonatomic) UITableView *tableView;
 @property (nonatomic) NSArray *rowArray;
 
 @end
 
-@implementation HCSDashboardViewController
+@implementation DashboardViewController
 
 #pragma mark - Init Methods
 
@@ -52,7 +52,7 @@
     [self.tableView setDelegate:self];
     [self.tableView setSeparatorInset:UIEdgeInsetsZero];
     [self.tableView setSeparatorColor:[UIColor blackColor]];
-    [self.tableView registerNib:[UINib nibWithNibName:@"HCSDashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"DashboardCell" bundle:nil] forCellReuseIdentifier:@"CellID"];
     [self.tableView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 1)]];
     [self.view addSubview:self.tableView];
@@ -92,7 +92,7 @@
     
     [super viewDidAppear:animated];
     
-    HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+    CredentialStore *credStore = [[CredentialStore alloc] init];
     if (![credStore isLoggedIn]) {
         [self loggedOut];
     } else {
@@ -133,7 +133,7 @@
 
 - (void)loggedOut {
     
-    HCSLogInViewController *login = [[HCSLogInViewController alloc] init];
+    LogInViewController *login = [[LogInViewController alloc] init];
     [login setDelegate:self];
     [self presentViewController:login
                        animated:YES
@@ -144,7 +144,7 @@
     
     [SVProgressHUD showWithStatus:NSLocalizedString(@"Retrieving Stats", nil)
                          maskType:SVProgressHUDMaskTypeClear];
-    [[HCSSessionManager sharedInstance] retrieveMatchesForSeason:@0];
+    [[SessionManager sharedInstance] retrieveMatchesForSeason:@0];
 }
 
 - (void)matchesRetrieved:(NSNotification *)notification {
@@ -169,7 +169,7 @@
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
     
     if (alertView.tag == 10 && buttonIndex == 1) {
-        HCSCredentialStore *credStore = [[HCSCredentialStore alloc] init];
+        CredentialStore *credStore = [[CredentialStore alloc] init];
         [credStore clearSavedCredentials];
         [self loggedOut];
     }
@@ -199,9 +199,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *cellID = @"CellID";
-    HCSDashboardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    DashboardTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     if (cell == nil) {
-        cell = [[HCSDashboardTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        cell = [[DashboardTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
     
     UIColor *bgColor;

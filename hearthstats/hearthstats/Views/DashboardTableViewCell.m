@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSDashboardTableViewCell.h"
+#import "DashboardTableViewCell.h"
 
-@implementation HCSDashboardTableViewCell
+@implementation DashboardTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

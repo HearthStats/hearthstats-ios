@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSChangelogViewController.h"
+#import "ChangelogViewController.h"
 
-@interface HCSChangelogViewController ()
+@interface ChangelogViewController ()
 
 @end
 
-@implementation HCSChangelogViewController
+@implementation ChangelogViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     

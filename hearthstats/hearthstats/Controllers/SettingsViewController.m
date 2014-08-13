@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSSettingsViewController.h"
-#import "HCSChangelogViewController.h"
+#import "SettingsViewController.h"
+#import "ChangelogViewController.h"
 
-@interface HCSSettingsViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface SettingsViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 @property (nonatomic) NSArray *rowArray;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation HCSSettingsViewController
+@implementation SettingsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     
@@ -140,7 +140,7 @@
                     break;
                 case 1:
                     // Changelog
-                    view = [[HCSChangelogViewController alloc] init];
+                    view = [[ChangelogViewController alloc] init];
                     break;
                 default:
                     break;

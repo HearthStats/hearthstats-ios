@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Hypercube Software. All rights reserved.
 //
 
-#import "HCSCredentialStore.h"
+#import "CredentialStore.h"
 #import "SSKeychain.h"
 
 #define SERVICE_NAME @"AuthClient"
 #define AUTH_TOKEN_KEY @"auth_token"
 
-@implementation HCSCredentialStore
+@implementation CredentialStore
 
 - (BOOL)isLoggedIn {
     

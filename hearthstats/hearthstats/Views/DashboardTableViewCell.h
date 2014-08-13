@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HCSDashboardTableViewCell : UITableViewCell
+@interface DashboardTableViewCell : UITableViewCell
 
 @property (nonatomic, weak) IBOutlet UIImageView *icon;
 @property (nonatomic, weak) IBOutlet UILabel *title;
