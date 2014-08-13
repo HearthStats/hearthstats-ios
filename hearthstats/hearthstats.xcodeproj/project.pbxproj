@@ -106,8 +106,8 @@
 		43BD348D190B06F900057F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43BD348F190B06F900057F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43BD3491190B06F900057F89 /* hearthstats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hearthstats-Prefix.pch"; sourceTree = "<group>"; };
-		43BD3492190B06F900057F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		43BD3493190B06F900057F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		43BD3492190B06F900057F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43BD3493190B06F900057F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		43BD349B190B06F900057F89 /* hearthstatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hearthstatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BD349C190B06F900057F89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		43BD34A4190B06F900057F89 /* hearthstatsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hearthstatsTests-Info.plist"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		43BD34BE190B0C3400057F89 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		43BD34BF190B0C3400057F89 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		43C0E51319489DD300989D13 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hearthstats.xcdatamodel; sourceTree = "<group>"; };
+		43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = hearthstats.xcdatamodel; path = ../Models/hearthstats.xcdatamodel; sourceTree = "<group>"; };
 		43E8C6A01911551B0080488F /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
 		43E8C6A11911551B0080488F /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
 		43E8C6A3191167F70080488F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
@@ -285,6 +285,8 @@
 				43BD34C1190B109C00057F89 /* Utilities */,
 				8E289EF5196260B000D64414 /* Config */,
 				436C5CFE1910329100463075 /* Categories / Extensions */,
+				43BD3492190B06F900057F89 /* AppDelegate.h */,
+				43BD3493190B06F900057F89 /* AppDelegate.m */,
 				436C5D0819105C5700463075 /* Assets */,
 				43BD348A190B06F900057F89 /* Supporting Files */,
 			);
@@ -298,7 +300,6 @@
 				43BD348C190B06F900057F89 /* InfoPlist.strings */,
 				43BD348F190B06F900057F89 /* main.m */,
 				43BD3491190B06F900057F89 /* hearthstats-Prefix.pch */,
-				43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,10 +341,9 @@
 		43BD34B3190B0B3D00057F89 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				43BD3492190B06F900057F89 /* AppDelegate.h */,
-				43BD3493190B06F900057F89 /* AppDelegate.m */,
 				430EFA98192D3977009CEFD7 /* CurrentAccount.h */,
 				430EFA99192D3977009CEFD7 /* CurrentAccount.m */,
+				43C0E51519489DFB00989D13 /* hearthstats.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -926,7 +926,8 @@
 				43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */,
 			);
 			currentVersion = 43C0E51619489DFB00989D13 /* hearthstats.xcdatamodel */;
-			path = hearthstats.xcdatamodeld;
+			name = hearthstats.xcdatamodeld;
+			path = ../hearthstats.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
