@@ -28,6 +28,13 @@ typedef NS_ENUM(NSUInteger, MatchResult) {
     MatchResultDraw
 };
 
+typedef NS_ENUM(NSUInteger, MatchMode) {
+    MatchModeNone = 0,
+    MatchModeModeArena,
+    MatchModeCasual,
+    MatchModeRanked
+};
+
 FOUNDATION_EXPORT NSString * kBaseURL;
 FOUNDATION_EXPORT NSString * const kDefaultFont;
 FOUNDATION_EXPORT NSString * const kHearthStats;

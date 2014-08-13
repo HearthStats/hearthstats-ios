@@ -95,8 +95,6 @@
     CredentialStore *credStore = [[CredentialStore alloc] init];
     if (![credStore isLoggedIn]) {
         [self loggedOut];
-    } else {
-        [self retrieveMatches];
     }
 }
 
@@ -144,7 +142,6 @@
     
     [SVProgressHUD showWithStatus:NSLocalizedString(@"Retrieving Stats", nil)
                          maskType:SVProgressHUDMaskTypeClear];
-    [[SessionManager sharedInstance] retrieveMatchesForSeason:@0];
 }
 
 - (void)matchesRetrieved:(NSNotification *)notification {

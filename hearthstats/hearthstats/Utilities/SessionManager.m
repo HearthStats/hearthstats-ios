@@ -63,9 +63,15 @@
        }];
 }
 
-- (void)retrieveMatchesForSeason:(NSNumber *)season {
-    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+- (void)retrieveMatchesForMode:(MatchMode)mode
+                    withResult:(MatchResult)result
+                     withClass:(PlayerClass)playerClass
+             withOpponentClass:(PlayerClass)opponentClass
+                      withCoin:(BOOL)hasCoin
+                     forSeason:(NSNumber *)season
+                     forDeckID:(NSString *)deckID {
     
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
     CredentialStore *credStore = [[CredentialStore alloc] init];
     [self GET:@"/api/v2/matches/query"
    parameters:[JSONConstructor constructRetrieveMatchJSONWithAuthToken:[credStore authToken]]
