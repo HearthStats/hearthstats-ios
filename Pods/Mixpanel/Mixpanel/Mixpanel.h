@@ -34,6 +34,8 @@
  */
 @interface Mixpanel : NSObject
 
+#pragma mark Properties
+
 /*!
  @property
 
@@ -162,6 +164,20 @@
  @property
 
  @abstract
+ Controls whether to automatically check for A/B test variants for the
+ currently identified user when the application becomes active.
+
+ @discussion
+ Defaults to YES. Will fire a network request on
+ <code>applicationDidBecomeActive</code> to retrieve a list of valid variants
+ for the currently identified user.
+ */
+@property (atomic) BOOL checkForVariantsOnActive;
+
+/*!
+ @property
+
+ @abstract
  Controls whether to automatically check for and show in-app notifications
  for the currently identified user when the application becomes active.
 
@@ -169,6 +185,18 @@
  Defaults to YES.
  */
 @property (atomic) BOOL showNotificationOnActive;
+
+/*!
+ @property
+ 
+ @abstract
+ Determines the time, in seconds, that a mini notification will remain on
+ the screen before automatically hiding itself.
+ 
+ @discussion
+ Defaults to 6.0.
+ */
+@property (atomic) CGFloat miniNotificationPresentationTime;
 
 /*!
  @property
@@ -182,6 +210,8 @@
  below for more information.
  */
 @property (atomic, weak) id<MixpanelDelegate> delegate; // allows fine grain control over uploading (optional)
+
+#pragma mark Methods
 
 /*!
  @method
@@ -211,19 +241,19 @@
 
 /*!
  @method
- 
+
  @abstract
  Initializes a singleton instance of the API, uses it to track launchOptions information,
  and then returns it.
- 
+
  @discussion
  This is the preferred method for creating a sharedInstance with a mixpanel
  like above. With the launchOptions parameter, Mixpanel can track referral
  information created by push notifications.
- 
+
  @param apiToken        your project token
  @param launchOptions   your application delegate's launchOptions
- 
+
  */
 + (Mixpanel *)sharedInstanceWithToken:(NSString *)apiToken launchOptions:(NSDictionary *)launchOptions;
 
@@ -259,14 +289,14 @@
 
 /*!
  @method
- 
+
  @abstract
  Initializes an instance of the API with the given project token.
- 
+
  @discussion
  Supports for the old initWithToken method format but really just passes
  launchOptions to the above method as nil.
- 
+
  @param apiToken        your project token
  @param flushInterval   interval to run background flushing
  */
@@ -344,16 +374,16 @@
 
 /*!
  @method
- 
+
  @abstract
  Track a push notification using its payload sent from Mixpanel.
- 
+
  @discussion
  To simplify user interaction tracking and a/b testing, Mixpanel
  automatically sends IDs for the relevant notification and a/b variants
  of each push. This method parses the standard payload and queues a
  track call using this information.
- 
+
  @param userInfo         remote notification payload dictionary
  */
 - (void)trackPushNotification:(NSDictionary *)userInfo;
@@ -548,6 +578,21 @@
  You do not need to call this method on the main thread.
  */
 - (void)showNotification;
+
+/*!
+ @method
+
+ @abstract
+ Join any experiments (A/B tests) that are available for the current user.
+
+ @discussion
+ Mixpanel will check for A/B tests automatically when your app enters
+ the foreground. Call this method if you would like to to check for,
+ and join, any experiments are newly available for the current user.
+
+ You do not need to call this method on the main thread.
+ */
+- (void)joinExperiments;
 
 - (void)createAlias:(NSString *)alias forDistinctID:(NSString *)distinctID;
 

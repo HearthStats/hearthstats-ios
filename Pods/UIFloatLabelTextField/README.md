@@ -11,9 +11,8 @@ In 2013, [**Matt D. Smith**](http://twitter.com/mds) unveiled the **[Float Label
 ![Sample Gif of Library in Action](http://d13yacurqjgara.cloudfront.net/users/6410/screenshots/1254439/form-animation-_gif_.gif)
 
 Image credit: [Matt D. Smith](http://twitter.com/mds). 
-### Changelog (v1.0.6)
-- Fixed pre-populated text field issue
-- Added [UIFloatLabelTextView](http://www.github.com/ArtSabintsev/UIFloatLabelTextView) reference in README
+### Changelog (v1.0.14)
+- THe `UITextFielDelegate` method `textFieldShouldClear:` is now called when the clear button is pressed.
 
 ### Features
 - Works with all view `init` styles

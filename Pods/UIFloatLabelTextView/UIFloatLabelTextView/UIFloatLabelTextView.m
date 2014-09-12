@@ -10,12 +10,6 @@
 
 #import "UIFloatLabelTextView.h"
 
-typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
-{
-    UIFloatLabelAnimationTypeShow = 0,
-    UIFloatLabelAnimationTypeHide
-};
-
 @interface UIFloatLabelTextView ()
 
 @property (nonatomic, strong) UIColor *storedTextColor;
@@ -159,7 +153,7 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
 - (void)toggleFloatLabel:(UIFloatLabelAnimationType)animationType
 {
     // Placeholder
-    _placeholder = (animationType == UIFloatLabelAnimationTypeShow) ? nil : [_floatLabel text];
+    _placeholder = (animationType == UIFloatLabelAnimationTypeShow) ? @"" : [_floatLabel text];
     
     // Reference textAlignment to reset origin of textView and floatLabel
     _floatLabel.textAlignment = self.textAlignment = [self textAlignment];
@@ -168,7 +162,7 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
     UIViewAnimationOptions easingOptions = (animationType == UIFloatLabelAnimationTypeShow) ? UIViewAnimationOptionCurveEaseOut : UIViewAnimationOptionCurveEaseIn;
     UIViewAnimationOptions combinedOptions = UIViewAnimationOptionBeginFromCurrentState | easingOptions;
     void (^animationBlock)(void) = ^{
-        [self absoluteFloatLabelOffset:animationType];
+        [self toggleFloatLabelProperties:animationType];
     };
     
     // Toggle floatLabel visibility via UIView animation
@@ -181,7 +175,7 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
 }
 
 #pragma mark - Helpers
-- (void)absoluteFloatLabelOffset:(UIFloatLabelAnimationType)animationType
+- (void)toggleFloatLabelProperties:(UIFloatLabelAnimationType)animationType
 {
     _floatLabel.alpha = (animationType == UIFloatLabelAnimationTypeShow) ? 1.0f : 0.0f;
     CGFloat yOrigin = (animationType == UIFloatLabelAnimationTypeShow) ? -UI_FLOAT_LABEL_VERTICAL_INSET_OFFSET : 0.0f;
@@ -233,6 +227,8 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
         if ([_floatLabel alpha]) {
             [self toggleFloatLabel:UIFloatLabelAnimationTypeHide];
         }
+        
+        _storedText = @"";
     }
 }
 
@@ -243,7 +239,7 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
     
     // When textField is pre-populated, show non-animated version of floatLabel
     if ([text length] && !_storedText && ![text isEqualToString:_placeholder]) {
-        [self absoluteFloatLabelOffset:UIFloatLabelAnimationTypeShow];
+        [self toggleFloatLabelProperties:UIFloatLabelAnimationTypeShow];
         _floatLabel.textColor = _floatLabelPassiveColor;
         self.textColor = _storedTextColor;
     }
@@ -281,6 +277,10 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
 {
     [super layoutSubviews];
     [self setTextAlignment:[self textAlignment]];
+    
+    if (![self isFirstResponder] && ![self.text length]) {
+        [self toggleFloatLabelProperties:UIFloatLabelAnimationTypeHide];
+    }
 }
 
 #pragma mark - UIResponder (Override)
@@ -338,6 +338,5 @@ typedef NS_ENUM(NSUInteger, UIFloatLabelAnimationType)
     
     [_floatLabel sizeToFit];
 }
-
 
 @end
